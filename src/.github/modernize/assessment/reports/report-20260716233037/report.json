@@ -1,0 +1,3668 @@
+{
+  "version": "1.0.0",
+  "producer": ".NET AppCAT CLI",
+  "metadata": {
+    "analysisStartTime": "2026-07-16T23:30:37.8366554Z",
+    "analysisEndTime": "2026-07-16T23:30:42.4948472Z",
+    "privacyMode": "Restricted",
+    "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2271074",
+    "targetIds": [
+      "AppService.Windows",
+      "AppService.Linux",
+      "AKS.Linux",
+      "AKS.Windows",
+      "ACA",
+      "AppServiceContainer.Linux",
+      "AppServiceContainer.Windows",
+      "AppServiceManagedInstance.Windows"
+    ],
+    "targetDisplayNames": [
+      "Azure App Service",
+      "Azure Kubernetes Service",
+      "Azure Container Apps",
+      "Azure App Service Container",
+      "Azure App Service Managed Instance"
+    ],
+    "os": [
+      "windows",
+      "linux"
+    ]
+  },
+  "summary": {
+    "totalProjects": 19,
+    "totalIssues": 12,
+    "totalIncidents": 72,
+    "totalEffort": 196,
+    "charts": {
+      "severity": {
+        "mandatory": 10,
+        "optional": 27,
+        "potential": 35,
+        "information": 0
+      },
+      "category": {
+        "Runtime": 19,
+        "Scale": 2,
+        "Database": 6,
+        "Identity": 4,
+        "Security": 25,
+        "Local": 16
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "BugNET_WAP/BugNET_WAP.csproj",
+      "issues": 8,
+      "storyPoints": 39,
+      "properties": {
+        "appName": "BugNET_WAP",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "99347feb-c8f3-4850-b47e-a71c9918bdbf",
+          "location": "BugNET_WAP/BugNET_WAP.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Scale.0001",
+          "incidentId": "8889d27e-99a1-4e39-9fdd-b8e7fd59f37f",
+          "location": "BugNET_WAP/BugNET_WAP.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Database.0002",
+          "incidentId": "51c32bc7-7cea-4902-a8d1-f778596c1d94",
+          "location": "BugNET_WAP/Web.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Database.0003",
+          "incidentId": "775288a9-b2fe-4978-b8c1-7eb71b32a531",
+          "location": "BugNET_WAP/Web.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Identity.0002",
+          "incidentId": "a55a2efe-84c5-471f-80bf-56899d33a756",
+          "location": "BugNET_WAP/Web.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Scale.0002",
+          "incidentId": "88091e20-fab8-473b-a5a4-1dddc78e6da0",
+          "location": "BugNET_WAP/Web.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0002",
+          "incidentId": "1d9203ab-71a5-4fab-88ae-ec044d83cbe2",
+          "location": "BugNET_WAP/Web.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0002",
+          "incidentId": "f9627e68-3dfa-4252-a8e1-c9b41c9179c1",
+          "location": "BugNET_WAP/Web.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0004",
+          "incidentId": "505990ac-9817-4a15-a766-d960dfe744cd",
+          "location": "BugNET_WAP/Web.Debug.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "information",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0002",
+          "incidentId": "d51e4bf5-4352-47d1-b78d-7c29b3c8aa79",
+          "location": "BugNET_WAP/Web.Debug.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Database.0002",
+          "incidentId": "d6824b96-9799-43f9-8a34-16f339ac4b1d",
+          "location": "BugNET_WAP/Web.Release.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Identity.0002",
+          "incidentId": "d18239a2-bb3d-40d4-90dd-e3c8dc530636",
+          "location": "BugNET_WAP/Web.Release.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0002",
+          "incidentId": "16655d17-2ada-4e9e-a9c6-cead41ef49a6",
+          "location": "BugNET_WAP/Web.Release.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "BugNET.BLL/BugNET.BLL.csproj",
+      "issues": 2,
+      "storyPoints": 30,
+      "properties": {
+        "appName": "BugNET.BLL",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "9bb1bfc7-d42c-42aa-ba04-3ae7195bed7b",
+          "location": "BugNET.BLL/BugNET.BLL.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "8155733f-0913-44fd-9d5c-64a4739a9975",
+          "location": "BugNET.BLL/WebProfile.cs",
+          "locationKind": "File",
+          "line": 116,
+          "column": 53,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "7f30e2af-847a-4d94-9291-6077ab0bb2db",
+          "location": "BugNET.BLL/WebProfile.cs",
+          "locationKind": "File",
+          "line": 104,
+          "column": 50,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "e2f17d77-cc34-46a9-b399-f2a674dcd926",
+          "location": "BugNET.BLL/WebProfile.cs",
+          "locationKind": "File",
+          "line": 108,
+          "column": 33,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "72d4efe1-562f-48bc-a1d2-c0557aa8334f",
+          "location": "BugNET.BLL/WebProfile.cs",
+          "locationKind": "File",
+          "line": 120,
+          "column": 33,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "33b7fe98-f25c-4919-a9ab-382c366806d2",
+          "location": "BugNET.BLL/UserManager.cs",
+          "locationKind": "File",
+          "line": 417,
+          "column": 38,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "1422de29-bd54-435a-a6a4-4969dcb75e70",
+          "location": "BugNET.BLL/UserManager.cs",
+          "locationKind": "File",
+          "line": 418,
+          "column": 40,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "d143864e-e9fc-4cc5-b581-e69e2b8747fe",
+          "location": "BugNET.BLL/SourceIntegrationManager.cs",
+          "locationKind": "File",
+          "line": 215,
+          "column": 46,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "dc7b30c2-74e9-41ea-9164-01091bf4ba1a",
+          "location": "BugNET.BLL/SourceIntegrationManager.cs",
+          "locationKind": "File",
+          "line": 136,
+          "column": 36,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "5dced649-96a5-4e27-97c4-1a0562e2403e",
+          "location": "BugNET.BLL/SourceIntegrationManager.cs",
+          "locationKind": "File",
+          "line": 214,
+          "column": 41,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "BugNET.Common/BugNET.Common.csproj",
+      "issues": 2,
+      "storyPoints": 13,
+      "properties": {
+        "appName": "BugNET.Common",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "3207619c-3430-4bed-99b4-be279743dfd3",
+          "location": "BugNET.Common/BugNET.Common.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "0e0c055b-a468-4db6-a767-0ecd44dd3b66",
+          "location": "BugNET.Common/IsEmail.cs",
+          "locationKind": "File",
+          "line": 446,
+          "column": 44,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "582deaae-3899-4911-a7f6-da245c7a5e97",
+          "location": "BugNET.Common/IsEmail.cs",
+          "locationKind": "File",
+          "line": 864,
+          "column": 40,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "94af2a2e-3443-4a75-a7a4-769232483d39",
+          "location": "BugNET.Common/IsEmail.cs",
+          "locationKind": "File",
+          "line": 824,
+          "column": 44,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "ae6d4e07-e265-4bc4-a49a-31923ddd2df5",
+          "location": "BugNET.Common/IsEmail.cs",
+          "locationKind": "File",
+          "line": 298,
+          "column": 40,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "baaea3b7-27ca-4fca-a51b-f78f60b20ac2",
+          "location": "BugNET.Common/IsEmail.cs",
+          "locationKind": "File",
+          "line": 282,
+          "column": 40,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "0513518b-0aec-4c9c-a93e-c876c94a5cc2",
+          "location": "BugNET.Common/IsEmail.cs",
+          "locationKind": "File",
+          "line": 111,
+          "column": 36,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "287979a4-62a5-448f-87e7-dd03007258f7",
+          "location": "BugNET.Common/IsEmail.cs",
+          "locationKind": "File",
+          "line": 122,
+          "column": 36,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "3f7d76c4-ad5a-4455-8dd8-6f173f017aa9",
+          "location": "BugNET.Common/IsEmail.cs",
+          "locationKind": "File",
+          "line": 133,
+          "column": 36,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "16a33b36-00f2-453e-bb8f-af2f67188566",
+          "location": "BugNET.Common/IsEmail.cs",
+          "locationKind": "File",
+          "line": 94,
+          "column": 36,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "13c1e4d8-2f90-4e06-917b-6332999ebe7c",
+          "location": "BugNET.Common/IsEmail.cs",
+          "locationKind": "File",
+          "line": 874,
+          "column": 40,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "BugNET.DAL/BugNET.DAL.csproj",
+      "issues": 1,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "BugNET.DAL",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "6b37398f-04e0-4275-aa89-50ae3231678a",
+          "location": "BugNET.DAL/BugNET.DAL.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "BugNET.Entities/BugNET.Entities.csproj",
+      "issues": 1,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "BugNET.Entities",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "03a2ef07-4b9a-40a3-a1d1-47439ed394e0",
+          "location": "BugNET.Entities/BugNET.Entities.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+      "issues": 1,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "BugNET.MailboxReader",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "649a5051-6d36-489a-87c4-98998d118357",
+          "location": "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+      "issues": 5,
+      "storyPoints": 16,
+      "properties": {
+        "appName": "BugNET.MailboxReader.Tests",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "e03ee56f-d16a-42bf-ba88-86d95401f899",
+          "location": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Database.0002",
+          "incidentId": "bdfc8b01-8384-4252-8604-38d6f8b94de8",
+          "location": "BugNET.MailboxReader.Tests/App.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Identity.0002",
+          "incidentId": "598d920a-a3f2-463f-afab-5591dcb4abb6",
+          "location": "BugNET.MailboxReader.Tests/App.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0002",
+          "incidentId": "7f11e9d7-0a57-4c1b-9e71-d6a0e466c59a",
+          "location": "BugNET.MailboxReader.Tests/App.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0002",
+          "incidentId": "ce577266-7fbb-43b0-ad8f-5ff8b6206a44",
+          "location": "BugNET.MailboxReader.Tests/App.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0002",
+          "incidentId": "5c0a0782-77c6-4220-8a60-2ffce3698067",
+          "location": "BugNET.MailboxReader.Tests/Helpers.cs",
+          "locationKind": "File",
+          "line": 37,
+          "column": 36,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "mandatory",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "information",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "information",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj",
+      "issues": 4,
+      "storyPoints": 21,
+      "properties": {
+        "appName": "BugNET.MercurialChangeGroupHook",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "3dd2a96b-87e2-4865-9274-c5d7d7d9722e",
+          "location": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "6ee615fd-e83a-432f-9177-dcdd564f78f0",
+          "location": "BugNET.MercurialChangeGroupHook/AppSettings.cs",
+          "locationKind": "File",
+          "line": 23,
+          "column": 61,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0004",
+          "incidentId": "e4f6df7a-84e7-4e25-b1bb-4dd7b3bb5ace",
+          "location": "BugNET.MercurialChangeGroupHook/App.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "information",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0002",
+          "incidentId": "b3443da5-de12-4301-be20-1d0a3b63c96b",
+          "location": "BugNET.MercurialChangeGroupHook/App.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "f5553300-06ff-4c2d-b87f-7118d95c002f",
+          "location": "BugNET.MercurialChangeGroupHook/App.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "6cfef62a-fd0b-49e5-9c2c-cb06b1d2440e",
+          "location": "BugNET.MercurialChangeGroupHook/App.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "a0134d0e-bab9-4132-869b-707b2f65303c",
+          "location": "BugNET.MercurialChangeGroupHook/Program.cs",
+          "locationKind": "File",
+          "line": 67,
+          "column": 34,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj",
+      "issues": 3,
+      "storyPoints": 18,
+      "properties": {
+        "appName": "BugNET.SubversionHooks",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "36f03007-713e-4a42-a1c6-7cd93cba2be7",
+          "location": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "4a738487-a344-4929-9dd6-9d21e1667eb9",
+          "location": "BugNET.SubversionHooks/CommandExecutor.cs",
+          "locationKind": "File",
+          "line": 74,
+          "column": 50,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "632a8cfa-390d-4bd1-8ca7-7235e47d2894",
+          "location": "BugNET.SubversionHooks/CommandExecutor.cs",
+          "locationKind": "File",
+          "line": 73,
+          "column": 45,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0004",
+          "incidentId": "3f5c430a-8347-4938-8dbc-d164b304333b",
+          "location": "BugNET.SubversionHooks/app.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "information",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0004",
+          "incidentId": "14fbf969-308a-474f-92ce-2175342d72f8",
+          "location": "BugNET.SubversionHooks/app.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "information",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "b03be309-81d0-456b-8087-f9ed45dd0e41",
+          "location": "BugNET.SubversionHooks/IssueTrackerIntegration.cs",
+          "locationKind": "File",
+          "line": 87,
+          "column": 66,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "BugNET.Tests/BugNET.Tests.csproj",
+      "issues": 6,
+      "storyPoints": 20,
+      "properties": {
+        "appName": "BugNET.Tests",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "c6dc750e-801a-46c5-bb43-27715b70deba",
+          "location": "BugNET.Tests/BugNET.Tests.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Database.0001",
+          "incidentId": "55a68332-87fd-4746-abcd-ef8e6adf91ff",
+          "location": "BugNET.Tests/App.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 5
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 5
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 5
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 5
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 5
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 5
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 5
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 5
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Database.0002",
+          "incidentId": "6c886607-ac2b-4290-8b87-bb706d0c8c1a",
+          "location": "BugNET.Tests/App.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Identity.0002",
+          "incidentId": "f85e543d-2dd1-4813-99f6-dc4dbab21bd0",
+          "location": "BugNET.Tests/App.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0004",
+          "incidentId": "49edbd87-0bbd-4c9e-9986-64eb4788e25b",
+          "location": "BugNET.Tests/App.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "information",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0002",
+          "incidentId": "02279bb9-0c9f-4b11-b42a-07729b515d3d",
+          "location": "BugNET.Tests/App.config",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "optional",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj",
+      "issues": 1,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "HttpModule.Authentication",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "8075db97-52f0-4092-8d80-6b7a26c0de8f",
+          "location": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "Library/HttpModules/Localization/HttpModule.Localization.csproj",
+      "issues": 1,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "HttpModule.Localization",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "e0a2408f-0f67-4f5d-9273-8dae2f77a274",
+          "location": "Library/HttpModules/Localization/HttpModule.Localization.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj",
+      "issues": 1,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "HttpModule.MailBoxReader",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "34076e17-4efd-4c37-bcc2-1bb9ee5a61aa",
+          "location": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "LumiSoft.Net/LumiSoft.Net.csproj",
+      "issues": 1,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "LumiSoft.Net",
+        "frameworks": [
+          ".NETFramework,Version=v4.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "af9d6ead-6be2-4e2f-a200-79facfcc98c2",
+          "location": "LumiSoft.Net/LumiSoft.Net.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj",
+      "issues": 1,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "Provider.CkHtmlEditorProvider",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "7116ee0f-d39f-4d68-a542-e3c26bf4625c",
+          "location": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj",
+      "issues": 1,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "Provider.HtmlEditorProvider",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "e1646ac6-17b0-4566-8c79-d535dc22d10e",
+          "location": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+      "issues": 1,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "Provider.MembershipProviders",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "521fac70-ffcd-4802-a4ad-4978f533f165",
+          "location": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj",
+      "issues": 2,
+      "storyPoints": 6,
+      "properties": {
+        "appName": "Provider.SqlDataProvider",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "f7f2a87b-de8c-4a9c-a15d-349502dfc841",
+          "location": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Security.0003",
+          "incidentId": "09b9970a-e830-400f-b29e-b0a6474a9206",
+          "location": "Library/Providers/DataProviders/SqlDataProvider/SqlDataProviderConstants.cs",
+          "locationKind": "File",
+          "line": 30,
+          "column": 71,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "optional",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "mandatory",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    },
+    {
+      "path": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj",
+      "issues": 1,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "Provider.TextboxHtmlProvider",
+        "frameworks": [
+          ".NETFramework,Version=v4.5"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Runtime.0003",
+          "incidentId": "c1d4e2a6-0856-4fc0-aa46-b9eb625e455b",
+          "location": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj",
+          "locationKind": "File",
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppService.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "ACA": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "mandatory",
+              "effort": 3
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 3
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 3
+            }
+          },
+          "labels": []
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "Runtime.0003": {
+      "id": "Runtime.0003",
+      "description": "Applications running on frameworks older than .NET Framework 4.8 could have potential compatibility issues.\n\nIf you are targeting Managed Instance on Azure App Service, run the app on .NET Framework 4.8 (preinstalled) without retargeting if feasible; review runtime breaking changes and validate on Managed Instance staging.\n\nAzure App Service runs apps on .NET Framework 4.8 or .NET Framework 3.5. Upgrade to a newer target framework or double check that your application works correctly when running on .NET Framework 4.8.\n\nApps that already run on .NET Framework 3.5 or .NET Framework 4.8 do not need changed even if they target an older framework version.\n\nAlthough retargeting to .NET Framework 4.8 will address this issue, it is not necessary. It is only necessary to ensure that the app runs correctly on .NET Framework 3.5 or .NET Framework 4.8. Applications built against older versions of the .NET Framework can run on newer versions (like 4.8) and the runtime will automatically tweak certain behaviors so that the runtime behaves as much as possible as the targeted version. Breaking change documentation mentions both runtime breaking changes and retargeting breaking changes. Runtime breaking changes refer to differences in behavior when applications are run on a newer version of the .NET Framework. These are the behavioral differences which cannot be tweaked away and will matter for applications migrating to Azure App Service. Retargeting breaking changes are changes which only manifest when an app targets a newer version of the .NET Framework. These should not cause issues during App Service migration scenarios because apps do not need re-targeted.\n\nActions to address this issue:\n    1. Review breaking changes between the version of the .NET Framework the application runs on now and .NET Framework 4.8 to make sure none are likely to affect the application.\n    2. Test the application running on .NET Framework 3.5 or .NET Framework 4.8 to ensure it works as expected.",
+      "title": "Old .NET Framework dependency detected",
+      "severity": "potential",
+      "effort": 3,
+      "links": [
+        {
+          "title": ".NET Framework Breaking Changes",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250029"
+        },
+        {
+          "title": ".NET Framework 4.8 on App Service",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2251730"
+        },
+        {
+          "title": "Configuration builders for ASP.NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2251829"
+        }
+      ],
+      "labels": []
+    },
+    "Scale.0001": {
+      "id": "Scale.0001",
+      "description": "Static content detected.\n\nYour current approach of serving static content directly might lead to increased costs, performance issues, maintenance challenges (requiring application redeployment for content changes), and security risks.\n\nConsider moving static content to Azure Blob Storage and adding Azure CDN.",
+      "title": "Static content detected",
+      "severity": "optional",
+      "effort": 3,
+      "links": [
+        {
+          "title": "Azure Blob Storage",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250574"
+        },
+        {
+          "title": "Azure CDN",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250392"
+        }
+      ],
+      "labels": []
+    },
+    "Database.0002": {
+      "id": "Database.0002",
+      "description": "SQL database connection detected.\n\nEnsure the database is available/reachable on Azure.\n\nIf it is not, there are multiple ways you can move your data to Azure:\n    1. Migrate to Azure SQL Database.\n    2. Consider Azure SQL Managed Instance if you need features that are not available in Azure SQL Database and you don\u2019t want to use a VM.\n    3. Migrate your database servers directly to SQL Server on Azure VMs.\n\nTo assess database migration effort, you can use Azure Migrate tool, see the link below.",
+      "title": "SQL database connection detected",
+      "severity": "potential",
+      "effort": 3,
+      "links": [
+        {
+          "title": "Migrate SQL Server database to Azure",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251731"
+        },
+        {
+          "title": "Azure SQL Managed Instance",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251613"
+        },
+        {
+          "title": "Azure Migrate",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2252410"
+        }
+      ],
+      "labels": []
+    },
+    "Database.0003": {
+      "id": "Database.0003",
+      "description": "System.Data.SqlClient dependency is detected.\n\nWhile System.Data.SqlClient will work in Azure, the newer Microsoft.Data.SqlClient package is the primary .NET SQL client moving forward and receiving the latest features. For example, Microsoft.Data.SqlClient easily allows use of Azure Managed Identity from a connection string.",
+      "title": "System.Data.SqlClient dependency detected",
+      "severity": "optional",
+      "effort": 3,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2242668"
+        }
+      ],
+      "labels": []
+    },
+    "Identity.0002": {
+      "id": "Identity.0002",
+      "description": "Your app is using windows authentication which is not supported on Azure App Service, Azure Container Apps and Azure Kubernetes Service.\n\nAzure App Service provides built-in authentication and authorization capabilities, so you can sign in users and access data by writing minimal or no code in your web app.\n\nFollow the link below for more information.\u0022",
+      "title": "Windows authentication detected",
+      "severity": "mandatory",
+      "effort": 3,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2242883"
+        }
+      ],
+      "labels": []
+    },
+    "Scale.0002": {
+      "id": "Scale.0002",
+      "description": "Session state stored in-proc or in local process is detected.\n\nIf you are targeting Managed Instance on Azure App Service, move session to Azure Cache for Redis or Cosmos DB. In-proc session impedes scale-out; Managed Instance does not change session semantics.\n\nWhile if targeting other Azure compute services:\n\nIn-proc or local process stored session state not immediately prevents an application from working in Azure, however, is not recommended because it would make scaling the Azure App Service or Azure Kubernetes Service more difficult.\n\nAzure provides multiple ways to store session state in a scalable way using Azure Cache for Redis, Azure Cosmos DB or other services.",
+      "title": "Session state stored in-proc or in local process is detected",
+      "severity": "potential",
+      "effort": 3,
+      "links": [
+        {
+          "title": "ASP.NET Session State Provider for Azure Cache for Redis",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250855"
+        },
+        {
+          "title": "Use Azure Cosmos DB as an ASP.NET session state and caching provider",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250757"
+        },
+        {
+          "title": "Azure Cosmos DB: autoscale, session state, monitoring, and more",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2250758"
+        },
+        {
+          "title": "Design to scale out",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2251007"
+        }
+      ],
+      "labels": []
+    },
+    "Security.0002": {
+      "id": "Security.0002",
+      "description": "Connection strings without configuration builders detected.  \n\n Keeping connection strings directly in the app is not the best practice and might introduce security risks, increased maintenance, scalability challenges or compliance standards (such as PCI DSS, GDPR, etc.). \n\n Instead, it is recommended to use configuration builders to get secrets from secure sources in Azure environment.",
+      "title": "Connection strings without configuration builders detected",
+      "severity": "optional",
+      "effort": 3,
+      "links": [
+        {
+          "title": "Configuration builders",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2250915"
+        },
+        {
+          "title": "Storing application secrets",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2250916"
+        },
+        {
+          "title": "Centralized app configuration and security",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2250733"
+        }
+      ],
+      "labels": []
+    },
+    "Local.0004": {
+      "id": "Local.0004",
+      "description": "Logging to local or network paths detected.\n\nIf you are targeting Managed Instance on Azure App Service, prefer Application Insights/App Service logging. If filesystem logs are required, write to a mounted Azure Files share configured via storage mounts and Key Vault secrets.\n\nLogging APIs that write to disk might not work on Azure App Service or Container.\n\nUse logging that stores logs in locations outside of the host unless its specifically required by your app. You can also use logging capabilities embedded in Azure, such as Azure App Service logging or Application Insights.\n\nFor migrating to AKS, use LogMonitor tool that can capture logs written to files, the console, or write logs and redirect them to Azure.",
+      "title": "Logging to local or network paths detected",
+      "severity": "mandatory",
+      "effort": 3,
+      "links": [
+        {
+          "title": "[Managed Instance] Storage mounts",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2346952"
+        },
+        {
+          "title": "Logging in Azure App Service",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251711"
+        },
+        {
+          "title": "Logging in Application Insights",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251712"
+        },
+        {
+          "title": "LogMonitor",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251308"
+        }
+      ],
+      "labels": []
+    },
+    "Security.0003": {
+      "id": "Security.0003",
+      "description": "Hardcoded sensitive data detected.\n\nIf you are targeting Managed Instance on Azure App Service, externalize secrets to Key Vault/App Configuration; use managed identity instead of passwords or embedded connection strings.\n\nWhile if targeting other Azure compute services:\n\nAvoid placing sensitive data such as passwords, ids, tokens etc., directly in config files and code since it compromises the security of your application.\n\nUse Azure App Configuration or Azure KeyVault to store secrets.",
+      "title": "Hardcoded sensitive data detected",
+      "severity": "optional",
+      "effort": 3,
+      "links": [
+        {
+          "title": "Centralized app configuration and security",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2250733"
+        }
+      ],
+      "labels": []
+    },
+    "Local.0006": {
+      "id": "Local.0006",
+      "description": "Your application has hardcoded URLs that might correspond to services that are not accessible on Azure.\n\nReview and ensure that the application is attempting to access URLs that would be available from Azure. You might need to migrate those services to Azure too, this way you will get the benefit of lower latency in the cloud.\n\nIf your application needs to depend on services that run on-premises, you can connect your Azure and local networks with ExpressRoute, Hybrid Connections, or VPN solutions.",
+      "title": "Hardcoded URLs detected",
+      "severity": "potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "ExpressRoute",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2250577"
+        },
+        {
+          "title": "Hybrid Connections",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2242588"
+        },
+        {
+          "title": "Connect an on-prem network",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2242591"
+        }
+      ],
+      "labels": []
+    },
+    "Local.0002": {
+      "id": "Local.0002",
+      "description": "Your application has hardcoded local or network paths that might not be available on Azure.\n\nReview and ensure that you are attempting to access paths that would be available when your application lives in Azure.\n\n Application should use paths relative to application root folder or store them in Azure Storage or Azure CDN.",
+      "title": "Hardcoded local or network paths detected",
+      "severity": "mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Azure Storage",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2243159"
+        },
+        {
+          "title": "Azure CDN",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251637"
+        },
+        {
+          "title": "Design to scale out",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2251007"
+        }
+      ],
+      "labels": []
+    },
+    "Database.0001": {
+      "id": "Database.0001",
+      "description": "Database dependency detected.\n\nEnsure the database is available/reachable on Azure. If it is not, there are multiple ways you can move your data to Azure.\n\nIf it is SQL database:\n    1. Migrate to Azure SQL Database.\n    2. Consider Azure SQL Managed Instance if you need features that are not available in Azure SQL Database and you don\u2019t want to use a VM.\n    3. Migrate your database servers directly to SQL Server on Azure VMs.\n\nIf it is NoSql database use Azure CosmosDB.\n\nTo assess database migration effort, you can use Azure Migrate tool, see the link below.",
+      "title": "Database dependency detected",
+      "severity": "potential",
+      "effort": 5,
+      "links": [
+        {
+          "title": "Migrate SQL Server database to Azure",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251731"
+        },
+        {
+          "title": "Azure SQL Managed Instance",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2251613"
+        },
+        {
+          "title": "Azure CosmosDB",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2252305"
+        },
+        {
+          "title": "Azure Migrate",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2252410"
+        }
+      ],
+      "labels": []
+    }
+  }
+}
