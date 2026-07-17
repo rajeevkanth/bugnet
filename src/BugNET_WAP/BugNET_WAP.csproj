@@ -1,1225 +1,987 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4D25C25A-789A-462B-A026-269753C082BC}</ProjectGuid>
-    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <OutputType>Exe</OutputType>
     <RootNamespace>BugNET</RootNamespace>
     <AssemblyName>BugNET</AssemblyName>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <OldToolsVersion>4.0</OldToolsVersion>
-    <UpgradeBackupLocation>
-    </UpgradeBackupLocation>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile />
-    <UseIISExpress>true</UseIISExpress>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
-    <IISExpressSSLPort />
-    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
-    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
-    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
     <AutoParameterizationWebConfigConnectionStrings>false</AutoParameterizationWebConfigConnectionStrings>
-    <UseGlobalApplicationHostFile />
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
     <OutputPath>bin\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
     <RunCodeAnalysis>false</RunCodeAnalysis>
-    <DocumentationFile>
-    </DocumentationFile>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <PublishDatabaseSettings>
-      <Objects>
-      </Objects>
+      <Objects></Objects>
     </PublishDatabaseSettings>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>
-    </DocumentationFile>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
-    <Prefer32Bit>false</Prefer32Bit>
     <PublishDatabases>false</PublishDatabases>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Test|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
     <DocumentationFile>bin\BugNET.XML</DocumentationFile>
-    <DebugType>full</DebugType>
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
     <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
-    <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AjaxControlToolkit, Version=15.1.4.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
-      <HintPath>..\packages\AjaxControlToolkit.15.1.4.0\lib\net40\AjaxControlToolkit.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="AjaxMin, Version=5.14.5506.26196, Culture=neutral, PublicKeyToken=21ef50ce11b5d80f, processorArchitecture=MSIL">
-      <HintPath>..\packages\AjaxMin.5.14.5506.26202\lib\net40\AjaxMin.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="AspNet.ScriptManager.bootstrap, Version=3.3.6.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AspNet.ScriptManager.bootstrap.3.3.6\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="AspNet.ScriptManager.jQuery, Version=2.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AspNet.ScriptManager.jQuery.2.1.4\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="AspNet.ScriptManager.jQuery.UI.Combined, Version=1.11.4.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AspNet.ScriptManager.jQuery.UI.Combined.1.11.4\lib\net45\AspNet.ScriptManager.jQuery.UI.Combined.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.AspNet, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.3.4.13329\lib\net45-full\DotNetOpenAuth.AspNet.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.Core, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\DotNetOpenAuth.Core.4.3.4.13329\lib\net45-full\DotNetOpenAuth.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.GoogleOAuth2">
-      <HintPath>..\packages\DotNetOpenAuth.GoogleOAuth2.1.1.2\lib\net40\DotNetOpenAuth.GoogleOAuth2.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.OAuth, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.3.4.13329\lib\net45-full\DotNetOpenAuth.OAuth.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.3.4.13329\lib\net45-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.OpenId, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.3.4.13329\lib\net45-full\DotNetOpenAuth.OpenId.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.3.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.3.4.13329\lib\net45-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="HtmlAgilityPack, Version=1.4.9.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
-      <HintPath>..\packages\HtmlAgilityPack.1.4.9\lib\Net45\HtmlAgilityPack.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AspNet.FriendlyUrls">
-      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AspNet.Membership.OpenAuth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.Membership.OpenAuth.2.0.1\lib\net45\Microsoft.AspNet.Membership.OpenAuth.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Azure.KeyVault.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Azure.KeyVault.Core.1.0.0\lib\net40\Microsoft.Azure.KeyVault.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.Data.Edm, Version=5.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Data.Edm.5.7.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.Data.OData, Version=5.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Data.OData.5.7.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.Data.Services.Client, Version=5.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Data.Services.Client.5.7.0\lib\net40\Microsoft.Data.Services.Client.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.ScriptManager.WebForms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.WindowsAzure.Configuration, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.WindowsAzure.ConfigurationManager.3.1.0\lib\net40\Microsoft.WindowsAzure.Configuration.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.WindowsAzure.Storage, Version=6.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\WindowsAzure.Storage.6.2.0\lib\net40\Microsoft.WindowsAzure.Storage.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data.Services.Client" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.IO">
-      <HintPath>..\packages\Microsoft.Bcl.1.1.6\lib\net45\System.IO.dll</HintPath>
-    </Reference>
     <Reference Include="System.Net.Http" />
-    <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Extensions.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\net45\System.Net.Http.Primitives.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Net.Http.WebRequest" />
-    <Reference Include="System.Runtime">
-      <HintPath>..\packages\Microsoft.Bcl.1.1.6\lib\net45\System.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.ServiceModel.Web" />
-    <Reference Include="System.Spatial, Version=5.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Spatial.5.7.0\lib\net40\System.Spatial.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Threading.Tasks">
-      <HintPath>..\packages\Microsoft.Bcl.1.1.6\lib\net45\System.Threading.Tasks.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web" />
-    <Reference Include="System.Web.ApplicationServices" />
-    <Reference Include="System.Web.DynamicData" />
-    <Reference Include="System.Web.Entity" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Web.Extensions.Design" />
-    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Providers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.2.0.0\lib\net40\System.Web.Providers.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
-    <Reference Include="System.Web.Services" />
-    <Reference Include="System.Web.Mobile" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\Common\GlobalAssemblyInfo.cs">
       <Link>Properties\GlobalAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="Account\ForgotPassword.aspx.cs">
+    <Compile Update="Account\ForgotPassword.aspx.cs">
       <DependentUpon>ForgotPassword.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Account\ForgotPassword.aspx.designer.cs">
+    <Compile Update="Account\ForgotPassword.aspx.designer.cs">
       <DependentUpon>ForgotPassword.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\Login.aspx.cs">
+    <Compile Update="Account\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Account\Login.aspx.designer.cs">
+    <Compile Update="Account\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\Manage.aspx.cs">
+    <Compile Update="Account\Manage.aspx.cs">
       <DependentUpon>Manage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Account\Manage.aspx.designer.cs">
+    <Compile Update="Account\Manage.aspx.designer.cs">
       <DependentUpon>Manage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\OpenAuthProviders.ascx.cs">
+    <Compile Update="Account\OpenAuthProviders.ascx.cs">
       <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Account\OpenAuthProviders.ascx.designer.cs">
+    <Compile Update="Account\OpenAuthProviders.ascx.designer.cs">
       <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Account\PasswordReset.aspx.cs">
+    <Compile Update="Account\PasswordReset.aspx.cs">
       <DependentUpon>PasswordReset.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Account\PasswordReset.aspx.designer.cs">
+    <Compile Update="Account\PasswordReset.aspx.designer.cs">
       <DependentUpon>PasswordReset.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\PasswordResetSuccess.aspx.cs">
+    <Compile Update="Account\PasswordResetSuccess.aspx.cs">
       <DependentUpon>PasswordResetSuccess.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Account\PasswordResetSuccess.aspx.designer.cs">
+    <Compile Update="Account\PasswordResetSuccess.aspx.designer.cs">
       <DependentUpon>PasswordResetSuccess.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\Register.aspx.cs">
+    <Compile Update="Account\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Account\Register.aspx.designer.cs">
+    <Compile Update="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\RegisterExternalLogin.aspx.cs">
+    <Compile Update="Account\RegisterExternalLogin.aspx.cs">
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Account\RegisterExternalLogin.aspx.designer.cs">
+    <Compile Update="Account\RegisterExternalLogin.aspx.designer.cs">
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\UserProfile.aspx.cs">
+    <Compile Update="Account\UserProfile.aspx.cs">
       <DependentUpon>UserProfile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Account\UserProfile.aspx.designer.cs">
+    <Compile Update="Account\UserProfile.aspx.designer.cs">
       <DependentUpon>UserProfile.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\Verify.aspx.cs">
+    <Compile Update="Account\Verify.aspx.cs">
       <DependentUpon>Verify.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Account\Verify.aspx.designer.cs">
+    <Compile Update="Account\Verify.aspx.designer.cs">
       <DependentUpon>Verify.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Host\LogViewer.aspx.cs">
+    <Compile Update="Administration\Host\LogViewer.aspx.cs">
       <DependentUpon>LogViewer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Host\LogViewer.aspx.designer.cs">
+    <Compile Update="Administration\Host\LogViewer.aspx.designer.cs">
       <DependentUpon>LogViewer.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Host\Settings.aspx.cs">
+    <Compile Update="Administration\Host\Settings.aspx.cs">
       <DependentUpon>Settings.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Host\Settings.aspx.designer.cs">
+    <Compile Update="Administration\Host\Settings.aspx.designer.cs">
       <DependentUpon>Settings.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\AttachmentSettings.ascx.cs">
+    <Compile Update="Administration\Host\UserControls\AttachmentSettings.ascx.cs">
       <DependentUpon>AttachmentSettings.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\AttachmentSettings.ascx.designer.cs">
+    <Compile Update="Administration\Host\UserControls\AttachmentSettings.ascx.designer.cs">
       <DependentUpon>AttachmentSettings.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\AuthenticationSettings.ascx.cs">
+    <Compile Update="Administration\Host\UserControls\AuthenticationSettings.ascx.cs">
       <DependentUpon>AuthenticationSettings.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\AuthenticationSettings.ascx.designer.cs">
+    <Compile Update="Administration\Host\UserControls\AuthenticationSettings.ascx.designer.cs">
       <DependentUpon>AuthenticationSettings.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\BasicSettings.ascx.cs">
+    <Compile Update="Administration\Host\UserControls\BasicSettings.ascx.cs">
       <DependentUpon>BasicSettings.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\BasicSettings.ascx.designer.cs">
+    <Compile Update="Administration\Host\UserControls\BasicSettings.ascx.designer.cs">
       <DependentUpon>BasicSettings.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\LanguageSettings.ascx.cs">
+    <Compile Update="Administration\Host\UserControls\LanguageSettings.ascx.cs">
       <DependentUpon>LanguageSettings.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\LanguageSettings.ascx.designer.cs">
+    <Compile Update="Administration\Host\UserControls\LanguageSettings.ascx.designer.cs">
       <DependentUpon>LanguageSettings.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\LoggingSettings.ascx.cs">
+    <Compile Update="Administration\Host\UserControls\LoggingSettings.ascx.cs">
       <DependentUpon>LoggingSettings.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\LoggingSettings.ascx.designer.cs">
+    <Compile Update="Administration\Host\UserControls\LoggingSettings.ascx.designer.cs">
       <DependentUpon>LoggingSettings.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\MailSettings.ascx.cs">
+    <Compile Update="Administration\Host\UserControls\MailSettings.ascx.cs">
       <DependentUpon>MailSettings.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\MailSettings.ascx.designer.cs">
+    <Compile Update="Administration\Host\UserControls\MailSettings.ascx.designer.cs">
       <DependentUpon>MailSettings.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\NotificationSettings.ascx.cs">
+    <Compile Update="Administration\Host\UserControls\NotificationSettings.ascx.cs">
       <DependentUpon>NotificationSettings.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\NotificationSettings.ascx.designer.cs">
+    <Compile Update="Administration\Host\UserControls\NotificationSettings.ascx.designer.cs">
       <DependentUpon>NotificationSettings.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\POP3Settings.ascx.cs">
+    <Compile Update="Administration\Host\UserControls\POP3Settings.ascx.cs">
       <DependentUpon>POP3Settings.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\POP3Settings.ascx.designer.cs">
+    <Compile Update="Administration\Host\UserControls\POP3Settings.ascx.designer.cs">
       <DependentUpon>POP3Settings.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\SubversionSettings.ascx.cs">
+    <Compile Update="Administration\Host\UserControls\SubversionSettings.ascx.cs">
       <DependentUpon>SubversionSettings.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\SubversionSettings.ascx.designer.cs">
+    <Compile Update="Administration\Host\UserControls\SubversionSettings.ascx.designer.cs">
       <DependentUpon>SubversionSettings.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\UserCustomFieldsSettings.ascx.cs">
+    <Compile Update="Administration\Host\UserControls\UserCustomFieldsSettings.ascx.cs">
       <DependentUpon>UserCustomFieldsSettings.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Host\UserControls\UserCustomFieldsSettings.ascx.designer.cs">
+    <Compile Update="Administration\Host\UserControls\UserCustomFieldsSettings.ascx.designer.cs">
       <DependentUpon>UserCustomFieldsSettings.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\AddProject.aspx.cs">
+    <Compile Update="Administration\Projects\AddProject.aspx.cs">
       <DependentUpon>AddProject.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\AddProject.aspx.designer.cs">
+    <Compile Update="Administration\Projects\AddProject.aspx.designer.cs">
       <DependentUpon>AddProject.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\CloneProject.aspx.cs">
+    <Compile Update="Administration\Projects\CloneProject.aspx.cs">
       <DependentUpon>CloneProject.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\CloneProject.aspx.designer.cs">
+    <Compile Update="Administration\Projects\CloneProject.aspx.designer.cs">
       <DependentUpon>CloneProject.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\EditProject.aspx.cs">
+    <Compile Update="Administration\Projects\EditProject.aspx.cs">
       <DependentUpon>EditProject.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\EditProject.aspx.designer.cs">
+    <Compile Update="Administration\Projects\EditProject.aspx.designer.cs">
       <DependentUpon>EditProject.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\ProjectList.aspx.cs">
+    <Compile Update="Administration\Projects\ProjectList.aspx.cs">
       <DependentUpon>ProjectList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\ProjectList.aspx.designer.cs">
+    <Compile Update="Administration\Projects\ProjectList.aspx.designer.cs">
       <DependentUpon>ProjectList.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\NewProjectIntro.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\NewProjectIntro.ascx.cs">
       <DependentUpon>NewProjectIntro.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\NewProjectIntro.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\NewProjectIntro.ascx.designer.cs">
       <DependentUpon>NewProjectIntro.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\NewProjectSummary.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\NewProjectSummary.ascx.cs">
       <DependentUpon>NewProjectSummary.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\NewProjectSummary.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\NewProjectSummary.ascx.designer.cs">
       <DependentUpon>NewProjectSummary.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectCategories.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectCategories.ascx.cs">
       <DependentUpon>ProjectCategories.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectCategories.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectCategories.ascx.designer.cs">
       <DependentUpon>ProjectCategories.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectCustomFields.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectCustomFields.ascx.cs">
       <DependentUpon>ProjectCustomFields.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectCustomFields.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectCustomFields.ascx.designer.cs">
       <DependentUpon>ProjectCustomFields.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectDefaultValues.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectDefaultValues.ascx.cs">
       <DependentUpon>ProjectDefaultValues.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectDefaultValues.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectDefaultValues.ascx.designer.cs">
       <DependentUpon>ProjectDefaultValues.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectDescription.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectDescription.ascx.cs">
       <DependentUpon>ProjectDescription.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectDescription.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectDescription.ascx.designer.cs">
       <DependentUpon>ProjectDescription.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectIssueTypes.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectIssueTypes.ascx.cs">
       <DependentUpon>ProjectIssueTypes.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectIssueTypes.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectIssueTypes.ascx.designer.cs">
       <DependentUpon>ProjectIssueTypes.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectMailbox.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectMailbox.ascx.cs">
       <DependentUpon>ProjectMailbox.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectMailbox.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectMailbox.ascx.designer.cs">
       <DependentUpon>ProjectMailbox.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectMembers.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectMembers.ascx.cs">
       <DependentUpon>ProjectMembers.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectMembers.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectMembers.ascx.designer.cs">
       <DependentUpon>ProjectMembers.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectNotifications.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectNotifications.ascx.cs">
       <DependentUpon>ProjectNotifications.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectNotifications.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectNotifications.ascx.designer.cs">
       <DependentUpon>ProjectNotifications.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectPriorities.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectPriorities.ascx.cs">
       <DependentUpon>ProjectPriorities.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectPriorities.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectPriorities.ascx.designer.cs">
       <DependentUpon>ProjectPriorities.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectResolutions.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectResolutions.ascx.cs">
       <DependentUpon>ProjectResolutions.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectResolutions.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectResolutions.ascx.designer.cs">
       <DependentUpon>ProjectResolutions.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectRoles.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectRoles.ascx.cs">
       <DependentUpon>ProjectRoles.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectRoles.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectRoles.ascx.designer.cs">
       <DependentUpon>ProjectRoles.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectMilestones.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectMilestones.ascx.cs">
       <DependentUpon>ProjectMilestones.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectMilestones.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectMilestones.ascx.designer.cs">
       <DependentUpon>ProjectMilestones.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectStatus.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectStatus.ascx.cs">
       <DependentUpon>ProjectStatus.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectStatus.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectStatus.ascx.designer.cs">
       <DependentUpon>ProjectStatus.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectSubversion.ascx.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectSubversion.ascx.cs">
       <DependentUpon>ProjectSubversion.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Projects\UserControls\ProjectSubversion.ascx.designer.cs">
+    <Compile Update="Administration\Projects\UserControls\ProjectSubversion.ascx.designer.cs">
       <DependentUpon>ProjectSubversion.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Users\AddUser.aspx.cs">
+    <Compile Update="Administration\Users\AddUser.aspx.cs">
       <DependentUpon>AddUser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Users\AddUser.aspx.designer.cs">
+    <Compile Update="Administration\Users\AddUser.aspx.designer.cs">
       <DependentUpon>AddUser.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Users\BaseUserControlUserAdmin.cs">
+    <Compile Update="Administration\Users\BaseUserControlUserAdmin.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Users\EditUser.aspx.cs">
+    <Compile Update="Administration\Users\EditUser.aspx.cs">
       <DependentUpon>EditUser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Users\EditUser.aspx.designer.cs">
+    <Compile Update="Administration\Users\EditUser.aspx.designer.cs">
       <DependentUpon>EditUser.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Users\UserControls\DeleteUser.ascx.cs">
+    <Compile Update="Administration\Users\UserControls\DeleteUser.ascx.cs">
       <DependentUpon>DeleteUser.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Users\UserControls\DeleteUser.ascx.designer.cs">
+    <Compile Update="Administration\Users\UserControls\DeleteUser.ascx.designer.cs">
       <DependentUpon>DeleteUser.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Users\UserControls\Membership.ascx.cs">
+    <Compile Update="Administration\Users\UserControls\Membership.ascx.cs">
       <DependentUpon>Membership.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Users\UserControls\Membership.ascx.designer.cs">
+    <Compile Update="Administration\Users\UserControls\Membership.ascx.designer.cs">
       <DependentUpon>Membership.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Users\UserControls\Password.ascx.cs">
+    <Compile Update="Administration\Users\UserControls\Password.ascx.cs">
       <DependentUpon>Password.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Users\UserControls\Password.ascx.designer.cs">
+    <Compile Update="Administration\Users\UserControls\Password.ascx.designer.cs">
       <DependentUpon>Password.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Users\UserControls\Profile.ascx.cs">
+    <Compile Update="Administration\Users\UserControls\Profile.ascx.cs">
       <DependentUpon>Profile.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Users\UserControls\Profile.ascx.designer.cs">
+    <Compile Update="Administration\Users\UserControls\Profile.ascx.designer.cs">
       <DependentUpon>Profile.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Users\UserControls\Roles.ascx.cs">
+    <Compile Update="Administration\Users\UserControls\Roles.ascx.cs">
       <DependentUpon>Roles.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Users\UserControls\Roles.ascx.designer.cs">
+    <Compile Update="Administration\Users\UserControls\Roles.ascx.designer.cs">
       <DependentUpon>Roles.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Administration\Users\UserList.aspx.cs">
+    <Compile Update="Administration\Users\UserList.aspx.cs">
       <DependentUpon>UserList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Administration\Users\UserList.aspx.designer.cs">
+    <Compile Update="Administration\Users\UserList.aspx.designer.cs">
       <DependentUpon>UserList.aspx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Exceptions.de-DE.designer.cs">
+    <Compile Update="App_GlobalResources\Exceptions.de-DE.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Exceptions.de-DE.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Exceptions.Designer.cs">
+    <Compile Update="App_GlobalResources\Exceptions.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Exceptions.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Exceptions.es-ES.designer.cs">
+    <Compile Update="App_GlobalResources\Exceptions.es-ES.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Exceptions.es-ES.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Exceptions.fr-CA.designer.cs">
+    <Compile Update="App_GlobalResources\Exceptions.fr-CA.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Exceptions.fr-CA.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Exceptions.it-IT.designer.cs">
+    <Compile Update="App_GlobalResources\Exceptions.it-IT.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Exceptions.it-IT.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Exceptions.nl-NL.designer.cs">
+    <Compile Update="App_GlobalResources\Exceptions.nl-NL.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Exceptions.nl-NL.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Exceptions.ro-RO.designer.cs">
+    <Compile Update="App_GlobalResources\Exceptions.ro-RO.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Exceptions.ro-RO.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Exceptions.ru-RU.designer.cs">
+    <Compile Update="App_GlobalResources\Exceptions.ru-RU.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Exceptions.ru-RU.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Exceptions.zh-CN.designer.cs">
+    <Compile Update="App_GlobalResources\Exceptions.zh-CN.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Exceptions.zh-CN.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Notifications.de-DE.designer.cs">
+    <Compile Update="App_GlobalResources\Notifications.de-DE.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Notifications.de-DE.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Notifications.Designer.cs">
+    <Compile Update="App_GlobalResources\Notifications.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Notifications.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Notifications.es-ES.designer.cs">
+    <Compile Update="App_GlobalResources\Notifications.es-ES.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Notifications.es-ES.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Notifications.fr-CA.designer.cs">
+    <Compile Update="App_GlobalResources\Notifications.fr-CA.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Notifications.fr-CA.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Notifications.it-IT.designer.cs">
+    <Compile Update="App_GlobalResources\Notifications.it-IT.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Notifications.it-IT.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Notifications.nl-NL.designer.cs">
+    <Compile Update="App_GlobalResources\Notifications.nl-NL.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Notifications.nl-NL.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Notifications.ro-RO.designer.cs">
+    <Compile Update="App_GlobalResources\Notifications.ro-RO.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Notifications.ro-RO.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Notifications.ru-RU.designer.cs">
+    <Compile Update="App_GlobalResources\Notifications.ru-RU.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Notifications.ru-RU.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Notifications.zh-CN.designer.cs">
+    <Compile Update="App_GlobalResources\Notifications.zh-CN.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Notifications.zh-CN.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedIssueProperties.Designer.cs">
+    <Compile Update="App_GlobalResources\SharedIssueProperties.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedIssueProperties.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedIssueProperties.es-ES.designer.cs">
+    <Compile Update="App_GlobalResources\SharedIssueProperties.es-ES.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedIssueProperties.es-ES.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedIssueProperties.fr-CA.designer.cs">
+    <Compile Update="App_GlobalResources\SharedIssueProperties.fr-CA.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedIssueProperties.fr-CA.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedIssueProperties.it-IT.designer.cs">
+    <Compile Update="App_GlobalResources\SharedIssueProperties.it-IT.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedIssueProperties.it-IT.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedIssueProperties.nl-NL.designer.cs">
+    <Compile Update="App_GlobalResources\SharedIssueProperties.nl-NL.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedIssueProperties.nl-NL.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedIssueProperties.ro-RO.designer.cs">
+    <Compile Update="App_GlobalResources\SharedIssueProperties.ro-RO.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedIssueProperties.ro-RO.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedIssueProperties.ru-RU.designer.cs">
+    <Compile Update="App_GlobalResources\SharedIssueProperties.ru-RU.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedIssueProperties.ru-RU.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedIssueProperties.zh-CN.designer.cs">
+    <Compile Update="App_GlobalResources\SharedIssueProperties.zh-CN.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedIssueProperties.zh-CN.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedResources.de-DE.designer.cs">
+    <Compile Update="App_GlobalResources\SharedResources.de-DE.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedResources.de-DE.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedResources.Designer.cs">
+    <Compile Update="App_GlobalResources\SharedResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedResources.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedResources.es-ES.designer.cs">
+    <Compile Update="App_GlobalResources\SharedResources.es-ES.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedResources.es-ES.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedResources.fr-CA.designer.cs">
+    <Compile Update="App_GlobalResources\SharedResources.fr-CA.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedResources.fr-CA.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedResources.it-IT.designer.cs">
+    <Compile Update="App_GlobalResources\SharedResources.it-IT.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedResources.it-IT.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedResources.nl-NL.designer.cs">
+    <Compile Update="App_GlobalResources\SharedResources.nl-NL.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedResources.nl-NL.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedResources.ro-RO.designer.cs">
+    <Compile Update="App_GlobalResources\SharedResources.ro-RO.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedResources.ro-RO.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedResources.ru-RU.designer.cs">
+    <Compile Update="App_GlobalResources\SharedResources.ru-RU.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedResources.ru-RU.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\SharedResources.zh-CN.designer.cs">
+    <Compile Update="App_GlobalResources\SharedResources.zh-CN.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SharedResources.zh-CN.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Web.sitemap.de-DE.designer.cs">
+    <Compile Update="App_GlobalResources\Web.sitemap.de-DE.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Web.sitemap.de-DE.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Web.sitemap.Designer.cs">
+    <Compile Update="App_GlobalResources\Web.sitemap.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Web.sitemap.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Web.sitemap.es-ES.designer.cs">
+    <Compile Update="App_GlobalResources\Web.sitemap.es-ES.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Web.sitemap.es-ES.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Web.sitemap.fr-CA.designer.cs">
+    <Compile Update="App_GlobalResources\Web.sitemap.fr-CA.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Web.sitemap.fr-CA.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Web.sitemap.it-IT.designer.cs">
+    <Compile Update="App_GlobalResources\Web.sitemap.it-IT.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Web.sitemap.it-IT.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Web.sitemap.ro-RO.designer.cs">
+    <Compile Update="App_GlobalResources\Web.sitemap.ro-RO.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Web.sitemap.ro-RO.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Web.sitemap.ru-RU.designer.cs">
+    <Compile Update="App_GlobalResources\Web.sitemap.ru-RU.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Web.sitemap.ru-RU.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Web.sitemap.zh-CN.designer.cs">
+    <Compile Update="App_GlobalResources\Web.sitemap.zh-CN.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Web.sitemap.zh-CN.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_Start\AuthConfig.cs" />
-    <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Default.aspx.designer.cs">
+    <Compile Update="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Errors\AccessDenied.aspx.cs">
+    <Compile Update="Errors\AccessDenied.aspx.cs">
       <DependentUpon>AccessDenied.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Errors\AccessDenied.aspx.designer.cs">
+    <Compile Update="Errors\AccessDenied.aspx.designer.cs">
       <DependentUpon>AccessDenied.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Errors\Error.aspx.cs">
+    <Compile Update="Errors\Error.aspx.cs">
       <DependentUpon>Error.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Errors\Error.aspx.designer.cs">
+    <Compile Update="Errors\Error.aspx.designer.cs">
       <DependentUpon>Error.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Errors\NotFound.aspx.cs">
+    <Compile Update="Errors\NotFound.aspx.cs">
       <DependentUpon>NotFound.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Errors\NotFound.aspx.designer.cs">
+    <Compile Update="Errors\NotFound.aspx.designer.cs">
       <DependentUpon>NotFound.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Errors\SessionExpired.aspx.cs">
+    <Compile Update="Errors\SessionExpired.aspx.cs">
       <DependentUpon>SessionExpired.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Errors\SessionExpired.aspx.designer.cs">
+    <Compile Update="Errors\SessionExpired.aspx.designer.cs">
       <DependentUpon>SessionExpired.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Errors\SomethingMissing.aspx.cs">
+    <Compile Update="Errors\SomethingMissing.aspx.cs">
       <DependentUpon>SomethingMissing.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Errors\SomethingMissing.aspx.designer.cs">
+    <Compile Update="Errors\SomethingMissing.aspx.designer.cs">
       <DependentUpon>SomethingMissing.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Feed.aspx.cs">
+    <Compile Update="Feed.aspx.cs">
       <DependentUpon>Feed.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Feed.aspx.designer.cs">
+    <Compile Update="Feed.aspx.designer.cs">
       <DependentUpon>Feed.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Global.asax.cs">
+    <Compile Update="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Install\Install.aspx.cs">
+    <Compile Update="Install\Install.aspx.cs">
       <DependentUpon>Install.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Install\Install.aspx.designer.cs">
+    <Compile Update="Install\Install.aspx.designer.cs">
       <DependentUpon>Install.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Issues\CreateIssue.aspx.cs">
+    <Compile Update="Issues\CreateIssue.aspx.cs">
       <DependentUpon>CreateIssue.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Issues\CreateIssue.aspx.designer.cs">
+    <Compile Update="Issues\CreateIssue.aspx.designer.cs">
       <DependentUpon>CreateIssue.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Issues\IssueDetail.aspx.cs">
+    <Compile Update="Issues\IssueDetail.aspx.cs">
       <DependentUpon>IssueDetail.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Issues\IssueDetail.aspx.designer.cs">
+    <Compile Update="Issues\IssueDetail.aspx.designer.cs">
       <DependentUpon>IssueDetail.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Issues\IssueList.aspx.cs">
+    <Compile Update="Issues\IssueList.aspx.cs">
       <DependentUpon>IssueList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Issues\IssueList.aspx.designer.cs">
+    <Compile Update="Issues\IssueList.aspx.designer.cs">
       <DependentUpon>IssueList.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Issues\IssueSearch.aspx.cs">
+    <Compile Update="Issues\IssueSearch.aspx.cs">
       <DependentUpon>IssueSearch.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Issues\IssueSearch.aspx.designer.cs">
+    <Compile Update="Issues\IssueSearch.aspx.designer.cs">
       <DependentUpon>IssueSearch.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Issues\MyIssues.aspx.cs">
+    <Compile Update="Issues\MyIssues.aspx.cs">
       <DependentUpon>MyIssues.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Issues\MyIssues.aspx.designer.cs">
+    <Compile Update="Issues\MyIssues.aspx.designer.cs">
       <DependentUpon>MyIssues.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Issues\UserControls\Attachments.ascx.cs">
+    <Compile Update="Issues\UserControls\Attachments.ascx.cs">
       <DependentUpon>Attachments.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Issues\UserControls\Attachments.ascx.designer.cs">
+    <Compile Update="Issues\UserControls\Attachments.ascx.designer.cs">
       <DependentUpon>Attachments.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Issues\UserControls\IssueTabs.ascx.cs">
+    <Compile Update="Issues\UserControls\IssueTabs.ascx.cs">
       <DependentUpon>IssueTabs.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Issues\UserControls\IssueTabs.ascx.designer.cs">
+    <Compile Update="Issues\UserControls\IssueTabs.ascx.designer.cs">
       <DependentUpon>IssueTabs.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Issues\UserControls\Comments.ascx.cs">
+    <Compile Update="Issues\UserControls\Comments.ascx.cs">
       <DependentUpon>Comments.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Issues\UserControls\Comments.ascx.designer.cs">
+    <Compile Update="Issues\UserControls\Comments.ascx.designer.cs">
       <DependentUpon>Comments.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Issues\UserControls\History.ascx.cs">
+    <Compile Update="Issues\UserControls\History.ascx.cs">
       <DependentUpon>History.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Issues\UserControls\History.ascx.designer.cs">
+    <Compile Update="Issues\UserControls\History.ascx.designer.cs">
       <DependentUpon>History.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Issues\UserControls\Notifications.ascx.cs">
+    <Compile Update="Issues\UserControls\Notifications.ascx.cs">
       <DependentUpon>Notifications.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Issues\UserControls\Notifications.ascx.designer.cs">
+    <Compile Update="Issues\UserControls\Notifications.ascx.designer.cs">
       <DependentUpon>Notifications.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Issues\UserControls\ParentIssues.ascx.cs">
+    <Compile Update="Issues\UserControls\ParentIssues.ascx.cs">
       <DependentUpon>ParentIssues.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Issues\UserControls\ParentIssues.ascx.designer.cs">
+    <Compile Update="Issues\UserControls\ParentIssues.ascx.designer.cs">
       <DependentUpon>ParentIssues.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Issues\UserControls\Revisions.ascx.cs">
+    <Compile Update="Issues\UserControls\Revisions.ascx.cs">
       <DependentUpon>Revisions.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Issues\UserControls\Revisions.ascx.designer.cs">
+    <Compile Update="Issues\UserControls\Revisions.ascx.designer.cs">
       <DependentUpon>Revisions.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Old_App_Code\SimpleSqlProfileProvider.cs" />
-    <Compile Include="Old_App_Code\UIL\DownloadAttachment.cs" />
-    <Compile Include="Old_App_Code\UIL\ErrorRedirector.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Old_App_Code\UIL\GridViewExportUtil.cs" />
-    <Compile Include="Old_App_Code\UIL\IEditHostSettingControl.cs" />
-    <Compile Include="Old_App_Code\UIL\IEditUserControl.cs" />
-    <Compile Include="Old_App_Code\UIL\IssueListState.cs" />
-    <Compile Include="Old_App_Code\UIL\PresentationUtils.cs" />
-    <Compile Include="Old_App_Code\UIL\QueryListState.cs" />
-    <Compile Include="Old_App_Code\UIL\WebControls\BugNetPagerField.cs" />
-    <Compile Include="Old_App_Code\UIL\WebControls\ButtonDropDownList.cs" />
-    <Compile Include="Old_App_Code\UIL\WebControls\ButtonTextBox.cs" />
-    <Compile Include="Old_App_Code\UIL\WebControls\GridView.cs" />
-    <Compile Include="Old_App_Code\UIL\WebControls\MenuHelper.cs" />
-    <Compile Include="Old_App_Code\UIL\WebControls\MenuHelperRoot.cs" />
-    <Compile Include="Old_App_Code\UIL\WebControls\MenuItem.cs" />
-    <Compile Include="Projects\ChangeLog.aspx.cs">
+    <Compile Update="Projects\ChangeLog.aspx.cs">
       <DependentUpon>ChangeLog.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Projects\ChangeLog.aspx.designer.cs">
+    <Compile Update="Projects\ChangeLog.aspx.designer.cs">
       <DependentUpon>ChangeLog.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Projects\ProjectCalendar.aspx.cs">
+    <Compile Update="Projects\ProjectCalendar.aspx.cs">
       <DependentUpon>ProjectCalendar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Projects\ProjectCalendar.aspx.designer.cs">
+    <Compile Update="Projects\ProjectCalendar.aspx.designer.cs">
       <DependentUpon>ProjectCalendar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Projects\ProjectSummary.aspx.cs">
+    <Compile Update="Projects\ProjectSummary.aspx.cs">
       <DependentUpon>ProjectSummary.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Projects\ProjectSummary.aspx.designer.cs">
+    <Compile Update="Projects\ProjectSummary.aspx.designer.cs">
       <DependentUpon>ProjectSummary.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Projects\ReleaseNotes.aspx.cs">
+    <Compile Update="Projects\ReleaseNotes.aspx.cs">
       <DependentUpon>ReleaseNotes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Projects\ReleaseNotes.aspx.designer.cs">
+    <Compile Update="Projects\ReleaseNotes.aspx.designer.cs">
       <DependentUpon>ReleaseNotes.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Projects\Roadmap.aspx.cs">
+    <Compile Update="Projects\Roadmap.aspx.cs">
       <DependentUpon>Roadmap.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Projects\Roadmap.aspx.designer.cs">
+    <Compile Update="Projects\Roadmap.aspx.designer.cs">
       <DependentUpon>Roadmap.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Queries\QueryDetail.aspx.cs">
+    <Compile Update="Queries\QueryDetail.aspx.cs">
       <DependentUpon>QueryDetail.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Queries\QueryDetail.aspx.designer.cs">
+    <Compile Update="Queries\QueryDetail.aspx.designer.cs">
       <DependentUpon>QueryDetail.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Queries\QueryList.aspx.cs">
+    <Compile Update="Queries\QueryList.aspx.cs">
       <DependentUpon>QueryList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Queries\QueryList.aspx.designer.cs">
+    <Compile Update="Queries\QueryList.aspx.designer.cs">
       <DependentUpon>QueryList.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Site.Master.cs">
+    <Compile Update="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Site.Master.designer.cs">
+    <Compile Update="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
-    <Compile Include="SvnBrowse\SubversionBrowser.aspx.cs">
+    <Compile Update="SvnBrowse\SubversionBrowser.aspx.cs">
       <DependentUpon>SubversionBrowser.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SvnBrowse\SubversionBrowser.aspx.designer.cs">
+    <Compile Update="SvnBrowse\SubversionBrowser.aspx.designer.cs">
       <DependentUpon>SubversionBrowser.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\DisplayUserCustomFields.ascx.cs">
+    <Compile Update="UserControls\DisplayUserCustomFields.ascx.cs">
       <DependentUpon>DisplayUserCustomFields.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\DisplayUserCustomFields.ascx.designer.cs">
+    <Compile Update="UserControls\DisplayUserCustomFields.ascx.designer.cs">
       <DependentUpon>DisplayUserCustomFields.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\HtmlEditor.ascx.cs">
+    <Compile Update="UserControls\HtmlEditor.ascx.cs">
       <DependentUpon>HtmlEditor.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\HtmlEditor.ascx.designer.cs">
+    <Compile Update="UserControls\HtmlEditor.ascx.designer.cs">
       <DependentUpon>HtmlEditor.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\PickDate.ascx.cs">
+    <Compile Update="UserControls\PickDate.ascx.cs">
       <DependentUpon>PickDate.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\PickDate.ascx.designer.cs">
+    <Compile Update="UserControls\PickDate.ascx.designer.cs">
       <DependentUpon>PickDate.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\PickImage.ascx.cs">
+    <Compile Update="UserControls\PickImage.ascx.cs">
       <DependentUpon>PickImage.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\PickImage.ascx.designer.cs">
+    <Compile Update="UserControls\PickImage.ascx.designer.cs">
       <DependentUpon>PickImage.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Issues\UserControls\RelatedIssues.ascx.cs">
+    <Compile Update="Issues\UserControls\RelatedIssues.ascx.cs">
       <DependentUpon>RelatedIssues.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Issues\UserControls\RelatedIssues.ascx.designer.cs">
+    <Compile Update="Issues\UserControls\RelatedIssues.ascx.designer.cs">
       <DependentUpon>RelatedIssues.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Issues\UserControls\SubIssues.ascx.cs">
+    <Compile Update="Issues\UserControls\SubIssues.ascx.cs">
       <DependentUpon>SubIssues.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Issues\UserControls\SubIssues.ascx.designer.cs">
+    <Compile Update="Issues\UserControls\SubIssues.ascx.designer.cs">
       <DependentUpon>SubIssues.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Issues\UserControls\TimeTracking.ascx.cs">
+    <Compile Update="Issues\UserControls\TimeTracking.ascx.cs">
       <DependentUpon>TimeTracking.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Issues\UserControls\TimeTracking.ascx.designer.cs">
+    <Compile Update="Issues\UserControls\TimeTracking.ascx.designer.cs">
       <DependentUpon>TimeTracking.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Old_App_Code\GlobalSuppressions.cs" />
-    <Compile Include="Old_App_Code\UIL\BasePage.cs">
+    <Compile Update="Old_App_Code\UIL\BasePage.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Old_App_Code\UIL\IIssueTab.cs" />
-    <Compile Include="Old_App_Code\UIL\SmartSiteMapProvider.cs" />
-    <Compile Include="Old_App_Code\UIL\IEditProjectControl.cs" />
-    <Compile Include="Old_App_Code\UIL\Tab.cs" />
-    <Compile Include="Default.aspx.cs">
+    <Compile Update="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControls\CategoryTreeView.ascx.cs">
+    <Compile Update="UserControls\CategoryTreeView.ascx.cs">
       <DependentUpon>CategoryTreeView.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\CategoryTreeView.ascx.designer.cs">
+    <Compile Update="UserControls\CategoryTreeView.ascx.designer.cs">
       <DependentUpon>CategoryTreeView.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\DisplayIssues.ascx.cs">
+    <Compile Update="UserControls\DisplayIssues.ascx.cs">
       <DependentUpon>DisplayIssues.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\DisplayIssues.ascx.designer.cs">
+    <Compile Update="UserControls\DisplayIssues.ascx.designer.cs">
       <DependentUpon>DisplayIssues.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\DisplayCustomFields.ascx.cs">
+    <Compile Update="UserControls\DisplayCustomFields.ascx.cs">
       <DependentUpon>DisplayCustomFields.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\DisplayCustomFields.ascx.designer.cs">
+    <Compile Update="UserControls\DisplayCustomFields.ascx.designer.cs">
       <DependentUpon>DisplayCustomFields.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\Footer.ascx.cs">
+    <Compile Update="UserControls\Footer.ascx.cs">
       <DependentUpon>Footer.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\Footer.ascx.designer.cs">
+    <Compile Update="UserControls\Footer.ascx.designer.cs">
       <DependentUpon>Footer.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\Message.ascx.cs">
+    <Compile Update="UserControls\Message.ascx.cs">
       <DependentUpon>Message.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\Message.ascx.designer.cs">
+    <Compile Update="UserControls\Message.ascx.designer.cs">
       <DependentUpon>Message.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\PickCategory.ascx.cs">
+    <Compile Update="UserControls\PickCategory.ascx.cs">
       <DependentUpon>PickCategory.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\PickCategory.ascx.designer.cs">
+    <Compile Update="UserControls\PickCategory.ascx.designer.cs">
       <DependentUpon>PickCategory.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\PickMilestone.ascx.cs">
+    <Compile Update="UserControls\PickMilestone.ascx.cs">
       <DependentUpon>PickMilestone.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\PickMilestone.ascx.designer.cs">
+    <Compile Update="UserControls\PickMilestone.ascx.designer.cs">
       <DependentUpon>PickMilestone.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\PickPriority.ascx.cs">
+    <Compile Update="UserControls\PickPriority.ascx.cs">
       <DependentUpon>PickPriority.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\PickPriority.ascx.designer.cs">
+    <Compile Update="UserControls\PickPriority.ascx.designer.cs">
       <DependentUpon>PickPriority.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\PickProject.ascx.cs">
+    <Compile Update="UserControls\PickProject.ascx.cs">
       <DependentUpon>PickProject.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\PickProject.ascx.designer.cs">
+    <Compile Update="UserControls\PickProject.ascx.designer.cs">
       <DependentUpon>PickProject.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\PickQuery.ascx.cs">
+    <Compile Update="UserControls\PickQuery.ascx.cs">
       <DependentUpon>PickQuery.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\PickQuery.ascx.designer.cs">
+    <Compile Update="UserControls\PickQuery.ascx.designer.cs">
       <DependentUpon>PickQuery.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\PickQueryField.ascx.cs">
+    <Compile Update="UserControls\PickQueryField.ascx.cs">
       <DependentUpon>PickQueryField.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\PickQueryField.ascx.designer.cs">
+    <Compile Update="UserControls\PickQueryField.ascx.designer.cs">
       <DependentUpon>PickQueryField.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\PickResolution.ascx.cs">
+    <Compile Update="UserControls\PickResolution.ascx.cs">
       <DependentUpon>PickResolution.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\PickResolution.ascx.designer.cs">
+    <Compile Update="UserControls\PickResolution.ascx.designer.cs">
       <DependentUpon>PickResolution.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\PickSingleUser.ascx.cs">
+    <Compile Update="UserControls\PickSingleUser.ascx.cs">
       <DependentUpon>PickSingleUser.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\PickSingleUser.ascx.designer.cs">
+    <Compile Update="UserControls\PickSingleUser.ascx.designer.cs">
       <DependentUpon>PickSingleUser.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\PickStatus.ascx.cs">
+    <Compile Update="UserControls\PickStatus.ascx.cs">
       <DependentUpon>PickStatus.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\PickStatus.ascx.designer.cs">
+    <Compile Update="UserControls\PickStatus.ascx.designer.cs">
       <DependentUpon>PickStatus.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\PickType.ascx.cs">
+    <Compile Update="UserControls\PickType.ascx.cs">
       <DependentUpon>PickType.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\PickType.ascx.designer.cs">
+    <Compile Update="UserControls\PickType.ascx.designer.cs">
       <DependentUpon>PickType.ascx</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\TextImage.ascx.cs">
+    <Compile Update="UserControls\TextImage.ascx.cs">
       <DependentUpon>TextImage.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UserControls\TextImage.ascx.designer.cs">
+    <Compile Update="UserControls\TextImage.ascx.designer.cs">
       <DependentUpon>TextImage.ascx</DependentUpon>
     </Compile>
-    <Compile Include="WebServices\BugNetServices.asmx.cs">
+    <Compile Update="WebServices\BugNetServices.asmx.cs">
       <DependentUpon>BugNetServices.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="WebServices\LogInWebService.cs">
+    <Compile Update="WebServices\LogInWebService.cs">
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
@@ -1425,7 +1187,7 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <None Include="Parameters.xml">
+    <None Update="Parameters.xml">
       <SubType>Designer</SubType>
     </None>
     <Content Include="Projects\ReleaseNotes.aspx" />
@@ -1465,7 +1227,6 @@
     <Content Include="Providers\DataProviders\SqlDataProvider\1.6.327.0.SqlDataProvider.sql" />
     <Content Include="Providers\DataProviders\SqlDataProvider\BugNet.Data.SqlDataProvider.sql" />
     <Content Include="Providers\DataProviders\SqlDataProvider\BugNet.Schema.SqlDataProvider.sql" />
-    <None Include="Providers\DataProviders\SqlDataProvider\Latest.SqlDataProvider.sql" />
     <Content Include="Scripts\attrchange.js" />
     <Content Include="Scripts\bootstrap-dialog.js" />
     <Content Include="Scripts\bootstrap-dialog.min.js" />
@@ -1696,7 +1457,7 @@
     <Content Include="Scripts\ckeditor\skins\moono\images\lock.png" />
     <Content Include="Scripts\ckeditor\skins\moono\images\refresh.png" />
     <Content Include="Scripts\ckeditor\styles.js" />
-    <Content Include="Bundle.config">
+    <Content Update="Bundle.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Scripts\ckeditor\LICENSE.md" />
@@ -1707,8 +1468,6 @@
     <Content Include="Scripts\ckeditor\plugins\scayt\README.md" />
     <Content Include="Scripts\ckeditor\plugins\wsc\LICENSE.md" />
     <Content Include="Scripts\ckeditor\plugins\wsc\README.md" />
-    <None Include="Properties\PublishProfiles\Web Deploy.pubxml" />
-    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\jquery-ui-1.11.1.min.js" />
@@ -1882,8 +1641,7 @@
     <Content Include="Images\indicator.gif" />
     <Content Include="Images\plugin_disabled.gif" />
     <Content Include="Images\user_comment.gif" />
-    <Content Include="App_Data\BugNet.mdf">
-    </Content>
+    <Content Include="App_Data\BugNet.mdf"></Content>
     <Content Include="App_Data\BugNet_log.ldf">
       <DependentUpon>BugNet.mdf</DependentUpon>
     </Content>
@@ -1899,7 +1657,7 @@
     <Content Include="Images\user.gif" />
     <Content Include="Images\user_edit.gif" />
     <Content Include="Images\xml_small.gif" />
-    <Content Include="log4net.config">
+    <Content Update="log4net.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Issues\IssueDetail.aspx" />
@@ -1925,21 +1683,17 @@
     <Content Include="Web.sitemap">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Account\Web.config" />
-    <Content Include="Administration\Web.config" />
-    <None Include="packages.config" />
-    <Content Include="Web.config">
+    <Content Update="Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Web.Debug.config">
+    <Content Update="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Web.Release.config">
+    <Content Update="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
     </Content>
-    <None Include="Properties\PublishProfiles\Local.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Administration\Host\App_LocalResources\LogViewer.aspx.resx" />
@@ -2744,58 +2498,19 @@
     <Content Include="UserControls\App_LocalResources\PickType.ascx.fr-CA.resx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BugNET.BLL\BugNET.BLL.csproj">
-      <Project>{001B5C78-CC5E-4DB6-A03A-EAAE1D558D2C}</Project>
-      <Name>BugNET.BLL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\BugNET.Common\BugNET.Common.csproj">
-      <Project>{69F2F661-AA9A-4C9F-8217-6A22E8C66FEB}</Project>
-      <Name>BugNET.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\BugNET.DAL\BugNET.DAL.csproj">
-      <Project>{efd03a92-584b-4930-9fb1-58df64bf7fd4}</Project>
-      <Name>BugNET.DAL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\BugNET.Entities\BugNET.Entities.csproj">
-      <Project>{5A0AE67B-1F8C-4A6D-A02B-B57BB219288F}</Project>
-      <Name>BugNET.Entities</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\BugNET.MailboxReader\BugNET.MailboxReader.csproj">
-      <Project>{D10EDECB-ADB2-4E5F-93A6-00D09E86B906}</Project>
-      <Name>BugNET.MailboxReader</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Library\HttpModules\Authentication\HttpModule.Authentication.csproj">
-      <Project>{72be8d7e-b026-45ee-8613-dfb1bb70fd02}</Project>
-      <Name>HttpModule.Authentication</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Library\HttpModules\Localization\HttpModule.Localization.csproj">
-      <Project>{74376c46-4d55-4891-85d7-06a490fa9fd5}</Project>
-      <Name>HttpModule.Localization</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Library\HttpModules\MailBoxReader\HttpModule.MailBoxReader.csproj">
-      <Project>{4386aa43-f3fc-476d-b7e0-03db537c88e0}</Project>
-      <Name>HttpModule.MailBoxReader</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Library\Providers\DataProviders\SqlDataProvider\Provider.SqlDataProvider.csproj">
-      <Project>{df8c87fa-3398-4aee-99b0-d47f1831c158}</Project>
-      <Name>Provider.SqlDataProvider</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Library\Providers\HtmlEditorProviders\CkHtmlEditorProvider\Provider.CkHtmlEditorProvider.csproj">
-      <Project>{2d1294fe-a204-4f2c-b90c-8a041f44e12a}</Project>
-      <Name>Provider.CkHtmlEditorProvider</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Library\Providers\HtmlEditorProviders\HtmlEditorProvider\Provider.HtmlEditorProvider.csproj">
-      <Project>{C7D90E4C-AD95-4ADD-8242-2CD66F0BC89B}</Project>
-      <Name>Provider.HtmlEditorProvider</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Library\Providers\HtmlEditorProviders\TextboxHtmlProvider\Provider.TextboxHtmlProvider.csproj">
-      <Project>{ca7e11ab-39fd-490a-a3a1-094be9c5db45}</Project>
-      <Name>Provider.TextboxHtmlProvider</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Library\Providers\MembershipProviders\Provider.MembershipProviders.csproj">
-      <Project>{6B8EBBE2-196F-4F79-BC2F-918FC0AF3D67}</Project>
-      <Name>Provider.MembershipProviders</Name>
-    </ProjectReference>
+    <ProjectReference Include="..\BugNET.BLL\BugNET.BLL.csproj" />
+    <ProjectReference Include="..\BugNET.Common\BugNET.Common.csproj" />
+    <ProjectReference Include="..\BugNET.DAL\BugNET.DAL.csproj" />
+    <ProjectReference Include="..\BugNET.Entities\BugNET.Entities.csproj" />
+    <ProjectReference Include="..\BugNET.MailboxReader\BugNET.MailboxReader.csproj" />
+    <ProjectReference Include="..\Library\HttpModules\Authentication\HttpModule.Authentication.csproj" />
+    <ProjectReference Include="..\Library\HttpModules\Localization\HttpModule.Localization.csproj" />
+    <ProjectReference Include="..\Library\HttpModules\MailBoxReader\HttpModule.MailBoxReader.csproj" />
+    <ProjectReference Include="..\Library\Providers\DataProviders\SqlDataProvider\Provider.SqlDataProvider.csproj" />
+    <ProjectReference Include="..\Library\Providers\HtmlEditorProviders\CkHtmlEditorProvider\Provider.CkHtmlEditorProvider.csproj" />
+    <ProjectReference Include="..\Library\Providers\HtmlEditorProviders\HtmlEditorProvider\Provider.HtmlEditorProvider.csproj" />
+    <ProjectReference Include="..\Library\Providers\HtmlEditorProviders\TextboxHtmlProvider\Provider.TextboxHtmlProvider.csproj" />
+    <ProjectReference Include="..\Library\Providers\MembershipProviders\Provider.MembershipProviders.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Scripts\ckeditor\plugins\a11yhelp\lang\" />
@@ -3531,52 +3246,63 @@
   <ItemGroup>
     <Content Include="Administration\Host\UserControls\App_LocalResources\UserCustomFieldsSettings.ascx.resx" />
   </ItemGroup>
-  <PropertyGroup>
-    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
-    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-  </PropertyGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != '' AND Exists('$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets')" />
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.-->
+  <ItemGroup>
+    <PackageReference Include="AjaxControlToolkit" Version="15.1.4.0" />
+    <PackageReference Include="AjaxMin" Version="5.14.5506.26202" />
+    <PackageReference Include="Antlr" Version="3.5.0.2" />
+    <PackageReference Include="AspNet.ScriptManager.bootstrap" Version="3.3.6" />
+    <PackageReference Include="AspNet.ScriptManager.jQuery" Version="2.1.4" />
+    <PackageReference Include="AspNet.ScriptManager.jQuery.UI.Combined" Version="1.11.4" />
+    <PackageReference Include="bootstrap" Version="3.3.6" />
+    <PackageReference Include="DotNetOpenAuth.AspNet" Version="4.3.4.13329" />
+    <PackageReference Include="DotNetOpenAuth.Core" Version="4.3.4.13329" />
+    <PackageReference Include="DotNetOpenAuth.GoogleOAuth2" Version="1.1.2" />
+    <PackageReference Include="DotNetOpenAuth.OAuth.Consumer" Version="4.3.4.13329" />
+    <PackageReference Include="DotNetOpenAuth.OAuth.Core" Version="4.3.4.13329" />
+    <PackageReference Include="DotNetOpenAuth.OpenId.Core" Version="4.3.4.13329" />
+    <PackageReference Include="DotNetOpenAuth.OpenId.RelyingParty" Version="4.3.4.13329" />
+    <PackageReference Include="EntityFramework" Version="6.1.3" />
+    <PackageReference Include="FontAwesome" Version="4.4.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.4.9" />
+    <PackageReference Include="jQuery" Version="2.1.4" />
+    <PackageReference Include="jQuery.UI.Combined" Version="1.11.4" />
+    <PackageReference Include="json2" Version="1.0.2" />
+    <PackageReference Include="log4net" Version="2.0.5" />
+    <PackageReference Include="Microsoft.AspNet.FriendlyUrls" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNet.FriendlyUrls.Core" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNet.Membership.OpenAuth" Version="2.0.1" />
+    <PackageReference Include="Microsoft.AspNet.Providers" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNet.Providers.Core" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNet.Providers.LocalDB" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNet.ScriptManager.MSAjax" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNet.ScriptManager.WebForms" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNet.Web.Optimization" Version="1.1.3" />
+    <PackageReference Include="Microsoft.AspNet.Web.Optimization.WebForms" Version="1.1.3" />
+    <PackageReference Include="Microsoft.Azure.KeyVault.Core" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Bcl" Version="1.1.10" />
+    <PackageReference Include="Microsoft.Bcl.Build" Version="1.0.21" />
+    <PackageReference Include="Microsoft.Data.Edm" Version="5.7.0" />
+    <PackageReference Include="Microsoft.Data.OData" Version="5.7.0" />
+    <PackageReference Include="Microsoft.Data.Services.Client" Version="5.7.0" />
+    <PackageReference Include="Microsoft.Net.Http" Version="2.2.29" />
+    <PackageReference Include="Microsoft.Web.Infrastructure" Version="1.0.0.0" />
+    <PackageReference Include="Microsoft.WindowsAzure.ConfigurationManager" Version="3.1.0" />
+    <PackageReference Include="Modernizr" Version="2.8.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="7.0.1" />
+    <PackageReference Include="Respond" Version="1.4.2" />
+    <PackageReference Include="System.Spatial" Version="5.7.0" />
+    <PackageReference Include="WebGrease" Version="1.6.0" />
+    <PackageReference Include="WindowsAzure.Storage" Version="6.2.0" />
+  </ItemGroup>
   <Target Name="BeforeBuild">
     <Copy Condition="'$(APPVEYOR)' != '' And '$(APPVEYOR)' And Exists('Providers\DataProviders\SqlDataProvider\Latest.SqlDataProvider.sql')" SourceFiles="Providers\DataProviders\SqlDataProvider\Latest.SqlDataProvider.sql" DestinationFiles="Providers\DataProviders\SqlDataProvider\$(APPVEYOR_BUILD_VERSION).SqlDataProvider.sql" />
     <ItemGroup Condition="'$(APPVEYOR)' != '' And '$(APPVEYOR)' And Exists('Providers\DataProviders\SqlDataProvider\$(APPVEYOR_BUILD_VERSION).SqlDataProvider.sql')">
       <Content Include="Providers\DataProviders\SqlDataProvider\$(APPVEYOR_BUILD_VERSION).SqlDataProvider.sql" />
     </ItemGroup>
   </Target>
-  <!--
-  <Target Name="AfterBuild">
-  </Target>
-  -->
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
-        <WebProjectProperties>
-          <UseIIS>True</UseIIS>
-          <AutoAssignPort>False</AutoAssignPort>
-          <DevelopmentServerPort>59847</DevelopmentServerPort>
-          <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:59847/</IISUrl>
-          <NTLMAuthentication>False</NTLMAuthentication>
-          <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
-          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
-        </WebProjectProperties>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
+  <PropertyGroup />
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <TargetFramework>net45</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
-  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
-  </Target>
 </Project>

@@ -1,6 +1,5 @@
 ﻿using System.Globalization;
 using System.Threading;
-using System.Web;
 
 namespace BugNET.Common
 {
@@ -28,12 +27,8 @@ namespace BugNET.Common
 
         public static string GetGlobalResource(GlobalResources classKey, string resourceKey, CultureInfo culture, string defaultValue = "")
         {
-            if (HttpContext.Current != null)
-            {
-                var resource = HttpContext.GetGlobalResourceObject(classKey.ToString(), resourceKey, culture);
-                if (resource != null) return resource.ToString();
-            }
-
+            // System.Web.HttpContext is not available in .NET 10 outside of ASP.NET Core.
+            // Resource lookup defers to the default value in this context.
             return defaultValue;
         }
 
@@ -46,12 +41,8 @@ namespace BugNET.Common
         /// <returns></returns>
         public static string GetLocalResource(string virtualPath, string resourceKey, string defaultValue = "")
         {
-            if (HttpContext.Current != null)
-            {
-                var resource = HttpContext.GetLocalResourceObject(virtualPath, resourceKey);
-                if (resource != null) return resource.ToString();
-            }
-
+            // System.Web.HttpContext is not available in .NET 10 outside of ASP.NET Core.
+            // Resource lookup defers to the default value in this context.
             return defaultValue;
         }
     }

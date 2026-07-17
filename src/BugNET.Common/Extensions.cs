@@ -7,8 +7,6 @@ using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
-using System.Web;
-using System.Web.UI;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -214,32 +212,32 @@ namespace BugNET.Common
         #endregion
 
         /// <summary>
-        /// Extension method for the getting typed values from the view state
+        /// Extension method for name value collections to get a typed value from the collection
         /// </summary>
-        /// <typeparam name="T">The type of the value</typeparam>
-        /// <param name="viewState">The view state bag</param>
-        /// <param name="key">The key of the view state item</param>
-        /// <param name="defaultValue">A default value if the key item is not in the view state</param>
+        /// <typeparam name="T">The type to be returned</typeparam>
+        /// <param name="collection">The name value collection</param>
+        /// <param name="key">The key of the item in the collection</param>
         /// <returns></returns>
-        public static T Get<T>(this StateBag viewState, string key, T defaultValue)
+        public static T Get<T>(this NameValueCollection collection, string key)
         {
             if (string.IsNullOrEmpty(key)) throw new ArgumentNullException("key");
 
-            return Get(viewState[key], defaultValue);
+            return Get<T>(collection[key]);
         }
 
         /// <summary>
-        /// Extension method for setting typed values to the view state
+        /// Extension method for name value collections to get a typed value from the collection
         /// </summary>
-        /// <param name="viewState">The view state bag</param>
-        /// <param name="key">The key of the view state item</param>
-        /// <param name="value">The value to set in the view state for the supplied key</param>
-        public static void Set(this StateBag viewState, string key, object value)
+        /// <typeparam name="T">The type to be returned</typeparam>
+        /// <param name="collection">The name value collection</param>
+        /// <param name="key">The key of the item in the collection</param>
+        /// <param name="defaultValue">The default value if the item does not exist</param>
+        /// <returns></returns>
+        public static T Get<T>(this NameValueCollection collection, string key, T defaultValue)
         {
             if (string.IsNullOrEmpty(key)) throw new ArgumentNullException("key");
 
-            if (value != null)
-                viewState[key] = value;
+            return Get(collection[key], defaultValue);
         }
 
         /// <summary>
@@ -295,64 +293,6 @@ namespace BugNET.Common
             {
                 return source;
             }
-        }
-
-        /// <summary>
-        /// Extension method for name value collections to get a typed value from the collection
-        /// </summary>
-        /// <typeparam name="T">The type to be returned</typeparam>
-        /// <param name="collection">The name value collection</param>
-        /// <param name="key">The key of the item in the collection</param>
-        /// <returns></returns>
-        public static T Get<T>(this NameValueCollection collection, string key)
-        {
-            if (string.IsNullOrEmpty(key)) throw new ArgumentNullException("key");
-
-            return Get<T>(collection[key]);
-        }
-
-        /// <summary>
-        /// Extension method for name value collections to get a typed value from the collection
-        /// </summary>
-        /// <typeparam name="T">The type to be returned</typeparam>
-        /// <param name="collection">The name value collection</param>
-        /// <param name="key">The key of the item in the collection</param>
-        /// <param name="defaultValue">The default value if the item does not exist</param>
-        /// <returns></returns>
-        public static T Get<T>(this NameValueCollection collection, string key, T defaultValue)
-        {
-            if (string.IsNullOrEmpty(key)) throw new ArgumentNullException("key");
-
-            return Get(collection[key], defaultValue);
-        }
-
-        /// <summary>
-        /// Extension method for the request object to get a typed value from the collection
-        /// </summary>
-        /// <typeparam name="T">The type to be returned</typeparam>
-        /// <param name="request">The request object</param>
-        /// <param name="key">The key of the item in the request collection</param>
-        /// <returns></returns>
-        public static T Get<T>(this HttpRequest request, string key)
-        {
-            if (string.IsNullOrEmpty(key)) throw new ArgumentNullException("key");
-
-            return Get<T>(request[key]);
-        }
-
-        /// <summary>
-        /// Extension method for the request object to get a typed value from the collection
-        /// </summary>
-        /// <typeparam name="T">The type to be returned</typeparam>
-        /// <param name="request">The request object</param>
-        /// <param name="key">The key of the item in the request collection</param>
-        /// <param name="defaultValue">The default value if the item does not exist</param>
-        /// <returns></returns>
-        public static T Get<T>(this HttpRequest request, string key, T defaultValue)
-        {
-            if (string.IsNullOrEmpty(key)) throw new ArgumentNullException("key");
-
-            return Get(request[key], defaultValue);
         }
 
         private static T Get<T>(object input, T defaultValue = default(T))
