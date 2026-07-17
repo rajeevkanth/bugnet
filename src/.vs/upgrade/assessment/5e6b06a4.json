@@ -1,0 +1,619 @@
+{
+  "reportConfigHash": "5e6b06a4",
+  "createdAtUtc": "2026-07-17T02:12:11.431991Z",
+  "entries": [
+    {
+      "packageName": "AjaxControlToolkit",
+      "packageVersion": "15.1.4.0",
+      "insightsName": "AjaxControlToolkit",
+      "insightsCurrentVersion": "15.1.4.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "AjaxMin",
+      "packageVersion": "5.14.5506.26202",
+      "insightsName": "AjaxMin",
+      "insightsCurrentVersion": "5.14.5506.26202",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Antlr",
+      "packageVersion": "3.5.0.2",
+      "insightsName": "Antlr",
+      "insightsCurrentVersion": "3.5.0.2",
+      "insightsNewVersion": "",
+      "insightsDescription": "Needs to be replaced with Replace with new package Antlr4=4.6.6",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "AspNet.ScriptManager.bootstrap",
+      "packageVersion": "3.3.6",
+      "insightsName": "AspNet.ScriptManager.bootstrap",
+      "insightsCurrentVersion": "3.3.6",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "AspNet.ScriptManager.jQuery",
+      "packageVersion": "2.1.4",
+      "insightsName": "AspNet.ScriptManager.jQuery",
+      "insightsCurrentVersion": "2.1.4",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "AspNet.ScriptManager.jQuery.UI.Combined",
+      "packageVersion": "1.11.4",
+      "insightsName": "AspNet.ScriptManager.jQuery.UI.Combined",
+      "insightsCurrentVersion": "1.11.4",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "bootstrap",
+      "packageVersion": "3.3.6",
+      "insightsName": "bootstrap",
+      "insightsCurrentVersion": "3.3.6",
+      "insightsNewVersion": "5.3.8",
+      "insightsDescription": "NuGet package contains security vulnerability",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "DotNetOpenAuth.AspNet",
+      "packageVersion": "4.3.4.13329",
+      "insightsName": "DotNetOpenAuth.AspNet",
+      "insightsCurrentVersion": "4.3.4.13329",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "DotNetOpenAuth.Core",
+      "packageVersion": "4.3.4.13329",
+      "insightsName": "DotNetOpenAuth.Core",
+      "insightsCurrentVersion": "4.3.4.13329",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "DotNetOpenAuth.GoogleOAuth2",
+      "packageVersion": "1.1.2",
+      "insightsName": "DotNetOpenAuth.GoogleOAuth2",
+      "insightsCurrentVersion": "1.1.2",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "DotNetOpenAuth.OAuth.Consumer",
+      "packageVersion": "4.3.4.13329",
+      "insightsName": "DotNetOpenAuth.OAuth.Consumer",
+      "insightsCurrentVersion": "4.3.4.13329",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "DotNetOpenAuth.OAuth.Core",
+      "packageVersion": "4.3.4.13329",
+      "insightsName": "DotNetOpenAuth.OAuth.Core",
+      "insightsCurrentVersion": "4.3.4.13329",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "DotNetOpenAuth.OpenId.Core",
+      "packageVersion": "4.3.4.13329",
+      "insightsName": "DotNetOpenAuth.OpenId.Core",
+      "insightsCurrentVersion": "4.3.4.13329",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "DotNetOpenAuth.OpenId.RelyingParty",
+      "packageVersion": "4.3.4.13329",
+      "insightsName": "DotNetOpenAuth.OpenId.RelyingParty",
+      "insightsCurrentVersion": "4.3.4.13329",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "EntityFramework",
+      "packageVersion": "6.1.3",
+      "insightsName": "EntityFramework",
+      "insightsCurrentVersion": "6.1.3",
+      "insightsNewVersion": "6.5.2",
+      "insightsDescription": "NuGet package upgrade is recommended",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj",
+        "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+      ]
+    },
+    {
+      "packageName": "FontAwesome",
+      "packageVersion": "4.4.0",
+      "insightsName": "FontAwesome",
+      "insightsCurrentVersion": "4.4.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "HtmlAgilityPack",
+      "packageVersion": "1.4.9",
+      "insightsName": "HtmlAgilityPack",
+      "insightsCurrentVersion": "1.4.9",
+      "insightsNewVersion": "1.12.4",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj",
+        "BugNET.MailboxReader/BugNET.MailboxReader.csproj"
+      ]
+    },
+    {
+      "packageName": "jQuery",
+      "packageVersion": "2.1.4",
+      "insightsName": "jQuery",
+      "insightsCurrentVersion": "2.1.4",
+      "insightsNewVersion": "3.7.1",
+      "insightsDescription": "NuGet package contains security vulnerability",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "jQuery.UI.Combined",
+      "packageVersion": "1.11.4",
+      "insightsName": "jQuery.UI.Combined",
+      "insightsCurrentVersion": "1.11.4",
+      "insightsNewVersion": "1.14.1",
+      "insightsDescription": "NuGet package contains security vulnerability",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "json2",
+      "packageVersion": "1.0.2",
+      "insightsName": "json2",
+      "insightsCurrentVersion": "1.0.2",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "log4net",
+      "packageVersion": "2.0.5",
+      "insightsName": "log4net",
+      "insightsCurrentVersion": "2.0.5",
+      "insightsNewVersion": "3.3.2",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj",
+        "BugNET.BLL/BugNET.BLL.csproj",
+        "BugNET.Common/BugNET.Common.csproj",
+        "BugNET.DAL/BugNET.DAL.csproj",
+        "BugNET.Entities/BugNET.Entities.csproj",
+        "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+        "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+        "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj",
+        "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj",
+        "BugNET.Tests/BugNET.Tests.csproj",
+        "Library/HttpModules/Authentication/HttpModule.Authentication.csproj",
+        "Library/HttpModules/Localization/HttpModule.Localization.csproj",
+        "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj",
+        "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj",
+        "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj",
+        "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+        "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj",
+        "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.FriendlyUrls",
+      "packageVersion": "1.0.2",
+      "insightsName": "Microsoft.AspNet.FriendlyUrls",
+      "insightsCurrentVersion": "1.0.2",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.FriendlyUrls.Core",
+      "packageVersion": "1.0.2",
+      "insightsName": "Microsoft.AspNet.FriendlyUrls.Core",
+      "insightsCurrentVersion": "1.0.2",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.Membership.OpenAuth",
+      "packageVersion": "2.0.1",
+      "insightsName": "Microsoft.AspNet.Membership.OpenAuth",
+      "insightsCurrentVersion": "2.0.1",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.Providers",
+      "packageVersion": "2.0.0",
+      "insightsName": "Microsoft.AspNet.Providers",
+      "insightsCurrentVersion": "2.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "Microsoft.AspNet.Providers.Core",
+      "packageVersion": "2.0.0",
+      "insightsName": "Microsoft.AspNet.Providers.Core",
+      "insightsCurrentVersion": "2.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj",
+        "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.Providers.LocalDB",
+      "packageVersion": "2.0.0",
+      "insightsName": "Microsoft.AspNet.Providers.LocalDB",
+      "insightsCurrentVersion": "2.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "Microsoft.AspNet.ScriptManager.MSAjax",
+      "packageVersion": "5.0.0",
+      "insightsName": "Microsoft.AspNet.ScriptManager.MSAjax",
+      "insightsCurrentVersion": "5.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.ScriptManager.WebForms",
+      "packageVersion": "5.0.0",
+      "insightsName": "Microsoft.AspNet.ScriptManager.WebForms",
+      "insightsCurrentVersion": "5.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.Web.Optimization",
+      "packageVersion": "1.1.3",
+      "insightsName": "Microsoft.AspNet.Web.Optimization",
+      "insightsCurrentVersion": "1.1.3",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.Web.Optimization.WebForms",
+      "packageVersion": "1.1.3",
+      "insightsName": "Microsoft.AspNet.Web.Optimization.WebForms",
+      "insightsCurrentVersion": "1.1.3",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Azure.KeyVault.Core",
+      "packageVersion": "1.0.0",
+      "insightsName": "Microsoft.Azure.KeyVault.Core",
+      "insightsCurrentVersion": "1.0.0",
+      "insightsNewVersion": "3.0.5",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Bcl",
+      "packageVersion": "1.1.10",
+      "insightsName": "Microsoft.Bcl",
+      "insightsCurrentVersion": "1.1.10",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Bcl.Build",
+      "packageVersion": "1.0.21",
+      "insightsName": "Microsoft.Bcl.Build",
+      "insightsCurrentVersion": "1.0.21",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "Microsoft.Data.Edm",
+      "packageVersion": "5.7.0",
+      "insightsName": "Microsoft.Data.Edm",
+      "insightsCurrentVersion": "5.7.0",
+      "insightsNewVersion": "5.8.5",
+      "insightsDescription": "Replace with Microsoft.OData.Edm: Use OData v4 model types; adjust EDM model builders",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Data.OData",
+      "packageVersion": "5.7.0",
+      "insightsName": "Microsoft.Data.OData",
+      "insightsCurrentVersion": "5.7.0",
+      "insightsNewVersion": "5.8.5",
+      "insightsDescription": "Replace with Microsoft.OData.Core: Align code with OData v4; adjust URI/query conventions",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Data.Services.Client",
+      "packageVersion": "5.7.0",
+      "insightsName": "Microsoft.Data.Services.Client",
+      "insightsCurrentVersion": "5.7.0",
+      "insightsNewVersion": "5.8.5",
+      "insightsDescription": "Replace with Microsoft.OData.Client: Regenerate client proxy for OData v4; adjust entity operations accordingly",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Net.Http",
+      "packageVersion": "2.2.29",
+      "insightsName": "Microsoft.Net.Http",
+      "insightsCurrentVersion": "2.2.29",
+      "insightsNewVersion": "",
+      "insightsDescription": "Needs to be replaced with Replace with new package System.Net.Http=4.3.4",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Web.Infrastructure",
+      "packageVersion": "1.0.0.0",
+      "insightsName": "Microsoft.Web.Infrastructure",
+      "insightsCurrentVersion": "1.0.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package functionality is included with framework reference",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.WindowsAzure.ConfigurationManager",
+      "packageVersion": "3.1.0",
+      "insightsName": "Microsoft.WindowsAzure.ConfigurationManager",
+      "insightsCurrentVersion": "3.1.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Modernizr",
+      "packageVersion": "2.8.3",
+      "insightsName": "Modernizr",
+      "insightsCurrentVersion": "2.8.3",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "Newtonsoft.Json",
+      "packageVersion": "7.0.1",
+      "insightsName": "Newtonsoft.Json",
+      "insightsCurrentVersion": "7.0.1",
+      "insightsNewVersion": "13.0.4",
+      "insightsDescription": "NuGet package upgrade is recommended",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "Respond",
+      "packageVersion": "1.4.2",
+      "insightsName": "Respond",
+      "insightsCurrentVersion": "1.4.2",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "System.Spatial",
+      "packageVersion": "5.7.0",
+      "insightsName": "System.Spatial",
+      "insightsCurrentVersion": "5.7.0",
+      "insightsNewVersion": "5.8.5",
+      "insightsDescription": "Replace with Microsoft.Spatial: Use OData v4 spatial types; adjust namespaces for geography/geometric classes",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "WebGrease",
+      "packageVersion": "1.6.0",
+      "insightsName": "WebGrease",
+      "insightsCurrentVersion": "1.6.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "WindowsAzure.Storage",
+      "packageVersion": "6.2.0",
+      "insightsName": "WindowsAzure.Storage",
+      "insightsCurrentVersion": "6.2.0",
+      "insightsNewVersion": "9.3.3",
+      "insightsDescription": "Replace with Azure.Storage.Blobs: Adopt new Azure Storage SDKs (Azure.Storage.Blobs/Queues/Files/Tables); update blob, queue, file, and table operations accordingly",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET_WAP/BugNET_WAP.csproj"
+      ]
+    },
+    {
+      "packageName": "AutoMapper",
+      "packageVersion": "3.2.1",
+      "insightsName": "AutoMapper",
+      "insightsCurrentVersion": "3.2.1",
+      "insightsNewVersion": "16.2.0",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET.Entities/BugNET.Entities.csproj"
+      ]
+    },
+    {
+      "packageName": "NUnit",
+      "packageVersion": "3.0.1",
+      "insightsName": "NUnit",
+      "insightsCurrentVersion": "3.0.1",
+      "insightsNewVersion": "4.6.1",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+        "BugNET.Tests/BugNET.Tests.csproj"
+      ]
+    },
+    {
+      "packageName": "Mercurial.Net",
+      "packageVersion": "1.1.1.607",
+      "insightsName": "Mercurial.Net",
+      "insightsCurrentVersion": "1.1.1.607",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+      ]
+    },
+    {
+      "packageName": "CKEditor",
+      "packageVersion": "3.6.4",
+      "insightsName": "CKEditor",
+      "insightsCurrentVersion": "3.6.4",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "CkeditorForASP.NET",
+      "packageVersion": "3.6.4.0",
+      "insightsName": "CkeditorForASP.NET",
+      "insightsCurrentVersion": "3.6.4.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    }
+  ]
+}

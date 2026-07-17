@@ -1,0 +1,137 @@
+{
+  "reportConfigHash": "9b0ef618",
+  "createdAtUtc": "2026-07-17T02:10:18.135524Z",
+  "entries": [
+    {
+      "packageName": "log4net",
+      "packageVersion": "2.0.5",
+      "insightsName": "log4net",
+      "insightsCurrentVersion": "2.0.5",
+      "insightsNewVersion": "3.3.2",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET.BLL/BugNET.BLL.csproj",
+        "BugNET.Common/BugNET.Common.csproj",
+        "BugNET.DAL/BugNET.DAL.csproj",
+        "BugNET.Entities/BugNET.Entities.csproj",
+        "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+        "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+        "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj",
+        "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj",
+        "BugNET.Tests/BugNET.Tests.csproj",
+        "Library/HttpModules/Authentication/HttpModule.Authentication.csproj",
+        "Library/HttpModules/Localization/HttpModule.Localization.csproj",
+        "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj",
+        "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj",
+        "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj",
+        "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+        "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj",
+        "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj"
+      ]
+    },
+    {
+      "packageName": "AutoMapper",
+      "packageVersion": "3.2.1",
+      "insightsName": "AutoMapper",
+      "insightsCurrentVersion": "3.2.1",
+      "insightsNewVersion": "16.2.0",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET.Entities/BugNET.Entities.csproj"
+      ]
+    },
+    {
+      "packageName": "HtmlAgilityPack",
+      "packageVersion": "1.4.9",
+      "insightsName": "HtmlAgilityPack",
+      "insightsCurrentVersion": "1.4.9",
+      "insightsNewVersion": "1.12.4",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET.MailboxReader/BugNET.MailboxReader.csproj"
+      ]
+    },
+    {
+      "packageName": "NUnit",
+      "packageVersion": "3.0.1",
+      "insightsName": "NUnit",
+      "insightsCurrentVersion": "3.0.1",
+      "insightsNewVersion": "4.6.1",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+        "BugNET.Tests/BugNET.Tests.csproj"
+      ]
+    },
+    {
+      "packageName": "Mercurial.Net",
+      "packageVersion": "1.1.1.607",
+      "insightsName": "Mercurial.Net",
+      "insightsCurrentVersion": "1.1.1.607",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+      ]
+    },
+    {
+      "packageName": "CKEditor",
+      "packageVersion": "3.6.4",
+      "insightsName": "CKEditor",
+      "insightsCurrentVersion": "3.6.4",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "CkeditorForASP.NET",
+      "packageVersion": "3.6.4.0",
+      "insightsName": "CkeditorForASP.NET",
+      "insightsCurrentVersion": "3.6.4.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "EntityFramework",
+      "packageVersion": "6.1.3",
+      "insightsName": "EntityFramework",
+      "insightsCurrentVersion": "6.1.3",
+      "insightsNewVersion": "6.5.2",
+      "insightsDescription": "NuGet package upgrade is recommended",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.Providers",
+      "packageVersion": "2.0.0",
+      "insightsName": "Microsoft.AspNet.Providers",
+      "insightsCurrentVersion": "2.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "Microsoft.AspNet.Providers.Core",
+      "packageVersion": "2.0.0",
+      "insightsName": "Microsoft.AspNet.Providers.Core",
+      "insightsCurrentVersion": "2.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+      ]
+    }
+  ]
+}

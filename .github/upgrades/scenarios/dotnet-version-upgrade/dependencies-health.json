@@ -1,0 +1,5412 @@
+{
+  "packageGovernance": {
+    "totalDistinctPackages": 51,
+    "totalVersionDriftInstances": 0,
+    "targetFramework": "net10.0",
+    "packages": [
+      {
+        "name": "AjaxControlToolkit",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "15.1.4.0",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "AjaxMin",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "5.14.5506.26202",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Antlr",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "Needs to be replaced with Replace with new package Antlr4=4.6.6",
+        "versions": [
+          {
+            "version": "3.5.0.2",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "AspNet.ScriptManager.bootstrap",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.3.6",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "AspNet.ScriptManager.jQuery",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "2.1.4",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "AspNet.ScriptManager.jQuery.UI.Combined",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "1.11.4",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "AutoMapper",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "16.2.0",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.2.1",
+            "projects": [
+              "BugNET.Entities"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "16.2.0"
+        }
+      },
+      {
+        "name": "bootstrap",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "5.3.8",
+        "isCompatible": true,
+        "description": "NuGet package contains security vulnerability",
+        "versions": [
+          {
+            "version": "3.3.6",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "5.3.8"
+        }
+      },
+      {
+        "name": "CKEditor",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.6.4",
+            "projects": [
+              "Provider.CkHtmlEditorProvider"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "CkeditorForASP.NET",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.6.4.0",
+            "projects": [
+              "Provider.CkHtmlEditorProvider"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "DotNetOpenAuth.AspNet",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "4.3.4.13329",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "DotNetOpenAuth.Core",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "4.3.4.13329",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "DotNetOpenAuth.GoogleOAuth2",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "1.1.2",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "DotNetOpenAuth.OAuth.Consumer",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "4.3.4.13329",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "DotNetOpenAuth.OAuth.Core",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "4.3.4.13329",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "DotNetOpenAuth.OpenId.Core",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "4.3.4.13329",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "DotNetOpenAuth.OpenId.RelyingParty",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "4.3.4.13329",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "EntityFramework",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.5.2",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "6.1.3",
+            "projects": [
+              "BugNET_WAP",
+              "Provider.MembershipProviders"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "6.5.2"
+        }
+      },
+      {
+        "name": "FontAwesome",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "4.4.0",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "HtmlAgilityPack",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "1.12.4",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "1.4.9",
+            "projects": [
+              "BugNET.MailboxReader",
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "1.12.4"
+        }
+      },
+      {
+        "name": "jQuery",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "3.7.1",
+        "isCompatible": true,
+        "description": "NuGet package contains security vulnerability",
+        "versions": [
+          {
+            "version": "2.1.4",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "3.7.1"
+        }
+      },
+      {
+        "name": "jQuery.UI.Combined",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "1.14.1",
+        "isCompatible": true,
+        "description": "NuGet package contains security vulnerability",
+        "versions": [
+          {
+            "version": "1.11.4",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "1.14.1"
+        }
+      },
+      {
+        "name": "json2",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.0.2",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "log4net",
+        "totalProjectCount": 18,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "3.3.2",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "2.0.5",
+            "projects": [
+              "BugNET.BLL",
+              "BugNET.Common",
+              "BugNET.DAL",
+              "BugNET.Entities",
+              "BugNET.MailboxReader",
+              "BugNET.MailboxReader.Tests",
+              "BugNET.MercurialChangeGroupHook",
+              "BugNET.SubversionHooks",
+              "BugNET.Tests",
+              "BugNET_WAP",
+              "HttpModule.Authentication",
+              "HttpModule.Localization",
+              "HttpModule.MailBoxReader",
+              "Provider.CkHtmlEditorProvider",
+              "Provider.HtmlEditorProvider",
+              "Provider.MembershipProviders",
+              "Provider.SqlDataProvider",
+              "Provider.TextboxHtmlProvider"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "3.3.2"
+        }
+      },
+      {
+        "name": "Mercurial.Net",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "1.1.1.607",
+            "projects": [
+              "BugNET.MercurialChangeGroupHook"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.FriendlyUrls",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "1.0.2",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.FriendlyUrls.Core",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "1.0.2",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.Membership.OpenAuth",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "2.0.1",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.Providers",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "2.0.0",
+            "projects": [
+              "BugNET_WAP",
+              "Provider.MembershipProviders"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.Providers.Core",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "2.0.0",
+            "projects": [
+              "BugNET_WAP",
+              "Provider.MembershipProviders"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.Providers.LocalDB",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "2.0.0",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.ScriptManager.MSAjax",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "5.0.0",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.ScriptManager.WebForms",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "5.0.0",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.Web.Optimization",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "1.1.3",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.Web.Optimization.WebForms",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "1.1.3",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.Azure.KeyVault.Core",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "3.0.5",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "1.0.0",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "3.0.5"
+        }
+      },
+      {
+        "name": "Microsoft.Bcl",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "1.1.10",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.Bcl.Build",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.0.21",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.Data.Edm",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "5.8.5",
+        "isCompatible": false,
+        "description": "Replace with Microsoft.OData.Edm: Use OData v4 model types; adjust EDM model builders",
+        "versions": [
+          {
+            "version": "5.7.0",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "5.8.5"
+        }
+      },
+      {
+        "name": "Microsoft.Data.OData",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "5.8.5",
+        "isCompatible": false,
+        "description": "Replace with Microsoft.OData.Core: Align code with OData v4; adjust URI/query conventions",
+        "versions": [
+          {
+            "version": "5.7.0",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "5.8.5"
+        }
+      },
+      {
+        "name": "Microsoft.Data.Services.Client",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "5.8.5",
+        "isCompatible": false,
+        "description": "Replace with Microsoft.OData.Client: Regenerate client proxy for OData v4; adjust entity operations accordingly",
+        "versions": [
+          {
+            "version": "5.7.0",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "5.8.5"
+        }
+      },
+      {
+        "name": "Microsoft.Net.Http",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "Needs to be replaced with Replace with new package System.Net.Http=4.3.4",
+        "versions": [
+          {
+            "version": "2.2.29",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.Web.Infrastructure",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "NuGet package functionality is included with framework reference",
+        "versions": [
+          {
+            "version": "1.0.0.0",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.WindowsAzure.ConfigurationManager",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.1.0",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Modernizr",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "2.8.3",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Newtonsoft.Json",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "13.0.4",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "7.0.1",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "13.0.4"
+        }
+      },
+      {
+        "name": "NUnit",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.6.1",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.0.1",
+            "projects": [
+              "BugNET.MailboxReader.Tests",
+              "BugNET.Tests"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "4.6.1"
+        }
+      },
+      {
+        "name": "Respond",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.4.2",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "System.Spatial",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "5.8.5",
+        "isCompatible": false,
+        "description": "Replace with Microsoft.Spatial: Use OData v4 spatial types; adjust namespaces for geography/geometric classes",
+        "versions": [
+          {
+            "version": "5.7.0",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "5.8.5"
+        }
+      },
+      {
+        "name": "WebGrease",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.6.0",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "WindowsAzure.Storage",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "9.3.3",
+        "isCompatible": false,
+        "description": "Replace with Azure.Storage.Blobs: Adopt new Azure Storage SDKs (Azure.Storage.Blobs/Queues/Files/Tables); update blob, queue, file, and table operations accordingly",
+        "versions": [
+          {
+            "version": "6.2.0",
+            "projects": [
+              "BugNET_WAP"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "9.3.3"
+        }
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "BugNET_WAP",
+      "path": "BugNET_WAP/BugNET_WAP.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "AjaxControlToolkit",
+            "version": "15.1.4.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "AjaxMin",
+            "version": "5.14.5506.26202",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Antlr",
+            "version": "3.5.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "Needs to be replaced with Replace with new package Antlr4=4.6.6",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "AspNet.ScriptManager.bootstrap",
+            "version": "3.3.6",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "AspNet.ScriptManager.jQuery",
+            "version": "2.1.4",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "AspNet.ScriptManager.jQuery.UI.Combined",
+            "version": "1.11.4",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "bootstrap",
+            "version": "3.3.6",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package contains security vulnerability",
+            "compatibility": "valid",
+            "recommendedVersion": "5.3.8",
+            "upgrade": {
+              "newVersion": "5.3.8"
+            }
+          },
+          {
+            "name": "DotNetOpenAuth.AspNet",
+            "version": "4.3.4.13329",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "DotNetOpenAuth.Core",
+            "version": "4.3.4.13329",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "DotNetOpenAuth.GoogleOAuth2",
+            "version": "1.1.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "DotNetOpenAuth.OAuth.Consumer",
+            "version": "4.3.4.13329",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "DotNetOpenAuth.OAuth.Core",
+            "version": "4.3.4.13329",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "DotNetOpenAuth.OpenId.Core",
+            "version": "4.3.4.13329",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "DotNetOpenAuth.OpenId.RelyingParty",
+            "version": "4.3.4.13329",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "EntityFramework",
+            "version": "6.1.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "6.5.2",
+            "upgrade": {
+              "newVersion": "6.5.2"
+            }
+          },
+          {
+            "name": "FontAwesome",
+            "version": "4.4.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "HtmlAgilityPack",
+            "version": "1.4.9",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "1.12.4",
+            "upgrade": {
+              "newVersion": "1.12.4"
+            }
+          },
+          {
+            "name": "jQuery",
+            "version": "2.1.4",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package contains security vulnerability",
+            "compatibility": "valid",
+            "recommendedVersion": "3.7.1",
+            "upgrade": {
+              "newVersion": "3.7.1"
+            }
+          },
+          {
+            "name": "jQuery.UI.Combined",
+            "version": "1.11.4",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package contains security vulnerability",
+            "compatibility": "valid",
+            "recommendedVersion": "1.14.1",
+            "upgrade": {
+              "newVersion": "1.14.1"
+            }
+          },
+          {
+            "name": "json2",
+            "version": "1.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          },
+          {
+            "name": "Microsoft.AspNet.FriendlyUrls",
+            "version": "1.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.FriendlyUrls.Core",
+            "version": "1.0.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.Membership.OpenAuth",
+            "version": "2.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.Providers",
+            "version": "2.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.Providers.Core",
+            "version": "2.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.Providers.LocalDB",
+            "version": "2.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.ScriptManager.MSAjax",
+            "version": "5.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.ScriptManager.WebForms",
+            "version": "5.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.Web.Optimization",
+            "version": "1.1.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.Web.Optimization.WebForms",
+            "version": "1.1.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Azure.KeyVault.Core",
+            "version": "1.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.0.5",
+            "upgrade": {
+              "newVersion": "3.0.5"
+            }
+          },
+          {
+            "name": "Microsoft.Bcl",
+            "version": "1.1.10",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Bcl.Build",
+            "version": "1.0.21",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Data.Edm",
+            "version": "5.7.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "Replace with Microsoft.OData.Edm: Use OData v4 model types; adjust EDM model builders",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "5.8.5",
+            "upgrade": {
+              "newVersion": "5.8.5"
+            }
+          },
+          {
+            "name": "Microsoft.Data.OData",
+            "version": "5.7.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "Replace with Microsoft.OData.Core: Align code with OData v4; adjust URI/query conventions",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "5.8.5",
+            "upgrade": {
+              "newVersion": "5.8.5"
+            }
+          },
+          {
+            "name": "Microsoft.Data.Services.Client",
+            "version": "5.7.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "Replace with Microsoft.OData.Client: Regenerate client proxy for OData v4; adjust entity operations accordingly",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "5.8.5",
+            "upgrade": {
+              "newVersion": "5.8.5"
+            }
+          },
+          {
+            "name": "Microsoft.Net.Http",
+            "version": "2.2.29",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "Needs to be replaced with Replace with new package System.Net.Http=4.3.4",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Web.Infrastructure",
+            "version": "1.0.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package functionality is included with framework reference",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.WindowsAzure.ConfigurationManager",
+            "version": "3.1.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Modernizr",
+            "version": "2.8.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Newtonsoft.Json",
+            "version": "7.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "13.0.4",
+            "upgrade": {
+              "newVersion": "13.0.4"
+            }
+          },
+          {
+            "name": "Respond",
+            "version": "1.4.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "System.Spatial",
+            "version": "5.7.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "Replace with Microsoft.Spatial: Use OData v4 spatial types; adjust namespaces for geography/geometric classes",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "5.8.5",
+            "upgrade": {
+              "newVersion": "5.8.5"
+            }
+          },
+          {
+            "name": "WebGrease",
+            "version": "1.6.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "WindowsAzure.Storage",
+            "version": "6.2.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/packages.config"
+              }
+            ],
+            "description": "Replace with Azure.Storage.Blobs: Adopt new Azure Storage SDKs (Azure.Storage.Blobs/Queues/Files/Tables); update blob, queue, file, and table operations accordingly",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "9.3.3",
+            "upgrade": {
+              "newVersion": "9.3.3"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "AjaxControlToolkit",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/AjaxControlToolkit.15.1.4.0/lib/net40/AjaxControlToolkit.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "AjaxMin",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/AjaxMin.5.14.5506.26202/lib/net40/AjaxMin.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Antlr3.Runtime",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Antlr.3.5.0.2/lib/Antlr3.Runtime.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "AspNet.ScriptManager.bootstrap",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/AspNet.ScriptManager.bootstrap.3.3.6/lib/net45/AspNet.ScriptManager.bootstrap.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "AspNet.ScriptManager.jQuery",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/AspNet.ScriptManager.jQuery.2.1.4/lib/net45/AspNet.ScriptManager.jQuery.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "AspNet.ScriptManager.jQuery.UI.Combined",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/AspNet.ScriptManager.jQuery.UI.Combined.1.11.4/lib/net45/AspNet.ScriptManager.jQuery.UI.Combined.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "DotNetOpenAuth.AspNet",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/DotNetOpenAuth.AspNet.4.3.4.13329/lib/net45-full/DotNetOpenAuth.AspNet.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "DotNetOpenAuth.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/DotNetOpenAuth.Core.4.3.4.13329/lib/net45-full/DotNetOpenAuth.Core.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "DotNetOpenAuth.GoogleOAuth2",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/DotNetOpenAuth.GoogleOAuth2.1.1.2/lib/net40/DotNetOpenAuth.GoogleOAuth2.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "DotNetOpenAuth.OAuth",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/DotNetOpenAuth.OAuth.Core.4.3.4.13329/lib/net45-full/DotNetOpenAuth.OAuth.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "DotNetOpenAuth.OAuth.Consumer",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/DotNetOpenAuth.OAuth.Consumer.4.3.4.13329/lib/net45-full/DotNetOpenAuth.OAuth.Consumer.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "DotNetOpenAuth.OpenId",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/DotNetOpenAuth.OpenId.Core.4.3.4.13329/lib/net45-full/DotNetOpenAuth.OpenId.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "DotNetOpenAuth.OpenId.RelyingParty",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/DotNetOpenAuth.OpenId.RelyingParty.4.3.4.13329/lib/net45-full/DotNetOpenAuth.OpenId.RelyingParty.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "EntityFramework",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "EntityFramework.SqlServer",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/EntityFramework.6.1.3/lib/net45/EntityFramework.SqlServer.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "HtmlAgilityPack",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/HtmlAgilityPack.1.4.9/lib/Net45/HtmlAgilityPack.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.AspNet.FriendlyUrls",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2/lib/net45/Microsoft.AspNet.FriendlyUrls.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.AspNet.Membership.OpenAuth",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.AspNet.Membership.OpenAuth.2.0.1/lib/net45/Microsoft.AspNet.Membership.OpenAuth.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.AspNet.Web.Optimization.WebForms",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.AspNet.Web.Optimization.WebForms.1.1.3/lib/net45/Microsoft.AspNet.Web.Optimization.WebForms.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Azure.KeyVault.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.Azure.KeyVault.Core.1.0.0/lib/net40/Microsoft.Azure.KeyVault.Core.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Data.Edm",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.Data.Edm.5.7.0/lib/net40/Microsoft.Data.Edm.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Data.OData",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.Data.OData.5.7.0/lib/net40/Microsoft.Data.OData.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Data.Services.Client",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.Data.Services.Client.5.7.0/lib/net40/Microsoft.Data.Services.Client.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.ScriptManager.WebForms",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/lib/net45/Microsoft.ScriptManager.WebForms.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Web.Infrastructure",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.Web.Infrastructure.1.0.0.0/lib/net40/Microsoft.Web.Infrastructure.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.WindowsAzure.Configuration",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.WindowsAzure.ConfigurationManager.3.1.0/lib/net40/Microsoft.WindowsAzure.Configuration.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.WindowsAzure.Storage",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/WindowsAzure.Storage.6.2.0/lib/net40/Microsoft.WindowsAzure.Storage.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Newtonsoft.Json",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Newtonsoft.Json.7.0.1/lib/net45/Newtonsoft.Json.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.ComponentModel.DataAnnotations",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data.DataSetExtensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data.Services.Client",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Drawing",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.IO",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.Bcl.1.1.6/lib/net45/System.IO.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Net.Http",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Net.Http.Extensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.Net.Http.2.2.29/lib/net45/System.Net.Http.Extensions.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Net.Http.Primitives",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.Net.Http.2.2.29/lib/net45/System.Net.Http.Primitives.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Net.Http.WebRequest",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Runtime",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.Bcl.1.1.6/lib/net45/System.Runtime.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.ServiceModel",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.ServiceModel.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Spatial",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/System.Spatial.5.7.0/lib/net40/System.Spatial.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Threading.Tasks",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.Bcl.1.1.6/lib/net45/System.Threading.Tasks.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.ApplicationServices",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.DynamicData",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Entity",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Extensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Extensions.Design",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Optimization",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.AspNet.Web.Optimization.1.1.3/lib/net40/System.Web.Optimization.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Providers",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.AspNet.Providers.Core.2.0.0/lib/net40/System.Web.Providers.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Configuration",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Services",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Mobile",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "WebGrease",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET_WAP/BugNET_WAP.csproj"
+              }
+            ],
+            "physicalPath": "packages/WebGrease.1.6.0/lib/WebGrease.dll",
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "BugNET.BLL",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Common",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.DAL",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Entities",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.MailboxReader",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "HttpModule.Authentication",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "HttpModule.Localization",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "HttpModule.MailBoxReader",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "Provider.SqlDataProvider",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "Provider.CkHtmlEditorProvider",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "Provider.HtmlEditorProvider",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "Provider.TextboxHtmlProvider",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "Provider.MembershipProviders",
+            "isTransitive": true,
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "BugNET.BLL",
+      "path": "BugNET.BLL/BugNET.BLL.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET.BLL/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.BLL/BugNET.BLL.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.BLL/BugNET.BLL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Configuration",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.BLL/BugNET.BLL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.BLL/BugNET.BLL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Drawing",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.BLL/BugNET.BLL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.BLL/BugNET.BLL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.ApplicationServices",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.BLL/BugNET.BLL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.BLL/BugNET.BLL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data.DataSetExtensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.BLL/BugNET.BLL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.CSharp",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.BLL/BugNET.BLL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.BLL/BugNET.BLL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.BLL/BugNET.BLL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "BugNET.Common",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.DAL",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Entities",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "Provider.MembershipProviders",
+            "isTransitive": true,
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "BugNET.Common",
+      "path": "BugNET.Common/BugNET.Common.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Common/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Common/BugNET.Common.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Common/BugNET.Common.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.configuration",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Common/BugNET.Common.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Common/BugNET.Common.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Common/BugNET.Common.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Common/BugNET.Common.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data.DataSetExtensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Common/BugNET.Common.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.CSharp",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Common/BugNET.Common.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Common/BugNET.Common.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Common/BugNET.Common.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "BugNET.DAL",
+      "path": "BugNET.DAL/BugNET.DAL.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET.DAL/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.DAL/BugNET.DAL.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.DAL/BugNET.DAL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Configuration",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.DAL/BugNET.DAL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.DAL/BugNET.DAL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.DAL/BugNET.DAL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.DAL/BugNET.DAL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data.DataSetExtensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.DAL/BugNET.DAL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.CSharp",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.DAL/BugNET.DAL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.DAL/BugNET.DAL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.DAL/BugNET.DAL.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "BugNET.Common",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Entities",
+            "isTransitive": true,
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "BugNET.Entities",
+      "path": "BugNET.Entities/BugNET.Entities.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "AutoMapper",
+            "version": "3.2.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Entities/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "16.2.0",
+            "upgrade": {
+              "newVersion": "16.2.0"
+            }
+          },
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Entities/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "AutoMapper",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Entities/BugNET.Entities.csproj"
+              }
+            ],
+            "physicalPath": "packages/AutoMapper.3.2.1/lib/net40/AutoMapper.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "AutoMapper.Net4",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Entities/BugNET.Entities.csproj"
+              }
+            ],
+            "physicalPath": "packages/AutoMapper.3.2.1/lib/net40/AutoMapper.Net4.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Entities/BugNET.Entities.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Entities/BugNET.Entities.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Entities/BugNET.Entities.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Entities/BugNET.Entities.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Entities/BugNET.Entities.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data.DataSetExtensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Entities/BugNET.Entities.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.CSharp",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Entities/BugNET.Entities.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Entities/BugNET.Entities.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Entities/BugNET.Entities.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "BugNET.Common",
+            "isTransitive": true,
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "BugNET.MailboxReader",
+      "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "HtmlAgilityPack",
+            "version": "1.4.9",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "1.12.4",
+            "upgrade": {
+              "newVersion": "1.12.4"
+            }
+          },
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "HtmlAgilityPack",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj"
+              }
+            ],
+            "physicalPath": "packages/HtmlAgilityPack.1.4.9/lib/Net45/HtmlAgilityPack.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.ApplicationServices",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data.DataSetExtensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.CSharp",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "BugNET.BLL",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Common",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Entities",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "LumiSoft.Net",
+            "isTransitive": true,
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "BugNET.MailboxReader.Tests",
+      "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader.Tests/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          },
+          {
+            "name": "NUnit",
+            "version": "3.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader.Tests/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "4.6.1",
+            "upgrade": {
+              "newVersion": "4.6.1"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "nunit.framework",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj"
+              }
+            ],
+            "physicalPath": "packages/NUnit.3.0.1/lib/net45/nunit.framework.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data.DataSetExtensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.CSharp",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "BugNET.BLL",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Common",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.DAL",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Entities",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.MailboxReader",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "Provider.SqlDataProvider",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "Provider.MembershipProviders",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "LumiSoft.Net",
+            "isTransitive": true,
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "BugNET.MercurialChangeGroupHook",
+      "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          },
+          {
+            "name": "Mercurial.Net",
+            "version": "1.1.1.607",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Mercurial.Net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+              }
+            ],
+            "physicalPath": "packages/Mercurial.Net.1.1.1.607/lib/net35-Client/Mercurial.Net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Configuration",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.EnterpriseServices",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Runtime.Serialization",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.ServiceModel",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Services",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data.DataSetExtensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.CSharp",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "BugNET.SubversionHooks",
+      "path": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET.SubversionHooks/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.EnterpriseServices",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Services",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "BugNET.Tests",
+      "path": "BugNET.Tests/BugNET.Tests.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Tests/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          },
+          {
+            "name": "NUnit",
+            "version": "3.0.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Tests/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "4.6.1",
+            "upgrade": {
+              "newVersion": "4.6.1"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Tests/BugNET.Tests.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "nunit.framework",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Tests/BugNET.Tests.csproj"
+              }
+            ],
+            "physicalPath": "packages/NUnit.3.0.1/lib/net45/nunit.framework.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Tests/BugNET.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Configuration",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Tests/BugNET.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Tests/BugNET.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.ServiceModel",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Tests/BugNET.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.ServiceModel.Activation",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Tests/BugNET.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Tests/BugNET.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data.DataSetExtensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Tests/BugNET.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.CSharp",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Tests/BugNET.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Tests/BugNET.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "BugNET.Tests/BugNET.Tests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "BugNET.BLL",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Common",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.DAL",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Entities",
+            "isTransitive": true,
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "HttpModule.Authentication",
+      "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Authentication/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.DirectoryServices",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.DirectoryServices.AccountManagement",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.ApplicationServices",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "BugNET.BLL",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Common",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Entities",
+            "isTransitive": true,
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "HttpModule.Localization",
+      "path": "Library/HttpModules/Localization/HttpModule.Localization.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Localization/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Localization/HttpModule.Localization.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Localization/HttpModule.Localization.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Localization/HttpModule.Localization.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Localization/HttpModule.Localization.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Localization/HttpModule.Localization.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/Localization/HttpModule.Localization.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "BugNET.BLL",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Common",
+            "isTransitive": true,
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "HttpModule.MailBoxReader",
+      "path": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/MailBoxReader/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "BugNET.BLL",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Common",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Entities",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.MailboxReader",
+            "isTransitive": true,
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "LumiSoft.Net",
+      "path": "LumiSoft.Net/LumiSoft.Net.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net40"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [],
+        "assemblies": [
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "LumiSoft.Net/LumiSoft.Net.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net40-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "LumiSoft.Net/LumiSoft.Net.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "LumiSoft.Net/LumiSoft.Net.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Drawing",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "LumiSoft.Net/LumiSoft.Net.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Security",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "LumiSoft.Net/LumiSoft.Net.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "LumiSoft.Net/LumiSoft.Net.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Windows.Forms",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "LumiSoft.Net/LumiSoft.Net.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "LumiSoft.Net/LumiSoft.Net.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "Provider.CkHtmlEditorProvider",
+      "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "CKEditor",
+            "version": "3.6.4",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "CkeditorForASP.NET",
+            "version": "3.6.4.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "CKEditor.NET",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj"
+              }
+            ],
+            "physicalPath": "packages/CkeditorForASP.NET.3.6.4.0/lib/CKEditor.NET.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Configuration",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Drawing",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Extensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "Provider.HtmlEditorProvider",
+            "isTransitive": true,
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "Provider.HtmlEditorProvider",
+      "path": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.configuration",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "Provider.MembershipProviders",
+      "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "EntityFramework",
+            "version": "6.1.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/packages.config"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "6.5.2",
+            "upgrade": {
+              "newVersion": "6.5.2"
+            }
+          },
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          },
+          {
+            "name": "Microsoft.AspNet.Providers",
+            "version": "2.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.Providers.Core",
+            "version": "2.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "EntityFramework",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+              }
+            ],
+            "physicalPath": "packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "EntityFramework.SqlServer",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+              }
+            ],
+            "physicalPath": "packages/EntityFramework.6.1.3/lib/net45/EntityFramework.SqlServer.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.ComponentModel.DataAnnotations",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.configuration",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.ApplicationServices",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Providers",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+              }
+            ],
+            "physicalPath": "packages/Microsoft.AspNet.Providers.Core.2.0.0/lib/net40/System.Web.Providers.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "Provider.SqlDataProvider",
+      "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/DataProviders/SqlDataProvider/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Configuration",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data.DataSetExtensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.CSharp",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "BugNET.Common",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.DAL",
+            "isTransitive": true,
+            "compatibility": "valid"
+          },
+          {
+            "name": "BugNET.Entities",
+            "isTransitive": true,
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "Provider.TextboxHtmlProvider",
+      "path": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net45"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "log4net",
+            "version": "2.0.5",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "log4net",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj"
+              }
+            ],
+            "physicalPath": "packages/log4net.2.0.5/lib/net45-full/log4net.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.configuration",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "Provider.HtmlEditorProvider",
+            "isTransitive": true,
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    }
+  ]
+}

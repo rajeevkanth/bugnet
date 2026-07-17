@@ -1,0 +1,3477 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "net10.0",
+    "targetDisplayName": ".NETCoreApp,Version=v10.0"
+  },
+  "analysisStartTime": "2026-07-17T02:11:21.434356Z",
+  "analysisEndTime": "2026-07-17T02:12:11.192748Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 19,
+      "issues": 11,
+      "incidents": 138,
+      "effort": 138
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 93,
+        "Optional": 14,
+        "Potential": 31,
+        "Information": 0
+      },
+      "category": {
+        "NuGet": 73,
+        "Project": 38,
+        "Feature": 1,
+        "Binding": 26
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "BugNET_WAP/BugNET_WAP.csproj",
+      "startingProject": true,
+      "issues": 9,
+      "storyPoints": 56,
+      "properties": {
+        "appName": "BugNET_WAP",
+        "projectKind": "Wap",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 1836,
+        "numberOfCodeFiles": 278,
+        "linesTotal": 2408,
+        "linesOfCode": 1652,
+        "totalApiScanned": 15494,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "1eb63f7d-3015-47e3-896b-82f83b362dee",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AjaxControlToolkit, 15.1.4.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "AjaxControlToolkit, 15.1.4.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "AjaxControlToolkit, 15.1.4.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "AjaxControlToolkit, 15.1.4.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "AjaxControlToolkit 15.1.4.0",
+            "properties": {
+              "PackageId": "AjaxControlToolkit",
+              "PackageVersion": "15.1.4.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "bf8e5d53-655a-479f-8533-ee0bf58b3764",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AjaxMin, 5.14.5506.26202\n\nRecommendation:\n\nNo supported version found",
+              "protected": "AjaxMin, 5.14.5506.26202\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "AjaxMin, 5.14.5506.26202\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "AjaxMin, 5.14.5506.26202\n\nRecommendation:\n\nNo supported version found",
+            "label": "AjaxMin 5.14.5506.26202",
+            "properties": {
+              "PackageId": "AjaxMin",
+              "PackageVersion": "5.14.5506.26202",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "269315f7-3970-4525-a229-27f8150aec40",
+          "ruleId": "NuGet.0002",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Antlr, 3.5.0.2\n\nRecommendation:\n\nRemove Antlr, and replace with new package Antlr4 4.6.6",
+              "protected": "Antlr, 3.5.0.2\n\nRecommendation:\n\nRemove Antlr, and replace with new package Antlr4 4.6.6"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Antlr, 3.5.0.2\n\nRecommendation:\n\nRemove Antlr, and replace with new package Antlr4 4.6.6",
+            "protectedSnippet": "Antlr, 3.5.0.2\n\nRecommendation:\n\nRemove Antlr, and replace with new package Antlr4 4.6.6",
+            "label": "Antlr 3.5.0.2",
+            "properties": {
+              "PackageId": "Antlr",
+              "PackageVersion": "3.5.0.2",
+              "PackageNewVersion": null,
+              "PackageReplacements": "Replace with new package Antlr4=4.6.6"
+            }
+          }
+        },
+        {
+          "incidentId": "65f8f8fc-77bf-41a2-a051-51e4876d8d86",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AspNet.ScriptManager.bootstrap, 3.3.6\n\nRecommendation:\n\nNo supported version found",
+              "protected": "AspNet.ScriptManager.bootstrap, 3.3.6\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "AspNet.ScriptManager.bootstrap, 3.3.6\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "AspNet.ScriptManager.bootstrap, 3.3.6\n\nRecommendation:\n\nNo supported version found",
+            "label": "AspNet.ScriptManager.bootstrap 3.3.6",
+            "properties": {
+              "PackageId": "AspNet.ScriptManager.bootstrap",
+              "PackageVersion": "3.3.6",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "7d52c6ad-1294-4471-9eb5-47d62edf854c",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AspNet.ScriptManager.jQuery, 2.1.4\n\nRecommendation:\n\nNo supported version found",
+              "protected": "AspNet.ScriptManager.jQuery, 2.1.4\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "AspNet.ScriptManager.jQuery, 2.1.4\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "AspNet.ScriptManager.jQuery, 2.1.4\n\nRecommendation:\n\nNo supported version found",
+            "label": "AspNet.ScriptManager.jQuery 2.1.4",
+            "properties": {
+              "PackageId": "AspNet.ScriptManager.jQuery",
+              "PackageVersion": "2.1.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "a30905c4-dea4-4741-b919-3dd4c16c9661",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AspNet.ScriptManager.jQuery.UI.Combined, 1.11.4\n\nRecommendation:\n\nNo supported version found",
+              "protected": "AspNet.ScriptManager.jQuery.UI.Combined, 1.11.4\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "AspNet.ScriptManager.jQuery.UI.Combined, 1.11.4\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "AspNet.ScriptManager.jQuery.UI.Combined, 1.11.4\n\nRecommendation:\n\nNo supported version found",
+            "label": "AspNet.ScriptManager.jQuery.UI.Combined 1.11.4",
+            "properties": {
+              "PackageId": "AspNet.ScriptManager.jQuery.UI.Combined",
+              "PackageVersion": "1.11.4",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "1f3c84b8-9ee0-4106-85d1-3def2b8e1869",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DotNetOpenAuth.AspNet, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+              "protected": "DotNetOpenAuth.AspNet, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "DotNetOpenAuth.AspNet, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "DotNetOpenAuth.AspNet, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+            "label": "DotNetOpenAuth.AspNet 4.3.4.13329",
+            "properties": {
+              "PackageId": "DotNetOpenAuth.AspNet",
+              "PackageVersion": "4.3.4.13329",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "52eba7d6-2fd0-4c88-96e8-c0af69678caa",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DotNetOpenAuth.Core, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+              "protected": "DotNetOpenAuth.Core, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "DotNetOpenAuth.Core, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "DotNetOpenAuth.Core, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+            "label": "DotNetOpenAuth.Core 4.3.4.13329",
+            "properties": {
+              "PackageId": "DotNetOpenAuth.Core",
+              "PackageVersion": "4.3.4.13329",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "ae72eb72-db0c-428c-986f-11b226213043",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DotNetOpenAuth.GoogleOAuth2, 1.1.2\n\nRecommendation:\n\nNo supported version found",
+              "protected": "DotNetOpenAuth.GoogleOAuth2, 1.1.2\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "DotNetOpenAuth.GoogleOAuth2, 1.1.2\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "DotNetOpenAuth.GoogleOAuth2, 1.1.2\n\nRecommendation:\n\nNo supported version found",
+            "label": "DotNetOpenAuth.GoogleOAuth2 1.1.2",
+            "properties": {
+              "PackageId": "DotNetOpenAuth.GoogleOAuth2",
+              "PackageVersion": "1.1.2",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "bc7b1bda-2c20-42b7-a822-2ae24edaaeb2",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DotNetOpenAuth.OAuth.Consumer, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+              "protected": "DotNetOpenAuth.OAuth.Consumer, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "DotNetOpenAuth.OAuth.Consumer, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "DotNetOpenAuth.OAuth.Consumer, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+            "label": "DotNetOpenAuth.OAuth.Consumer 4.3.4.13329",
+            "properties": {
+              "PackageId": "DotNetOpenAuth.OAuth.Consumer",
+              "PackageVersion": "4.3.4.13329",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "7c687842-2492-4ede-9de8-4d8bd8ed7de6",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DotNetOpenAuth.OAuth.Core, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+              "protected": "DotNetOpenAuth.OAuth.Core, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "DotNetOpenAuth.OAuth.Core, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "DotNetOpenAuth.OAuth.Core, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+            "label": "DotNetOpenAuth.OAuth.Core 4.3.4.13329",
+            "properties": {
+              "PackageId": "DotNetOpenAuth.OAuth.Core",
+              "PackageVersion": "4.3.4.13329",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "1595bcf7-2e4b-4e03-8b86-6ed59e672741",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DotNetOpenAuth.OpenId.Core, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+              "protected": "DotNetOpenAuth.OpenId.Core, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "DotNetOpenAuth.OpenId.Core, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "DotNetOpenAuth.OpenId.Core, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+            "label": "DotNetOpenAuth.OpenId.Core 4.3.4.13329",
+            "properties": {
+              "PackageId": "DotNetOpenAuth.OpenId.Core",
+              "PackageVersion": "4.3.4.13329",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "1737233a-e6e7-47a0-9520-4bbe1ecdff95",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DotNetOpenAuth.OpenId.RelyingParty, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+              "protected": "DotNetOpenAuth.OpenId.RelyingParty, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "DotNetOpenAuth.OpenId.RelyingParty, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "DotNetOpenAuth.OpenId.RelyingParty, 4.3.4.13329\n\nRecommendation:\n\nNo supported version found",
+            "label": "DotNetOpenAuth.OpenId.RelyingParty 4.3.4.13329",
+            "properties": {
+              "PackageId": "DotNetOpenAuth.OpenId.RelyingParty",
+              "PackageVersion": "4.3.4.13329",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "141f5b1f-415d-4564-ba6e-9f7c1f69234d",
+          "ruleId": "NuGet.0002",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EntityFramework, 6.1.3\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2",
+              "protected": "EntityFramework, 6.1.3\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "EntityFramework, 6.1.3\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2",
+            "protectedSnippet": "EntityFramework, 6.1.3\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2",
+            "label": "EntityFramework 6.1.3",
+            "properties": {
+              "PackageId": "EntityFramework",
+              "PackageVersion": "6.1.3",
+              "PackageNewVersion": "6.5.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "11d15498-dbf1-4786-83b0-796656cec25d",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "HtmlAgilityPack, 1.4.9\n\nRecommendation:\n\nHtmlAgilityPack, 1.12.4",
+              "protected": "HtmlAgilityPack, 1.4.9\n\nRecommendation:\n\nHtmlAgilityPack, 1.12.4"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "HtmlAgilityPack, 1.4.9\n\nRecommendation:\n\nHtmlAgilityPack, 1.12.4",
+            "protectedSnippet": "HtmlAgilityPack, 1.4.9\n\nRecommendation:\n\nHtmlAgilityPack, 1.12.4",
+            "label": "HtmlAgilityPack 1.4.9",
+            "properties": {
+              "PackageId": "HtmlAgilityPack",
+              "PackageVersion": "1.4.9",
+              "PackageNewVersion": "1.12.4",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "32acc2ab-dc45-4bb6-829a-bd95b560689a",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "cc0f9e23-6477-46f6-9a93-e32b1c473151",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.FriendlyUrls, 1.0.2\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.FriendlyUrls, 1.0.2\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.AspNet.FriendlyUrls, 1.0.2\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.FriendlyUrls, 1.0.2\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.FriendlyUrls 1.0.2",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.FriendlyUrls",
+              "PackageVersion": "1.0.2",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "fddca163-479b-4fef-b116-72ce99c1f8f0",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.FriendlyUrls.Core, 1.0.2\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.FriendlyUrls.Core, 1.0.2\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.AspNet.FriendlyUrls.Core, 1.0.2\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.FriendlyUrls.Core, 1.0.2\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.FriendlyUrls.Core 1.0.2",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.FriendlyUrls.Core",
+              "PackageVersion": "1.0.2",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "4ba70e40-a3a0-4fe6-93bc-ebc1186c35d8",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Membership.OpenAuth, 2.0.1\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.Membership.OpenAuth, 2.0.1\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.AspNet.Membership.OpenAuth, 2.0.1\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.Membership.OpenAuth, 2.0.1\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.Membership.OpenAuth 2.0.1",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Membership.OpenAuth",
+              "PackageVersion": "2.0.1",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "06d4f61a-3f8e-453b-bd80-ca74b70ec753",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Providers.Core, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.Providers.Core, 2.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.AspNet.Providers.Core, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.Providers.Core, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.Providers.Core 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Providers.Core",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "bd747a24-be0a-4437-a72f-448bcdc0b55a",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.ScriptManager.MSAjax, 5.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.ScriptManager.MSAjax, 5.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.AspNet.ScriptManager.MSAjax, 5.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.ScriptManager.MSAjax, 5.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.ScriptManager.MSAjax 5.0.0",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.ScriptManager.MSAjax",
+              "PackageVersion": "5.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "3efbcff5-3bbf-4b3a-a815-74063eb054b5",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.ScriptManager.WebForms, 5.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.ScriptManager.WebForms, 5.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.AspNet.ScriptManager.WebForms, 5.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.ScriptManager.WebForms, 5.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.ScriptManager.WebForms 5.0.0",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.ScriptManager.WebForms",
+              "PackageVersion": "5.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "e6dc679f-ff4b-46f1-bfc9-2b6a16d2404b",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.Web.Optimization 1.1.3",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Web.Optimization",
+              "PackageVersion": "1.1.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "1dc449db-5a42-4545-8b3c-0e84d487ecf3",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Web.Optimization.WebForms, 1.1.3\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.Web.Optimization.WebForms, 1.1.3\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.AspNet.Web.Optimization.WebForms, 1.1.3\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.Web.Optimization.WebForms, 1.1.3\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.Web.Optimization.WebForms 1.1.3",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Web.Optimization.WebForms",
+              "PackageVersion": "1.1.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "39b78931-d7b9-48e8-97b3-fe9e102d9da7",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Azure.KeyVault.Core, 1.0.0\n\nRecommendation:\n\nMicrosoft.Azure.KeyVault.Core, 3.0.5",
+              "protected": "Microsoft.Azure.KeyVault.Core, 1.0.0\n\nRecommendation:\n\nMicrosoft.Azure.KeyVault.Core, 3.0.5"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.Azure.KeyVault.Core, 1.0.0\n\nRecommendation:\n\nMicrosoft.Azure.KeyVault.Core, 3.0.5",
+            "protectedSnippet": "Microsoft.Azure.KeyVault.Core, 1.0.0\n\nRecommendation:\n\nMicrosoft.Azure.KeyVault.Core, 3.0.5",
+            "label": "Microsoft.Azure.KeyVault.Core 1.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Azure.KeyVault.Core",
+              "PackageVersion": "1.0.0",
+              "PackageNewVersion": "3.0.5",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "665c2d6a-d865-4e03-ade5-0c8f4a8edb27",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Bcl, 1.1.10\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.Bcl, 1.1.10\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.Bcl, 1.1.10\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.Bcl, 1.1.10\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.Bcl 1.1.10",
+            "properties": {
+              "PackageId": "Microsoft.Bcl",
+              "PackageVersion": "1.1.10",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "8581b742-359b-42cb-aacc-bec434997da0",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Data.Edm, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.Edm, 5.8.5",
+              "protected": "Microsoft.Data.Edm, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.Edm, 5.8.5"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.Data.Edm, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.Edm, 5.8.5",
+            "protectedSnippet": "Microsoft.Data.Edm, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.Edm, 5.8.5",
+            "label": "Microsoft.Data.Edm 5.7.0",
+            "properties": {
+              "PackageId": "Microsoft.Data.Edm",
+              "PackageVersion": "5.7.0",
+              "PackageNewVersion": "5.8.5",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "d31feec9-316e-44ac-b6a4-af77e533e5db",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Data.OData, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.OData, 5.8.5",
+              "protected": "Microsoft.Data.OData, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.OData, 5.8.5"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.Data.OData, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.OData, 5.8.5",
+            "protectedSnippet": "Microsoft.Data.OData, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.OData, 5.8.5",
+            "label": "Microsoft.Data.OData 5.7.0",
+            "properties": {
+              "PackageId": "Microsoft.Data.OData",
+              "PackageVersion": "5.7.0",
+              "PackageNewVersion": "5.8.5",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "6f3e45d8-8102-4902-ad5c-97574fec1df3",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Data.Services.Client, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.Services.Client, 5.8.5",
+              "protected": "Microsoft.Data.Services.Client, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.Services.Client, 5.8.5"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.Data.Services.Client, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.Services.Client, 5.8.5",
+            "protectedSnippet": "Microsoft.Data.Services.Client, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.Services.Client, 5.8.5",
+            "label": "Microsoft.Data.Services.Client 5.7.0",
+            "properties": {
+              "PackageId": "Microsoft.Data.Services.Client",
+              "PackageVersion": "5.7.0",
+              "PackageNewVersion": "5.8.5",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "daa8c4ed-19d6-4291-ad5f-c5ab26237675",
+          "ruleId": "NuGet.0002",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Net.Http, 2.2.29\n\nRecommendation:\n\nRemove Microsoft.Net.Http, and replace with new package System.Net.Http 4.3.4",
+              "protected": "Microsoft.Net.Http, 2.2.29\n\nRecommendation:\n\nRemove Microsoft.Net.Http, and replace with new package System.Net.Http 4.3.4"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.Net.Http, 2.2.29\n\nRecommendation:\n\nRemove Microsoft.Net.Http, and replace with new package System.Net.Http 4.3.4",
+            "protectedSnippet": "Microsoft.Net.Http, 2.2.29\n\nRecommendation:\n\nRemove Microsoft.Net.Http, and replace with new package System.Net.Http 4.3.4",
+            "label": "Microsoft.Net.Http 2.2.29",
+            "properties": {
+              "PackageId": "Microsoft.Net.Http",
+              "PackageVersion": "2.2.29",
+              "PackageNewVersion": null,
+              "PackageReplacements": "Replace with new package System.Net.Http=4.3.4"
+            }
+          }
+        },
+        {
+          "incidentId": "22475c52-7c7e-4094-b53f-59407a39af99",
+          "ruleId": "NuGet.0003",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.Web.Infrastructure 1.0.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Web.Infrastructure",
+              "PackageVersion": "1.0.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "e9604192-bb5f-4196-9a82-fd8657cc719a",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.WindowsAzure.ConfigurationManager, 3.1.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.WindowsAzure.ConfigurationManager, 3.1.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.WindowsAzure.ConfigurationManager, 3.1.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.WindowsAzure.ConfigurationManager, 3.1.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.WindowsAzure.ConfigurationManager 3.1.0",
+            "properties": {
+              "PackageId": "Microsoft.WindowsAzure.ConfigurationManager",
+              "PackageVersion": "3.1.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "8a0d5beb-6405-4491-adbd-862677d0bea5",
+          "ruleId": "NuGet.0002",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Newtonsoft.Json, 7.0.1\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+              "protected": "Newtonsoft.Json, 7.0.1\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Newtonsoft.Json, 7.0.1\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+            "protectedSnippet": "Newtonsoft.Json, 7.0.1\n\nRecommendation:\n\nRemove Newtonsoft.Json, and replace with new package Newtonsoft.Json 13.0.4",
+            "label": "Newtonsoft.Json 7.0.1",
+            "properties": {
+              "PackageId": "Newtonsoft.Json",
+              "PackageVersion": "7.0.1",
+              "PackageNewVersion": "13.0.4",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "8a28b0fd-19a8-4bd4-a2fd-8a06e0794190",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "System.Spatial, 5.7.0\n\nRecommendation:\n\nSystem.Spatial, 5.8.5",
+              "protected": "System.Spatial, 5.7.0\n\nRecommendation:\n\nSystem.Spatial, 5.8.5"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "System.Spatial, 5.7.0\n\nRecommendation:\n\nSystem.Spatial, 5.8.5",
+            "protectedSnippet": "System.Spatial, 5.7.0\n\nRecommendation:\n\nSystem.Spatial, 5.8.5",
+            "label": "System.Spatial 5.7.0",
+            "properties": {
+              "PackageId": "System.Spatial",
+              "PackageVersion": "5.7.0",
+              "PackageNewVersion": "5.8.5",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "dc9e99c9-c080-4b42-9eca-1270f23904be",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "WindowsAzure.Storage, 6.2.0\n\nRecommendation:\n\nWindowsAzure.Storage, 9.3.3",
+              "protected": "WindowsAzure.Storage, 6.2.0\n\nRecommendation:\n\nWindowsAzure.Storage, 9.3.3"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "WindowsAzure.Storage, 6.2.0\n\nRecommendation:\n\nWindowsAzure.Storage, 9.3.3",
+            "protectedSnippet": "WindowsAzure.Storage, 6.2.0\n\nRecommendation:\n\nWindowsAzure.Storage, 9.3.3",
+            "label": "WindowsAzure.Storage 6.2.0",
+            "properties": {
+              "PackageId": "WindowsAzure.Storage",
+              "PackageVersion": "6.2.0",
+              "PackageNewVersion": "9.3.3",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "16a4455a-9e75-46e0-a66f-9fac931688e6",
+          "ruleId": "NuGet.0004",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "bootstrap, 3.3.6\n\nRecommendation:\n\nbootstrap, 5.3.8",
+              "protected": "bootstrap, 3.3.6\n\nRecommendation:\n\nbootstrap, 5.3.8"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "bootstrap, 3.3.6\n\nRecommendation:\n\nbootstrap, 5.3.8",
+            "protectedSnippet": "bootstrap, 3.3.6\n\nRecommendation:\n\nbootstrap, 5.3.8",
+            "label": "bootstrap 3.3.6",
+            "properties": {
+              "PackageId": "bootstrap",
+              "PackageVersion": "3.3.6",
+              "PackageNewVersion": "5.3.8",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "3225b267-0cd7-49ef-b27c-ea2b8e1441bf",
+          "ruleId": "NuGet.0005",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "DotNetOpenAuth.GoogleOAuth2, 1.1.2\n\nRecommendation:\n\nShould be replaced.",
+              "protected": "DotNetOpenAuth.GoogleOAuth2, 1.1.2\n\nRecommendation:\n\nShould be replaced."
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "DotNetOpenAuth.GoogleOAuth2, 1.1.2\n\nRecommendation:\n\nShould be replaced.",
+            "protectedSnippet": "DotNetOpenAuth.GoogleOAuth2, 1.1.2\n\nRecommendation:\n\nShould be replaced.",
+            "label": "DotNetOpenAuth.GoogleOAuth2 1.1.2",
+            "properties": {
+              "PackageId": "DotNetOpenAuth.GoogleOAuth2",
+              "PackageVersion": "1.1.2",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "c3876d50-a10e-4c92-9eef-82a746c40aa5",
+          "ruleId": "NuGet.0005",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EntityFramework, 6.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2",
+              "protected": "EntityFramework, 6.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "EntityFramework, 6.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2",
+            "protectedSnippet": "EntityFramework, 6.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2",
+            "label": "EntityFramework 6.1.3",
+            "properties": {
+              "PackageId": "EntityFramework",
+              "PackageVersion": "6.1.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "085840c7-66d6-40d4-8805-28cc897d9e07",
+          "ruleId": "NuGet.0004",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "jQuery, 2.1.4\n\nRecommendation:\n\njQuery, 3.7.1",
+              "protected": "jQuery, 2.1.4\n\nRecommendation:\n\njQuery, 3.7.1"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "jQuery, 2.1.4\n\nRecommendation:\n\njQuery, 3.7.1",
+            "protectedSnippet": "jQuery, 2.1.4\n\nRecommendation:\n\njQuery, 3.7.1",
+            "label": "jQuery 2.1.4",
+            "properties": {
+              "PackageId": "jQuery",
+              "PackageVersion": "2.1.4",
+              "PackageNewVersion": "3.7.1",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "c828bcec-73a3-408b-96b9-fb11431208b8",
+          "ruleId": "NuGet.0004",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "jQuery.UI.Combined, 1.11.4\n\nRecommendation:\n\njQuery.UI.Combined, 1.14.1",
+              "protected": "jQuery.UI.Combined, 1.11.4\n\nRecommendation:\n\njQuery.UI.Combined, 1.14.1"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "jQuery.UI.Combined, 1.11.4\n\nRecommendation:\n\njQuery.UI.Combined, 1.14.1",
+            "protectedSnippet": "jQuery.UI.Combined, 1.11.4\n\nRecommendation:\n\njQuery.UI.Combined, 1.14.1",
+            "label": "jQuery.UI.Combined 1.11.4",
+            "properties": {
+              "PackageId": "jQuery.UI.Combined",
+              "PackageVersion": "1.11.4",
+              "PackageNewVersion": "1.14.1",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "d28026d9-787f-420b-a8de-d9e5da5e4b47",
+          "ruleId": "NuGet.0005",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove Microsoft.AspNet.Web.Optimization, and replace with new package LigerShark.WebOptimizer.Core, 3.0.477",
+              "protected": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove Microsoft.AspNet.Web.Optimization, and replace with new package LigerShark.WebOptimizer.Core, 3.0.477"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove Microsoft.AspNet.Web.Optimization, and replace with new package LigerShark.WebOptimizer.Core, 3.0.477",
+            "protectedSnippet": "Microsoft.AspNet.Web.Optimization, 1.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove Microsoft.AspNet.Web.Optimization, and replace with new package LigerShark.WebOptimizer.Core, 3.0.477",
+            "label": "Microsoft.AspNet.Web.Optimization 1.1.3",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Web.Optimization",
+              "PackageVersion": "1.1.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "b1a238ad-b6cd-42ac-a67f-ec86d7f4adac",
+          "ruleId": "NuGet.0005",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Azure.KeyVault.Core, 1.0.0\n\nRecommendation:\n\nPlease note, this package is obsolete as of 3/31/2023 and is no longer maintained or monitored. Microsoft encourages you to upgrade to one of the following replacement packages, depending on your use case:\n    Azure.Security.KeyVault.Keys\n     Azure.Security.KeyVault.Secrets\n     Azure.Security.KeyVault.Certificates\n Refer to our deprecation policy (https://aka.ms/azsdk/support-policies) for more details.\nRemove Microsoft.Azure.KeyVault.Core, and replace with new package Microsoft.Azure.KeyVault.Core, 3.0.5",
+              "protected": "Microsoft.Azure.KeyVault.Core, 1.0.0\n\nRecommendation:\n\nPlease note, this package is obsolete as of 3/31/2023 and is no longer maintained or monitored. Microsoft encourages you to upgrade to one of the following replacement packages, depending on your use case:\n    Azure.Security.KeyVault.Keys\n     Azure.Security.KeyVault.Secrets\n     Azure.Security.KeyVault.Certificates\n Refer to our deprecation policy (https://aka.ms/azsdk/support-policies) for more details.\nRemove Microsoft.Azure.KeyVault.Core, and replace with new package Microsoft.Azure.KeyVault.Core, 3.0.5"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.Azure.KeyVault.Core, 1.0.0\n\nRecommendation:\n\nPlease note, this package is obsolete as of 3/31/2023 and is no longer maintained or monitored. Microsoft encourages you to upgrade to one of the following replacement packages, depending on your use case:\n    Azure.Security.KeyVault.Keys\n     Azure.Security.KeyVault.Secrets\n     Azure.Security.KeyVault.Certificates\n Refer to our deprecation policy (https://aka.ms/azsdk/support-policies) for more details.\nRemove Microsoft.Azure.KeyVault.Core, and replace with new package Microsoft.Azure.KeyVault.Core, 3.0.5",
+            "protectedSnippet": "Microsoft.Azure.KeyVault.Core, 1.0.0\n\nRecommendation:\n\nPlease note, this package is obsolete as of 3/31/2023 and is no longer maintained or monitored. Microsoft encourages you to upgrade to one of the following replacement packages, depending on your use case:\n    Azure.Security.KeyVault.Keys\n     Azure.Security.KeyVault.Secrets\n     Azure.Security.KeyVault.Certificates\n Refer to our deprecation policy (https://aka.ms/azsdk/support-policies) for more details.\nRemove Microsoft.Azure.KeyVault.Core, and replace with new package Microsoft.Azure.KeyVault.Core, 3.0.5",
+            "label": "Microsoft.Azure.KeyVault.Core 1.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Azure.KeyVault.Core",
+              "PackageVersion": "1.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "a1322d72-6b5d-43de-a1aa-4b997e2b1065",
+          "ruleId": "NuGet.0005",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Bcl, 1.1.10\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+              "protected": "Microsoft.Bcl, 1.1.10\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.Bcl, 1.1.10\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "protectedSnippet": "Microsoft.Bcl, 1.1.10\n\nRecommendation:\n\nThis package has been deprecated as part of the .NET Package Deprecation effort. You can learn more about it from https://github.com/dotnet/announcements/issues/217",
+            "label": "Microsoft.Bcl 1.1.10",
+            "properties": {
+              "PackageId": "Microsoft.Bcl",
+              "PackageVersion": "1.1.10",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "1775cd03-dd63-4023-957a-cf091ed1056d",
+          "ruleId": "NuGet.0004",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Data.OData, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.OData, 5.8.5",
+              "protected": "Microsoft.Data.OData, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.OData, 5.8.5"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.Data.OData, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.OData, 5.8.5",
+            "protectedSnippet": "Microsoft.Data.OData, 5.7.0\n\nRecommendation:\n\nMicrosoft.Data.OData, 5.8.5",
+            "label": "Microsoft.Data.OData 5.7.0",
+            "properties": {
+              "PackageId": "Microsoft.Data.OData",
+              "PackageVersion": "5.7.0",
+              "PackageNewVersion": "5.8.5",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "be7429e3-cba5-439e-9bbc-4f8c350ff053",
+          "ruleId": "NuGet.0005",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.WindowsAzure.ConfigurationManager, 3.1.0\n\nRecommendation:\n\nPlease note, this package is obsolete as of 3/31/2023 and is no longer maintained or monitored. Refer to our deprecation policy (https://aka.ms/azsdk/support-policies) for more details.\nRemove Microsoft.WindowsAzure.ConfigurationManager, and replace with new package Microsoft.WindowsAzure.ConfigurationManager, 3.2.3",
+              "protected": "Microsoft.WindowsAzure.ConfigurationManager, 3.1.0\n\nRecommendation:\n\nPlease note, this package is obsolete as of 3/31/2023 and is no longer maintained or monitored. Refer to our deprecation policy (https://aka.ms/azsdk/support-policies) for more details.\nRemove Microsoft.WindowsAzure.ConfigurationManager, and replace with new package Microsoft.WindowsAzure.ConfigurationManager, 3.2.3"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Microsoft.WindowsAzure.ConfigurationManager, 3.1.0\n\nRecommendation:\n\nPlease note, this package is obsolete as of 3/31/2023 and is no longer maintained or monitored. Refer to our deprecation policy (https://aka.ms/azsdk/support-policies) for more details.\nRemove Microsoft.WindowsAzure.ConfigurationManager, and replace with new package Microsoft.WindowsAzure.ConfigurationManager, 3.2.3",
+            "protectedSnippet": "Microsoft.WindowsAzure.ConfigurationManager, 3.1.0\n\nRecommendation:\n\nPlease note, this package is obsolete as of 3/31/2023 and is no longer maintained or monitored. Refer to our deprecation policy (https://aka.ms/azsdk/support-policies) for more details.\nRemove Microsoft.WindowsAzure.ConfigurationManager, and replace with new package Microsoft.WindowsAzure.ConfigurationManager, 3.2.3",
+            "label": "Microsoft.WindowsAzure.ConfigurationManager 3.1.0",
+            "properties": {
+              "PackageId": "Microsoft.WindowsAzure.ConfigurationManager",
+              "PackageVersion": "3.1.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "022f24b3-69f8-437c-a2a9-f2112ec5f9ad",
+          "ruleId": "NuGet.0004",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Newtonsoft.Json, 7.0.1\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4",
+              "protected": "Newtonsoft.Json, 7.0.1\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Newtonsoft.Json, 7.0.1\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4",
+            "protectedSnippet": "Newtonsoft.Json, 7.0.1\n\nRecommendation:\n\nNewtonsoft.Json, 13.0.4",
+            "label": "Newtonsoft.Json 7.0.1",
+            "properties": {
+              "PackageId": "Newtonsoft.Json",
+              "PackageVersion": "7.0.1",
+              "PackageNewVersion": "13.0.4",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "3b2498bb-4b1a-4baf-a40e-f6c15034c484",
+          "ruleId": "NuGet.0005",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "WindowsAzure.Storage, 6.2.0\n\nRecommendation:\n\nPlease note, this package is obsolete as of 3/31/2023 and is no longer maintained or monitored. Microsoft encourages you to upgrade to the replacement package, Azure.Storage.Common, to continue receiving updates. Refer to our deprecation policy (https://aka.ms/azsdk/support-policies) for more details. Adopt new Azure Storage SDKs (Azure.Storage.Blobs/Queues/Files/Tables); update blob, queue, file, and table operations accordingly\nRemove WindowsAzure.Storage, and replace with new package WindowsAzure.Storage, 9.3.3",
+              "protected": "WindowsAzure.Storage, 6.2.0\n\nRecommendation:\n\nPlease note, this package is obsolete as of 3/31/2023 and is no longer maintained or monitored. Microsoft encourages you to upgrade to the replacement package, Azure.Storage.Common, to continue receiving updates. Refer to our deprecation policy (https://aka.ms/azsdk/support-policies) for more details. Adopt new Azure Storage SDKs (Azure.Storage.Blobs/Queues/Files/Tables); update blob, queue, file, and table operations accordingly\nRemove WindowsAzure.Storage, and replace with new package WindowsAzure.Storage, 9.3.3"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "WindowsAzure.Storage, 6.2.0\n\nRecommendation:\n\nPlease note, this package is obsolete as of 3/31/2023 and is no longer maintained or monitored. Microsoft encourages you to upgrade to the replacement package, Azure.Storage.Common, to continue receiving updates. Refer to our deprecation policy (https://aka.ms/azsdk/support-policies) for more details. Adopt new Azure Storage SDKs (Azure.Storage.Blobs/Queues/Files/Tables); update blob, queue, file, and table operations accordingly\nRemove WindowsAzure.Storage, and replace with new package WindowsAzure.Storage, 9.3.3",
+            "protectedSnippet": "WindowsAzure.Storage, 6.2.0\n\nRecommendation:\n\nPlease note, this package is obsolete as of 3/31/2023 and is no longer maintained or monitored. Microsoft encourages you to upgrade to the replacement package, Azure.Storage.Common, to continue receiving updates. Refer to our deprecation policy (https://aka.ms/azsdk/support-policies) for more details. Adopt new Azure Storage SDKs (Azure.Storage.Blobs/Queues/Files/Tables); update blob, queue, file, and table operations accordingly\nRemove WindowsAzure.Storage, and replace with new package WindowsAzure.Storage, 9.3.3",
+            "label": "WindowsAzure.Storage 6.2.0",
+            "properties": {
+              "PackageId": "WindowsAzure.Storage",
+              "PackageVersion": "6.2.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": "Replace with new package Azure.Storage.Blobs=12.29.1"
+            }
+          }
+        },
+        {
+          "incidentId": "f6e74ab9-c20d-4788-a4a1-a69c0fb90fd1",
+          "ruleId": "Project.0001",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj"
+          }
+        },
+        {
+          "incidentId": "92d3e5d7-971b-4d12-a218-1275539c37d2",
+          "ruleId": "Project.0002",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/BugNET_WAP.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "340a7003-8677-4599-8121-d295b2fe4f95",
+          "ruleId": "Feature.1000",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "BugNET_WAP/Global.asax.cs"
+          }
+        },
+        {
+          "incidentId": "41f36751-1615-4a46-95fa-d22683b2aeb2",
+          "ruleId": "Binding.0007",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Binding redirect for AjaxMin targets 5.14.5506.26196 but package provides 5.14.5506.26202",
+              "protected": "Binding redirect for AjaxMin targets 5.14.5506.26196 but package provides 5.14.5506.26202"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/Web.config",
+            "snippet": "Binding redirect for AjaxMin targets 5.14.5506.26196 but package provides 5.14.5506.26202",
+            "protectedSnippet": "Binding redirect for AjaxMin targets 5.14.5506.26196 but package provides 5.14.5506.26202",
+            "properties": {
+              "AssemblyName": "AjaxMin",
+              "AssemblyCurrentVersion": "5.14.5506.26196",
+              "AssemblyNewVersion": "5.14.5506.26202"
+            }
+          }
+        },
+        {
+          "incidentId": "1dacf331-59ee-48e1-aae9-514c8c9da296",
+          "ruleId": "Binding.0007",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Binding redirect for DotNetOpenAuth.AspNet targets 4.3.0.0 but package provides 4.3.4.13329",
+              "protected": "Binding redirect for DotNetOpenAuth.AspNet targets 4.3.0.0 but package provides 4.3.4.13329"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/Web.config",
+            "snippet": "Binding redirect for DotNetOpenAuth.AspNet targets 4.3.0.0 but package provides 4.3.4.13329",
+            "protectedSnippet": "Binding redirect for DotNetOpenAuth.AspNet targets 4.3.0.0 but package provides 4.3.4.13329",
+            "properties": {
+              "AssemblyName": "DotNetOpenAuth.AspNet",
+              "AssemblyCurrentVersion": "4.3.0.0",
+              "AssemblyNewVersion": "4.3.4.13329"
+            }
+          }
+        },
+        {
+          "incidentId": "fdbb60f3-8b09-45fe-b050-f5038da445a8",
+          "ruleId": "Binding.0007",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Binding redirect for DotNetOpenAuth.Core targets 4.3.0.0 but package provides 4.3.4.13329",
+              "protected": "Binding redirect for DotNetOpenAuth.Core targets 4.3.0.0 but package provides 4.3.4.13329"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/Web.config",
+            "snippet": "Binding redirect for DotNetOpenAuth.Core targets 4.3.0.0 but package provides 4.3.4.13329",
+            "protectedSnippet": "Binding redirect for DotNetOpenAuth.Core targets 4.3.0.0 but package provides 4.3.4.13329",
+            "properties": {
+              "AssemblyName": "DotNetOpenAuth.Core",
+              "AssemblyCurrentVersion": "4.3.0.0",
+              "AssemblyNewVersion": "4.3.4.13329"
+            }
+          }
+        },
+        {
+          "incidentId": "649a479a-0291-480f-81d3-9134320a3214",
+          "ruleId": "Binding.0007",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Binding redirect for EntityFramework targets 6.0.0.0 but package provides 6.1.3",
+              "protected": "Binding redirect for EntityFramework targets 6.0.0.0 but package provides 6.1.3"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/Web.config",
+            "snippet": "Binding redirect for EntityFramework targets 6.0.0.0 but package provides 6.1.3",
+            "protectedSnippet": "Binding redirect for EntityFramework targets 6.0.0.0 but package provides 6.1.3",
+            "properties": {
+              "AssemblyName": "EntityFramework",
+              "AssemblyCurrentVersion": "6.0.0.0",
+              "AssemblyNewVersion": "6.1.3"
+            }
+          }
+        },
+        {
+          "incidentId": "10fd3b3f-9c2c-4461-a0fc-16301884506a",
+          "ruleId": "Binding.0007",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Binding redirect for log4net targets 1.2.15.0 but package provides 2.0.5",
+              "protected": "Binding redirect for log4net targets 1.2.15.0 but package provides 2.0.5"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/Web.config",
+            "snippet": "Binding redirect for log4net targets 1.2.15.0 but package provides 2.0.5",
+            "protectedSnippet": "Binding redirect for log4net targets 1.2.15.0 but package provides 2.0.5",
+            "properties": {
+              "AssemblyName": "log4net",
+              "AssemblyCurrentVersion": "1.2.15.0",
+              "AssemblyNewVersion": "2.0.5"
+            }
+          }
+        },
+        {
+          "incidentId": "ad0cea23-42b2-46b3-af27-72d1187c6892",
+          "ruleId": "Binding.0007",
+          "projectPath": "BugNET_WAP/BugNET_WAP.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Binding redirect for Newtonsoft.Json targets 7.0.0.0 but package provides 7.0.1",
+              "protected": "Binding redirect for Newtonsoft.Json targets 7.0.0.0 but package provides 7.0.1"
+            },
+            "kind": "File",
+            "path": "BugNET_WAP/Web.config",
+            "snippet": "Binding redirect for Newtonsoft.Json targets 7.0.0.0 but package provides 7.0.1",
+            "protectedSnippet": "Binding redirect for Newtonsoft.Json targets 7.0.0.0 but package provides 7.0.1",
+            "properties": {
+              "AssemblyName": "Newtonsoft.Json",
+              "AssemblyCurrentVersion": "7.0.0.0",
+              "AssemblyNewVersion": "7.0.1"
+            }
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "BugNET.BLL/BugNET.BLL.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 4,
+      "properties": {
+        "appName": "BugNET.BLL",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 46,
+        "numberOfCodeFiles": 46,
+        "linesTotal": 6267,
+        "linesOfCode": 6267,
+        "totalApiScanned": 1258,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "9f5b4028-b907-45bb-aa44-039d810a73b5",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET.BLL/BugNET.BLL.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "BugNET.BLL/BugNET.BLL.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "4578c96e-5bfc-4132-b540-312230663b3f",
+          "ruleId": "Project.0001",
+          "projectPath": "BugNET.BLL/BugNET.BLL.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "BugNET.BLL/BugNET.BLL.csproj"
+          }
+        },
+        {
+          "incidentId": "4f1e600b-d58e-42c3-bfde-41622abf6042",
+          "ruleId": "Project.0002",
+          "projectPath": "BugNET.BLL/BugNET.BLL.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "BugNET.BLL/BugNET.BLL.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "0c264a08-cbb1-4e69-9539-798f830fb581",
+          "ruleId": "Binding.0004",
+          "projectPath": "BugNET.BLL/BugNET.BLL.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in BugNET.BLL.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in BugNET.BLL.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "BugNET.BLL/BugNET.BLL.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in BugNET.BLL.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in BugNET.BLL.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "BugNET.Common/BugNET.Common.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 4,
+      "properties": {
+        "appName": "BugNET.Common",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 20,
+        "numberOfCodeFiles": 20,
+        "linesTotal": 2746,
+        "linesOfCode": 2746,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "46900ea5-80cc-4abe-9260-71726a317989",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET.Common/BugNET.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "BugNET.Common/BugNET.Common.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "0ac99f92-b7cd-479b-a0ea-d6d98166cecf",
+          "ruleId": "Project.0001",
+          "projectPath": "BugNET.Common/BugNET.Common.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "BugNET.Common/BugNET.Common.csproj"
+          }
+        },
+        {
+          "incidentId": "d65ac694-57aa-473e-a4e3-d41990ee997f",
+          "ruleId": "Project.0002",
+          "projectPath": "BugNET.Common/BugNET.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "BugNET.Common/BugNET.Common.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "c0c03c32-8ebe-48fa-8016-83344d4e222d",
+          "ruleId": "Binding.0004",
+          "projectPath": "BugNET.Common/BugNET.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in BugNET.Common.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in BugNET.Common.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "BugNET.Common/BugNET.Common.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in BugNET.Common.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in BugNET.Common.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "BugNET.DAL/BugNET.DAL.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 4,
+      "properties": {
+        "appName": "BugNET.DAL",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 6,
+        "numberOfCodeFiles": 6,
+        "linesTotal": 422,
+        "linesOfCode": 422,
+        "totalApiScanned": 296,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "514a9c96-62fa-48d7-812d-1fdc5212927a",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET.DAL/BugNET.DAL.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "BugNET.DAL/BugNET.DAL.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "8d0066c4-da2d-4ac5-9fab-a0b8262141d2",
+          "ruleId": "Project.0001",
+          "projectPath": "BugNET.DAL/BugNET.DAL.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "BugNET.DAL/BugNET.DAL.csproj"
+          }
+        },
+        {
+          "incidentId": "13dae438-0f55-4a86-8a8b-3f081607ee70",
+          "ruleId": "Project.0002",
+          "projectPath": "BugNET.DAL/BugNET.DAL.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "BugNET.DAL/BugNET.DAL.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "97cbcf45-9b0e-4458-b031-c19077081fee",
+          "ruleId": "Binding.0004",
+          "projectPath": "BugNET.DAL/BugNET.DAL.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in BugNET.DAL.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in BugNET.DAL.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "BugNET.DAL/BugNET.DAL.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in BugNET.DAL.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in BugNET.DAL.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "BugNET.Entities/BugNET.Entities.csproj",
+      "startingProject": true,
+      "issues": 5,
+      "storyPoints": 6,
+      "properties": {
+        "appName": "BugNET.Entities",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 43,
+        "numberOfCodeFiles": 43,
+        "linesTotal": 3098,
+        "linesOfCode": 3098,
+        "totalApiScanned": 1649,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "a36a06e4-6c26-49e7-9ba7-631c016bbde7",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET.Entities/BugNET.Entities.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoMapper, 3.2.1\n\nRecommendation:\n\nAutoMapper, 16.2.0",
+              "protected": "AutoMapper, 3.2.1\n\nRecommendation:\n\nAutoMapper, 16.2.0"
+            },
+            "kind": "File",
+            "path": "BugNET.Entities/BugNET.Entities.csproj",
+            "snippet": "AutoMapper, 3.2.1\n\nRecommendation:\n\nAutoMapper, 16.2.0",
+            "protectedSnippet": "AutoMapper, 3.2.1\n\nRecommendation:\n\nAutoMapper, 16.2.0",
+            "label": "AutoMapper 3.2.1",
+            "properties": {
+              "PackageId": "AutoMapper",
+              "PackageVersion": "3.2.1",
+              "PackageNewVersion": "16.2.0",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "d38f4eee-73db-45ee-b3fb-7312ae138b8e",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET.Entities/BugNET.Entities.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "BugNET.Entities/BugNET.Entities.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "9ffd4ca1-ea41-462c-bdd6-136c02502839",
+          "ruleId": "NuGet.0004",
+          "projectPath": "BugNET.Entities/BugNET.Entities.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoMapper, 3.2.1\n\nRecommendation:\n\nAutoMapper, 16.2.0",
+              "protected": "AutoMapper, 3.2.1\n\nRecommendation:\n\nAutoMapper, 16.2.0"
+            },
+            "kind": "File",
+            "path": "BugNET.Entities/BugNET.Entities.csproj",
+            "snippet": "AutoMapper, 3.2.1\n\nRecommendation:\n\nAutoMapper, 16.2.0",
+            "protectedSnippet": "AutoMapper, 3.2.1\n\nRecommendation:\n\nAutoMapper, 16.2.0",
+            "label": "AutoMapper 3.2.1",
+            "properties": {
+              "PackageId": "AutoMapper",
+              "PackageVersion": "3.2.1",
+              "PackageNewVersion": "16.2.0",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "7e5f379f-8864-4d54-9bd5-0e72af07b032",
+          "ruleId": "Project.0001",
+          "projectPath": "BugNET.Entities/BugNET.Entities.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "BugNET.Entities/BugNET.Entities.csproj"
+          }
+        },
+        {
+          "incidentId": "79c84d11-75fe-4c65-bcb5-bb097748efe2",
+          "ruleId": "Project.0002",
+          "projectPath": "BugNET.Entities/BugNET.Entities.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "BugNET.Entities/BugNET.Entities.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "577b6c72-b4c2-4a53-94a7-685905d5797f",
+          "ruleId": "Binding.0004",
+          "projectPath": "BugNET.Entities/BugNET.Entities.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in BugNET.Entities.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in BugNET.Entities.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "BugNET.Entities/BugNET.Entities.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in BugNET.Entities.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in BugNET.Entities.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 5,
+      "properties": {
+        "appName": "BugNET.MailboxReader",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 8,
+        "numberOfCodeFiles": 8,
+        "linesTotal": 870,
+        "linesOfCode": 870,
+        "totalApiScanned": 230,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "ebc2b046-fbc5-4491-a9e1-a9ad80ab2bac",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "HtmlAgilityPack, 1.4.9\n\nRecommendation:\n\nHtmlAgilityPack, 1.12.4",
+              "protected": "HtmlAgilityPack, 1.4.9\n\nRecommendation:\n\nHtmlAgilityPack, 1.12.4"
+            },
+            "kind": "File",
+            "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+            "snippet": "HtmlAgilityPack, 1.4.9\n\nRecommendation:\n\nHtmlAgilityPack, 1.12.4",
+            "protectedSnippet": "HtmlAgilityPack, 1.4.9\n\nRecommendation:\n\nHtmlAgilityPack, 1.12.4",
+            "label": "HtmlAgilityPack 1.4.9",
+            "properties": {
+              "PackageId": "HtmlAgilityPack",
+              "PackageVersion": "1.4.9",
+              "PackageNewVersion": "1.12.4",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "d3e16cad-272c-4795-8185-16b42eda433d",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "e1d9283d-5086-4259-9946-d6eeaedd51c0",
+          "ruleId": "Project.0001",
+          "projectPath": "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj"
+          }
+        },
+        {
+          "incidentId": "5bad572f-fa95-4c2b-ae29-e7c9bf137101",
+          "ruleId": "Project.0002",
+          "projectPath": "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "d7d5a490-26f8-4d53-8f5f-777db9127076",
+          "ruleId": "Binding.0004",
+          "projectPath": "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in BugNET.MailboxReader.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in BugNET.MailboxReader.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in BugNET.MailboxReader.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in BugNET.MailboxReader.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+      "startingProject": true,
+      "issues": 5,
+      "storyPoints": 6,
+      "properties": {
+        "appName": "BugNET.MailboxReader.Tests",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 10,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 2993,
+        "linesOfCode": 184,
+        "totalApiScanned": 29,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "e803ccd5-c88a-4181-a59a-4d3ae3a1e030",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "1ecafc16-75ef-46f2-b6ef-ec79becabc51",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "NUnit, 3.0.1\n\nRecommendation:\n\nNUnit, 4.6.1",
+              "protected": "NUnit, 3.0.1\n\nRecommendation:\n\nNUnit, 4.6.1"
+            },
+            "kind": "File",
+            "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+            "snippet": "NUnit, 3.0.1\n\nRecommendation:\n\nNUnit, 4.6.1",
+            "protectedSnippet": "NUnit, 3.0.1\n\nRecommendation:\n\nNUnit, 4.6.1",
+            "label": "NUnit 3.0.1",
+            "properties": {
+              "PackageId": "NUnit",
+              "PackageVersion": "3.0.1",
+              "PackageNewVersion": "4.6.1",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "3378521c-3de4-4147-9f8b-c4500b1b6886",
+          "ruleId": "Project.0001",
+          "projectPath": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj"
+          }
+        },
+        {
+          "incidentId": "660a9bdb-578e-40cb-856d-a4121ea9ea3d",
+          "ruleId": "Project.0002",
+          "projectPath": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "295715db-80b2-431f-9576-267d24751a8d",
+          "ruleId": "Binding.0004",
+          "projectPath": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in BugNET.MailboxReader.Tests.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in BugNET.MailboxReader.Tests.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in BugNET.MailboxReader.Tests.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in BugNET.MailboxReader.Tests.csproj, no manual redirects found"
+          }
+        },
+        {
+          "incidentId": "d3da7a4e-151a-4ef9-93a8-ecd128c8e012",
+          "ruleId": "Binding.0003",
+          "projectPath": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "OutputType=Library with test framework references, GenerateBindingRedirectsOutputType not set",
+              "protected": "OutputType=Library with test framework references, GenerateBindingRedirectsOutputType not set"
+            },
+            "kind": "File",
+            "path": "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+            "snippet": "OutputType=Library with test framework references, GenerateBindingRedirectsOutputType not set",
+            "protectedSnippet": "OutputType=Library with test framework references, GenerateBindingRedirectsOutputType not set"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 5,
+      "properties": {
+        "appName": "BugNET.MercurialChangeGroupHook",
+        "projectKind": "ClassicDotNetApp",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 8,
+        "numberOfCodeFiles": 7,
+        "linesTotal": 399,
+        "linesOfCode": 323,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "5e6aed11-846d-428f-8e8b-dd585bddbeb3",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "ea05d958-dfe8-4542-8a14-ee04fdbdffb6",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Mercurial.Net, 1.1.1.607\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Mercurial.Net, 1.1.1.607\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj",
+            "snippet": "Mercurial.Net, 1.1.1.607\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Mercurial.Net, 1.1.1.607\n\nRecommendation:\n\nNo supported version found",
+            "label": "Mercurial.Net 1.1.1.607",
+            "properties": {
+              "PackageId": "Mercurial.Net",
+              "PackageVersion": "1.1.1.607",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "572f4acc-34ef-4693-bf17-fb0324df3281",
+          "ruleId": "Project.0001",
+          "projectPath": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj"
+          }
+        },
+        {
+          "incidentId": "a369b441-6179-49a9-8a6a-935452b1437c",
+          "ruleId": "Project.0002",
+          "projectPath": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "8f431322-b67e-4484-a5b1-96692684d3c7",
+          "ruleId": "Binding.0004",
+          "projectPath": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in BugNET.MercurialChangeGroupHook.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in BugNET.MercurialChangeGroupHook.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "BugNET.MercurialChangeGroupHook/BugNET.MercurialChangeGroupHook.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in BugNET.MercurialChangeGroupHook.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in BugNET.MercurialChangeGroupHook.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 4,
+      "properties": {
+        "appName": "BugNET.SubversionHooks",
+        "projectKind": "ClassicDotNetApp",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 7,
+        "numberOfCodeFiles": 7,
+        "linesTotal": 345,
+        "linesOfCode": 345,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "70867a48-49d5-428d-9164-f4ebaf70eb7a",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "135a1144-3512-4eb4-b82f-bf4712a47d44",
+          "ruleId": "Project.0001",
+          "projectPath": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj"
+          }
+        },
+        {
+          "incidentId": "fcc6ac18-cf63-4c35-b26d-162c7508b92d",
+          "ruleId": "Project.0002",
+          "projectPath": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "cd40144a-801d-4251-a4cc-81fbfbc89159",
+          "ruleId": "Binding.0004",
+          "projectPath": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in BugNET.SubversionHooks.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in BugNET.SubversionHooks.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "BugNET.SubversionHooks/BugNET.SubversionHooks.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in BugNET.SubversionHooks.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in BugNET.SubversionHooks.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "BugNET.Tests/BugNET.Tests.csproj",
+      "startingProject": true,
+      "issues": 5,
+      "storyPoints": 6,
+      "properties": {
+        "appName": "BugNET.Tests",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 13,
+        "numberOfCodeFiles": 13,
+        "linesTotal": 471,
+        "linesOfCode": 471,
+        "totalApiScanned": 199,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "56dc7633-d189-4416-9a1e-51093da852dd",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET.Tests/BugNET.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "BugNET.Tests/BugNET.Tests.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "fb9259d0-82fa-4f06-bae7-5d3c83e45dfd",
+          "ruleId": "NuGet.0001",
+          "projectPath": "BugNET.Tests/BugNET.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "NUnit, 3.0.1\n\nRecommendation:\n\nNUnit, 4.6.1",
+              "protected": "NUnit, 3.0.1\n\nRecommendation:\n\nNUnit, 4.6.1"
+            },
+            "kind": "File",
+            "path": "BugNET.Tests/BugNET.Tests.csproj",
+            "snippet": "NUnit, 3.0.1\n\nRecommendation:\n\nNUnit, 4.6.1",
+            "protectedSnippet": "NUnit, 3.0.1\n\nRecommendation:\n\nNUnit, 4.6.1",
+            "label": "NUnit 3.0.1",
+            "properties": {
+              "PackageId": "NUnit",
+              "PackageVersion": "3.0.1",
+              "PackageNewVersion": "4.6.1",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "60c072f0-0369-4537-8a6b-e1c4ca90b887",
+          "ruleId": "Project.0001",
+          "projectPath": "BugNET.Tests/BugNET.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "BugNET.Tests/BugNET.Tests.csproj"
+          }
+        },
+        {
+          "incidentId": "7673f430-a22f-4889-b081-14985c01862d",
+          "ruleId": "Project.0002",
+          "projectPath": "BugNET.Tests/BugNET.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "BugNET.Tests/BugNET.Tests.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "ba1d8ca9-2cad-4e04-b4d5-896604e22ae0",
+          "ruleId": "Binding.0004",
+          "projectPath": "BugNET.Tests/BugNET.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in BugNET.Tests.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in BugNET.Tests.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "BugNET.Tests/BugNET.Tests.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in BugNET.Tests.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in BugNET.Tests.csproj, no manual redirects found"
+          }
+        },
+        {
+          "incidentId": "3402925c-744a-4c69-94f4-10d744c5f9aa",
+          "ruleId": "Binding.0003",
+          "projectPath": "BugNET.Tests/BugNET.Tests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "OutputType=Library with test framework references, GenerateBindingRedirectsOutputType not set",
+              "protected": "OutputType=Library with test framework references, GenerateBindingRedirectsOutputType not set"
+            },
+            "kind": "File",
+            "path": "BugNET.Tests/BugNET.Tests.csproj",
+            "snippet": "OutputType=Library with test framework references, GenerateBindingRedirectsOutputType not set",
+            "protectedSnippet": "OutputType=Library with test framework references, GenerateBindingRedirectsOutputType not set"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 4,
+      "properties": {
+        "appName": "HttpModule.Authentication",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 4,
+        "numberOfCodeFiles": 4,
+        "linesTotal": 317,
+        "linesOfCode": 317,
+        "totalApiScanned": 118,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "42f6dc31-0565-4961-90cc-34afac5423c4",
+          "ruleId": "NuGet.0001",
+          "projectPath": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "67ab295e-6299-4ab0-b850-b0445217f9c9",
+          "ruleId": "Project.0001",
+          "projectPath": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj"
+          }
+        },
+        {
+          "incidentId": "2f6b1c89-90f9-4ec6-8eed-ad481266b9aa",
+          "ruleId": "Project.0002",
+          "projectPath": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "e8b0fc33-f228-4564-9f74-3f6294c4ee44",
+          "ruleId": "Binding.0004",
+          "projectPath": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in HttpModule.Authentication.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in HttpModule.Authentication.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "Library/HttpModules/Authentication/HttpModule.Authentication.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in HttpModule.Authentication.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in HttpModule.Authentication.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Library/HttpModules/Localization/HttpModule.Localization.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 4,
+      "properties": {
+        "appName": "HttpModule.Localization",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 98,
+        "linesOfCode": 98,
+        "totalApiScanned": 14,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "f1502306-bdc5-4ead-a9d9-6012b79f70cb",
+          "ruleId": "NuGet.0001",
+          "projectPath": "Library/HttpModules/Localization/HttpModule.Localization.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "Library/HttpModules/Localization/HttpModule.Localization.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "d782f922-c528-4880-929b-739a75966534",
+          "ruleId": "Project.0001",
+          "projectPath": "Library/HttpModules/Localization/HttpModule.Localization.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Library/HttpModules/Localization/HttpModule.Localization.csproj"
+          }
+        },
+        {
+          "incidentId": "7e55b98a-6ce6-44ca-8580-a8681bad603a",
+          "ruleId": "Project.0002",
+          "projectPath": "Library/HttpModules/Localization/HttpModule.Localization.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "Library/HttpModules/Localization/HttpModule.Localization.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "7b9ce30d-1d2a-4516-a064-3af89d4a66a9",
+          "ruleId": "Binding.0004",
+          "projectPath": "Library/HttpModules/Localization/HttpModule.Localization.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in HttpModule.Localization.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in HttpModule.Localization.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "Library/HttpModules/Localization/HttpModule.Localization.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in HttpModule.Localization.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in HttpModule.Localization.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 4,
+      "properties": {
+        "appName": "HttpModule.MailBoxReader",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 298,
+        "linesOfCode": 298,
+        "totalApiScanned": 225,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "a6e5a74a-6a0c-4636-ba5b-fd85fff3aa18",
+          "ruleId": "NuGet.0001",
+          "projectPath": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "1333afa1-86be-4413-af6a-1fe51182ad41",
+          "ruleId": "Project.0001",
+          "projectPath": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj"
+          }
+        },
+        {
+          "incidentId": "6b211cca-d2c2-414d-8908-3e223571e879",
+          "ruleId": "Project.0002",
+          "projectPath": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "5c3ae2e2-40be-48e0-aa9e-b6c93b63f598",
+          "ruleId": "Binding.0004",
+          "projectPath": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in HttpModule.MailBoxReader.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in HttpModule.MailBoxReader.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "Library/HttpModules/MailBoxReader/HttpModule.MailBoxReader.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in HttpModule.MailBoxReader.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in HttpModule.MailBoxReader.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "LumiSoft.Net/LumiSoft.Net.csproj",
+      "startingProject": true,
+      "issues": 3,
+      "storyPoints": 3,
+      "properties": {
+        "appName": "LumiSoft.Net",
+        "projectKind": "ClassicWinForms",
+        "frameworks": [
+          "net40"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 290,
+        "numberOfCodeFiles": 289,
+        "linesTotal": 3986,
+        "linesOfCode": 3967,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "e3dd8c11-c8c4-4398-aa67-5b6a44769b46",
+          "ruleId": "Project.0001",
+          "projectPath": "LumiSoft.Net/LumiSoft.Net.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "LumiSoft.Net/LumiSoft.Net.csproj"
+          }
+        },
+        {
+          "incidentId": "0f082619-d731-4c52-bc61-9ab11c0c891f",
+          "ruleId": "Project.0002",
+          "projectPath": "LumiSoft.Net/LumiSoft.Net.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.0\nRecommended target framework: net10.0-windows",
+              "protected": "Current target framework: .NETFramework,Version=v4.0\nRecommended target framework: net10.0-windows"
+            },
+            "kind": "File",
+            "path": "LumiSoft.Net/LumiSoft.Net.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.0\nRecommended target framework: net10.0-windows",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.0\nRecommended target framework: net10.0-windows",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.0",
+              "RecommendedTargetFramework": "net10.0-windows"
+            }
+          }
+        },
+        {
+          "incidentId": "574cf976-10f9-494d-a881-73ff7f0bacc5",
+          "ruleId": "Binding.0004",
+          "projectPath": "LumiSoft.Net/LumiSoft.Net.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in LumiSoft.Net.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in LumiSoft.Net.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "LumiSoft.Net/LumiSoft.Net.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in LumiSoft.Net.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in LumiSoft.Net.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 4,
+      "properties": {
+        "appName": "Provider.CkHtmlEditorProvider",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 140,
+        "linesOfCode": 140,
+        "totalApiScanned": 87,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "748174e6-d703-4341-a154-d8f6f94f3ab3",
+          "ruleId": "NuGet.0001",
+          "projectPath": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "5b3fc92b-0e5a-42c2-aed9-abcf0244384d",
+          "ruleId": "Project.0001",
+          "projectPath": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj"
+          }
+        },
+        {
+          "incidentId": "a0c0230f-f71d-41d0-adeb-696c736ed813",
+          "ruleId": "Project.0002",
+          "projectPath": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "33f8f400-92a7-4cf3-b5f0-315ef2a3bcda",
+          "ruleId": "Binding.0004",
+          "projectPath": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in Provider.CkHtmlEditorProvider.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in Provider.CkHtmlEditorProvider.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "Library/Providers/HtmlEditorProviders/CkHtmlEditorProvider/Provider.CkHtmlEditorProvider.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in Provider.CkHtmlEditorProvider.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in Provider.CkHtmlEditorProvider.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 4,
+      "properties": {
+        "appName": "Provider.HtmlEditorProvider",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 6,
+        "numberOfCodeFiles": 6,
+        "linesTotal": 249,
+        "linesOfCode": 249,
+        "totalApiScanned": 112,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "36f5a91b-59f0-476d-9abb-b95e8f2e2c1d",
+          "ruleId": "NuGet.0001",
+          "projectPath": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "09ffd9a9-9cdd-4422-8935-72f74a51e683",
+          "ruleId": "Project.0001",
+          "projectPath": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj"
+          }
+        },
+        {
+          "incidentId": "6037827b-17d6-403d-95cc-c67f97ba0a37",
+          "ruleId": "Project.0002",
+          "projectPath": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "a1f7e219-67ce-4d2e-80ec-9cac32253b20",
+          "ruleId": "Binding.0004",
+          "projectPath": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in Provider.HtmlEditorProvider.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in Provider.HtmlEditorProvider.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "Library/Providers/HtmlEditorProviders/HtmlEditorProvider/Provider.HtmlEditorProvider.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in Provider.HtmlEditorProvider.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in Provider.HtmlEditorProvider.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+      "startingProject": true,
+      "issues": 6,
+      "storyPoints": 7,
+      "properties": {
+        "appName": "Provider.MembershipProviders",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 4,
+        "numberOfCodeFiles": 4,
+        "linesTotal": 409,
+        "linesOfCode": 409,
+        "totalApiScanned": 121,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "8f74e0fa-6321-45d2-b2d4-5e9b6ad071ba",
+          "ruleId": "NuGet.0002",
+          "projectPath": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EntityFramework, 6.1.3\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2",
+              "protected": "EntityFramework, 6.1.3\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2"
+            },
+            "kind": "File",
+            "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+            "snippet": "EntityFramework, 6.1.3\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2",
+            "protectedSnippet": "EntityFramework, 6.1.3\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2",
+            "label": "EntityFramework 6.1.3",
+            "properties": {
+              "PackageId": "EntityFramework",
+              "PackageVersion": "6.1.3",
+              "PackageNewVersion": "6.5.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "a522c478-6396-493a-8bdc-19233355191c",
+          "ruleId": "NuGet.0001",
+          "projectPath": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "a6182135-465d-4f4c-b592-060b0b1a9387",
+          "ruleId": "NuGet.0001",
+          "projectPath": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Providers.Core, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.Providers.Core, 2.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+            "snippet": "Microsoft.AspNet.Providers.Core, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.Providers.Core, 2.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.Providers.Core 2.0.0",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Providers.Core",
+              "PackageVersion": "2.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "f3886e67-44d4-446a-a95d-0545ca2122c1",
+          "ruleId": "NuGet.0005",
+          "projectPath": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EntityFramework, 6.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2",
+              "protected": "EntityFramework, 6.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2"
+            },
+            "kind": "File",
+            "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+            "snippet": "EntityFramework, 6.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2",
+            "protectedSnippet": "EntityFramework, 6.1.3\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2",
+            "label": "EntityFramework 6.1.3",
+            "properties": {
+              "PackageId": "EntityFramework",
+              "PackageVersion": "6.1.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "61cfb6eb-91ab-4f93-89b1-82a59314551d",
+          "ruleId": "Project.0001",
+          "projectPath": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj"
+          }
+        },
+        {
+          "incidentId": "574afc42-72f9-4c3a-8fdc-a7656201da9f",
+          "ruleId": "Project.0002",
+          "projectPath": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "28daf0a7-5b9f-450b-a116-8d9a9f8c5dc1",
+          "ruleId": "Binding.0004",
+          "projectPath": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in Provider.MembershipProviders.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in Provider.MembershipProviders.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "Library/Providers/MembershipProviders/Provider.MembershipProviders.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in Provider.MembershipProviders.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in Provider.MembershipProviders.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 4,
+      "properties": {
+        "appName": "Provider.SqlDataProvider",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 8,
+        "numberOfCodeFiles": 8,
+        "linesTotal": 6646,
+        "linesOfCode": 6646,
+        "totalApiScanned": 2268,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "52b226d2-cd0c-4dbe-9f8a-7027f8295267",
+          "ruleId": "NuGet.0001",
+          "projectPath": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "b87bab0a-6d45-4cbd-9445-799e2d65871f",
+          "ruleId": "Project.0001",
+          "projectPath": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj"
+          }
+        },
+        {
+          "incidentId": "9f2e51b0-1068-4758-ad4d-c93b07748f61",
+          "ruleId": "Project.0002",
+          "projectPath": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "b46df2ae-9259-4d3b-b0ca-f97ce94ef0a0",
+          "ruleId": "Binding.0004",
+          "projectPath": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in Provider.SqlDataProvider.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in Provider.SqlDataProvider.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "Library/Providers/DataProviders/SqlDataProvider/Provider.SqlDataProvider.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in Provider.SqlDataProvider.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in Provider.SqlDataProvider.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj",
+      "startingProject": true,
+      "issues": 4,
+      "storyPoints": 4,
+      "properties": {
+        "appName": "Provider.TextboxHtmlProvider",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net45"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 3,
+        "numberOfCodeFiles": 3,
+        "linesTotal": 128,
+        "linesOfCode": 128,
+        "totalApiScanned": 68,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "3cfca0aa-fb2c-41b6-a651-e9ea43c39e17",
+          "ruleId": "NuGet.0001",
+          "projectPath": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+              "protected": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2"
+            },
+            "kind": "File",
+            "path": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj",
+            "snippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "protectedSnippet": "log4net, 2.0.5\n\nRecommendation:\n\nlog4net, 3.3.2",
+            "label": "log4net 2.0.5",
+            "properties": {
+              "PackageId": "log4net",
+              "PackageVersion": "2.0.5",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "971230c6-225d-4d65-8699-a452c1d641d0",
+          "ruleId": "Project.0001",
+          "projectPath": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj"
+          }
+        },
+        {
+          "incidentId": "410c1bf0-bfd4-4884-b6fd-ad4fc27f129b",
+          "ruleId": "Project.0002",
+          "projectPath": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "33268904-e15e-4b24-bca5-40c31dc21c35",
+          "ruleId": "Binding.0004",
+          "projectPath": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in Provider.TextboxHtmlProvider.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in Provider.TextboxHtmlProvider.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "Library/Providers/HtmlEditorProviders/TextboxHtmlProvider/Provider.TextboxHtmlProvider.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in Provider.TextboxHtmlProvider.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in Provider.TextboxHtmlProvider.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    }
+  ],
+  "rules": {
+    "NuGet.0001": {
+      "id": "NuGet.0001",
+      "isFeature": false,
+      "description": "NuGet package is incompatible with selected target framework.\n\nPackage needs to be upgraded to a version supporting selected project target framework. If there no new package versions supporting new target framework, different package needs to be used and all code needs to be upgraded to new API.",
+      "label": "NuGet package is incompatible",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262529",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "isFeature": false,
+      "description": "NuGet package upgrade is recommended for selected target framework.\n\nStandard .NET packages are recommended to have versions matching version of .NET that project targets.\n\nSome other packages also are known to work better for selected target frameworks.",
+      "label": "NuGet package upgrade is recommended",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0003": {
+      "id": "NuGet.0003",
+      "isFeature": false,
+      "description": "NuGet package functionality is included with framework reference.\n\nPackage needs to be removed.",
+      "label": "NuGet package functionality is included with framework reference",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262609",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0004": {
+      "id": "NuGet.0004",
+      "isFeature": false,
+      "description": "NuGet package contains security vulnerabilities.\n\nPackage needs to be upgraded to a newer version that addresses known security vulnerabilities.",
+      "label": "NuGet package contains security vulnerability",
+      "severity": "Optional",
+      "effort": 1
+    },
+    "NuGet.0005": {
+      "id": "NuGet.0005",
+      "isFeature": false,
+      "description": "NuGet package is deprecated.\n\nGo to its documentation and if there is a guidance for replacement of functionality provided by this package.",
+      "label": "NuGet package is deprecated",
+      "severity": "Optional",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262531",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0001": {
+      "id": "Project.0001",
+      "isFeature": false,
+      "description": "Project file needs to be converted to SDK-style. Modern .NET framework projects require a change in the project file format and use SDK corresponding to project flavor and functionality.",
+      "label": "Project file needs to be converted to SDK-style",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "isFeature": false,
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to corresponding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in modern .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Feature.1000": {
+      "id": "Feature.1000",
+      "isFeature": true,
+      "description": "Convert application initialization code from Global.asax.cs to .NET Core and clean up Global.asax.cs.",
+      "label": "Convert application initialization code from Global.asax.cs to .NET Core and clean up Global.asax.cs",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        }
+      ]
+    },
+    "Binding.0007": {
+      "id": "Binding.0007",
+      "isFeature": false,
+      "description": "A binding redirect\u0027s newVersion is lower than the version provided by the NuGet package. This forced downgrade usually causes a load failure at runtime because the expected assembly version is not available.",
+      "label": "Binding redirect forces version downgrade",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Assembly binding redirection",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262689",
+          "isCustom": false
+        }
+      ]
+    },
+    "Binding.0004": {
+      "id": "Binding.0004",
+      "isFeature": false,
+      "description": "AutoGenerateBindingRedirects is not set and no manual binding redirects were found. In some project types the default is false, leading to unpredictable behavior across different build environments or developer machines.",
+      "label": "AutoGenerateBindingRedirects not set and no manual redirects",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Assembly binding redirection",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262689",
+          "isCustom": false
+        }
+      ]
+    },
+    "Binding.0003": {
+      "id": "Binding.0003",
+      "isFeature": false,
+      "description": "Project outputs a library but may host entry points (e.g., unit tests, plugins). GenerateBindingRedirectsOutputType is not set. MSBuild only generates config files for Exe output types by default \u2014 without this flag, the test runner or plugin host will look for a config file that does not exist, causing hard-to-debug failures.",
+      "label": "Library-hosted entry point missing GenerateBindingRedirectsOutputType",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Assembly binding redirection",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262689",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}

@@ -23,7 +23,8 @@
         "passBuild": "true",
         "passUnitTests": "true"
       },
-      "dependencies": []
+      "dependencies": [],
+      "status": "started"
     },
     {
       "type": "infrastructure",

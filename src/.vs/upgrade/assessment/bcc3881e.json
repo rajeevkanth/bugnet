@@ -1,0 +1,61 @@
+{
+  "reportConfigHash": "bcc3881e",
+  "createdAtUtc": "2026-07-17T02:10:32.000983Z",
+  "entries": [
+    {
+      "packageName": "log4net",
+      "packageVersion": "2.0.5",
+      "insightsName": "log4net",
+      "insightsCurrentVersion": "2.0.5",
+      "insightsNewVersion": "3.3.2",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET.BLL/BugNET.BLL.csproj",
+        "BugNET.Common/BugNET.Common.csproj",
+        "BugNET.DAL/BugNET.DAL.csproj",
+        "BugNET.Entities/BugNET.Entities.csproj",
+        "BugNET.MailboxReader/BugNET.MailboxReader.csproj",
+        "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+        "BugNET.Tests/BugNET.Tests.csproj"
+      ]
+    },
+    {
+      "packageName": "AutoMapper",
+      "packageVersion": "3.2.1",
+      "insightsName": "AutoMapper",
+      "insightsCurrentVersion": "3.2.1",
+      "insightsNewVersion": "16.2.0",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET.Entities/BugNET.Entities.csproj"
+      ]
+    },
+    {
+      "packageName": "HtmlAgilityPack",
+      "packageVersion": "1.4.9",
+      "insightsName": "HtmlAgilityPack",
+      "insightsCurrentVersion": "1.4.9",
+      "insightsNewVersion": "1.12.4",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET.MailboxReader/BugNET.MailboxReader.csproj"
+      ]
+    },
+    {
+      "packageName": "NUnit",
+      "packageVersion": "3.0.1",
+      "insightsName": "NUnit",
+      "insightsCurrentVersion": "3.0.1",
+      "insightsNewVersion": "4.6.1",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "BugNET.MailboxReader.Tests/BugNET.MailboxReader.Tests.csproj",
+        "BugNET.Tests/BugNET.Tests.csproj"
+      ]
+    }
+  ]
+}
