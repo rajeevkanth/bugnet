@@ -1,0 +1,11 @@
+{
+  "projectId": 1,
+  "name": "Integration Test Project",
+  "description": "Project seeded for BugNET integration tests — do not modify",
+  "disabled": false,
+  "allowAttachments": true,
+  "attachmentStorageType": 3,
+  "uploadPath": "",
+  "isPublic": true,
+  "roles": ["Project Administrators", "Developer", "Reporter"]
+}

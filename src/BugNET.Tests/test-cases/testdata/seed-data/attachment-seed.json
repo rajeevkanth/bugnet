@@ -1,0 +1,10 @@
+{
+  "attachmentId": 1,
+  "issueId": 1,
+  "fileName": "sample.txt",
+  "contentType": "text/plain",
+  "description": "Seeded attachment for download/delete tests",
+  "creatorUserName": "admin",
+  "size": 176,
+  "blobName": "issues/1/attachments/sample.txt"
+}

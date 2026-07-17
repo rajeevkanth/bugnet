@@ -1,0 +1,8 @@
+{
+  "issueId": 1,
+  "projectId": 1,
+  "title": "Integration Test Issue",
+  "description": "Issue seeded for BugNET integration tests — do not modify",
+  "disabled": false,
+  "creatorUserName": "admin"
+}

@@ -9,7 +9,9 @@
       "reason": "A baseline snapshot is required to enable real-mode integration testing after migration. It freezes the test specification and infra-decision-table for all external dependencies.",
       "requirements": "Snapshot the current source folder (src/) and produce a frozen test-cases.md and infra-decision-table capturing the real/mock strategy for each external dependency (SQL Server, Azure Storage, Azure Key Vault). This baseline will be reused by the integrationTest task.",
       "snapshotFolder": "src",
-      "dependencies": []
+      "dependencies": [],
+      "status": "success",
+      "taskSummary": "Baseline established. Created test-cases.md (10 test cases covering SQL Server, Azure Blob Storage, Azure Key Vault, and logging) and infra-decision-table.md (real/mock strategy for all external dependencies). Artifacts saved to .github/modernize/modernization-plan/000-setupBaseline/."
     },
     {
       "type": "upgrade",
