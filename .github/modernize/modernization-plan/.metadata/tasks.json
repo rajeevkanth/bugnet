@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Tasks template for modernization plan. Generate this file alongside plan.md to track individual migration tasks.",
+  "tasks": [
+    {
+      "type": "setupBaseline",
+      "id": "000-setupBaseline",
+      "description": "Establish the modernization baseline by capturing the current application state before any changes are made.",
+      "reason": "A baseline snapshot is required to enable real-mode integration testing after migration. It freezes the test specification and infra-decision-table for all external dependencies.",
+      "requirements": "Snapshot the current source folder (src/) and produce a frozen test-cases.md and infra-decision-table capturing the real/mock strategy for each external dependency (SQL Server, Azure Storage, Azure Key Vault). This baseline will be reused by the integrationTest task.",
+      "snapshotFolder": "src",
+      "dependencies": []
+    },
+    {
+      "type": "upgrade",
+      "id": "001-upgrade-dotnet",
+      "description": "Upgrade BugNET from .NET Framework 4.5 to .NET 10 LTS.",
+      "reason": ".NET Framework 4.5 is end-of-life and does not support netstandard2.0, preventing use of modern Azure SDK packages (Azure.*). The upgrade is mandatory before any Azure service migration tasks.",
+      "requirements": "Upgrade all projects in the solution from .NET Framework 4.5 (net45) to .NET 10 (net10.0). Convert all project files from legacy non-SDK format to SDK-style format. Update or replace packages that are incompatible with net10.0. Migrate from packages.config to PackageReference. The application must build and unit tests must pass after the upgrade.",
+      "successCriteria": {
+        "passBuild": "true",
+        "passUnitTests": "true"
+      },
+      "dependencies": []
+    },
+    {
+      "type": "infrastructure",
+      "id": "002-infrastructure",
+      "description": "Provision Azure infrastructure required by BugNET using Bicep IaC.",
+      "reason": "New Azure resources are needed to host the modernized application: Azure Container Apps environment, Azure SQL Database, Azure Blob Storage, and Azure Key Vault.",
+      "requirements": "Generate Bicep IaC files to provision: Azure Container Apps environment and app, Azure SQL Database (with Managed Identity access for the app), Azure Blob Storage account, Azure Key Vault (with Managed Identity access for the app), and Azure Container Registry. Configure Managed Identity for the Container App and assign appropriate RBAC roles for SQL, Storage, and Key Vault access. Provision all resources in the Azure subscription 48070cbe-fe32-4925-938e-731362e54c47.",
+      "environmentConfiguration": "subscriptionId: 48070cbe-fe32-4925-938e-731362e54c47",
+      "iacType": "bicep",
+      "provision": true,
+      "skills": [
+        {
+          "name": "infrastructure-bicep-generation",
+          "location": "builtin"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "type": "transform",
+      "id": "003-transform-sql-database",
+      "description": "Migrate BugNET's SQL Server data access to Azure SQL Database with Managed Identity authentication.",
+      "reason": "The application currently uses SQL Server (LocalDB) with connection-string credentials. Moving to Azure SQL Database with Managed Identity eliminates secrets and aligns with Azure security best practices.",
+      "requirements": "Migrate all SQL Server data access to Azure SQL Database. Replace connection-string-based authentication with Managed Identity (DefaultAzureCredential / Active Directory Default). Update the Entity Framework 6 provider configuration if used. Update SqlDataProvider, ASP.NET Membership, Role, and Session providers to connect to Azure SQL. Configuration should be read from environment variables or Azure App Configuration, not from web.config connection strings.",
+      "skills": [
+        {
+          "name": "migration-azure-sql-database",
+          "location": "builtin"
+        }
+      ],
+      "successCriteria": {
+        "passBuild": "true",
+        "passUnitTests": "true"
+      },
+      "dependencies": ["001-upgrade-dotnet"]
+    },
+    {
+      "type": "transform",
+      "id": "004-transform-blob-storage",
+      "description": "Migrate BugNET from the legacy WindowsAzure.Storage SDK to Azure Blob Storage using the modern Azure.Storage.Blobs SDK with Managed Identity.",
+      "reason": "WindowsAzure.Storage 6.2.0 is a legacy SDK that is not compatible with .NET 10 and does not support Managed Identity authentication. The modern Azure.Storage.Blobs SDK is required.",
+      "requirements": "Replace all usages of the WindowsAzure.Storage (WindowsAzure.Storage 6.2.0) package with Azure.Storage.Blobs. Use Managed Identity (DefaultAzureCredential) for authentication instead of storage account keys or connection strings. Maintain existing blob operations (upload, download, delete, list). Remove the WindowsAzure.Storage and Microsoft.WindowsAzure.ConfigurationManager NuGet packages.",
+      "skills": [
+        {
+          "name": "migration-azure-storage-blob",
+          "location": "builtin"
+        }
+      ],
+      "successCriteria": {
+        "passBuild": "true",
+        "passUnitTests": "true"
+      },
+      "dependencies": ["003-transform-sql-database"]
+    },
+    {
+      "type": "transform",
+      "id": "005-transform-keyvault-secret",
+      "description": "Migrate BugNET from the legacy Azure Key Vault Core SDK to Azure Key Vault Secrets using the modern Azure.Security.KeyVault.Secrets SDK with Managed Identity.",
+      "reason": "Microsoft.Azure.KeyVault.Core 1.0.0 is a legacy SDK incompatible with .NET 10 and does not support Managed Identity. The modern Azure.Security.KeyVault.Secrets SDK is required.",
+      "requirements": "Replace all usages of the Microsoft.Azure.KeyVault.Core package with Azure.Security.KeyVault.Secrets. Authenticate using Managed Identity (DefaultAzureCredential). Maintain all existing secret retrieval operations. Remove the Microsoft.Azure.KeyVault.Core NuGet package.",
+      "skills": [
+        {
+          "name": "migration-azure-keyvault-secret",
+          "location": "builtin"
+        }
+      ],
+      "successCriteria": {
+        "passBuild": "true",
+        "passUnitTests": "true"
+      },
+      "dependencies": ["004-transform-blob-storage"]
+    },
+    {
+      "type": "transform",
+      "id": "006-transform-console-logging",
+      "description": "Replace log4net with console logging suitable for cloud and container environments.",
+      "reason": "log4net is configured for file and event log output, which is not appropriate for containerized cloud environments. Console logging enables log aggregation by Azure Monitor and Container Apps.",
+      "requirements": "Remove log4net dependency and replace all logging with console-based logging using Microsoft.Extensions.Logging or the built-in .NET logging infrastructure. Ensure all log output goes to stdout/stderr for container log aggregation. Remove log4net configuration from web.config / app.config.",
+      "skills": [
+        {
+          "name": "migration-console-logging",
+          "location": "builtin"
+        }
+      ],
+      "successCriteria": {
+        "passBuild": "true",
+        "passUnitTests": "true"
+      },
+      "dependencies": ["005-transform-keyvault-secret"]
+    },
+    {
+      "type": "integrationTest",
+      "id": "007-integrationTest",
+      "description": "Build integration tests for migrated Azure services and run post-migration verification.",
+      "reason": "Real-mode integration tests against the provisioned Azure infrastructure are needed to verify that the migrated services (Azure SQL Database, Azure Blob Storage, Azure Key Vault) work correctly end-to-end.",
+      "requirements": "Generate and run integration tests against the provisioned Azure infrastructure (Azure SQL Database, Azure Blob Storage, Azure Key Vault). Use the baseline test-cases.md produced by the setupBaseline task as the test specification. Run tests in real mode using Managed Identity. Verify that all baseline test cases pass against the migrated implementation.",
+      "dependencies": [
+        "000-setupBaseline",
+        "002-infrastructure",
+        "006-transform-console-logging"
+      ]
+    },
+    {
+      "type": "security",
+      "id": "008-security",
+      "description": "Scan all project dependencies for known CVEs and remediate any identified vulnerabilities.",
+      "reason": "The project uses several outdated packages (log4net 2.0.5, Entity Framework 6.1.3, jQuery 2.1.4, DotNetOpenAuth 4.3.4, etc.) that may contain known vulnerabilities. A security scan is required before deployment.",
+      "requirements": "Upgrade vulnerable dependencies to the minimum patched version. If a CVE fix requires a major version upgrade, document the affected dependency, the current version, the upgraded major version, and the breaking change risk. Verify that the project builds and all tests pass after remediation. Runtime environment: .NET 10. Build tool: dotnet CLI.",
+      "skills": [
+        {
+          "name": "validate-cves-and-fix",
+          "location": "builtin"
+        }
+      ],
+      "successCriteria": {
+        "passBuild": "true",
+        "passUnitTests": "true"
+      },
+      "dependencies": ["006-transform-console-logging"]
+    },
+    {
+      "type": "deployment",
+      "id": "009-deployment",
+      "description": "Containerize and deploy BugNET to Azure Container Apps.",
+      "reason": "The modernized application needs to be packaged as a container image and deployed to Azure Container Apps for scalable, serverless hosting.",
+      "requirements": "Generate a Dockerfile for the BugNET ASP.NET application targeting .NET 10. Build the container image and push it to Azure Container Registry. Deploy the containerized application to the Azure Container Apps environment provisioned in the infrastructure task. Configure the Container App to use Managed Identity for accessing Azure SQL Database, Azure Blob Storage, and Azure Key Vault. Configure environment variables for service endpoints. The deployment should be repeatable via az CLI.",
+      "targetAzureService": "azurecontainerapp",
+      "resourceStatus": "Create new Azure Container App using resources provisioned in task 002-infrastructure",
+      "deploymentTool": "bicep",
+      "skills": [
+        {
+          "name": "azcli-containerapp-deploy",
+          "location": "builtin"
+        }
+      ],
+      "dependencies": ["008-security", "007-integrationTest", "002-infrastructure"]
+    }
+  ],
+  "metadata": {
+    "planName": "modernization-plan",
+    "projectName": "BugNET",
+    "language": "dotnet",
+    "createdAt": "2026-07-17T11:20:27.299+10:00",
+    "version": "1.0"
+  }
+}

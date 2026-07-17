@@ -1,0 +1,7 @@
+*
+!.gitignore
+!assessment/
+!context.md
+!env.md
+!modernization-plan/
+!modernization-plan/**
